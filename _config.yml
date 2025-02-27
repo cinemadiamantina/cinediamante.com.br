@@ -1,7 +1,7 @@
-title: Your Site Title
-description: "A brief description of your site."
+title: Festival de Cinema de Diamantina
+description: "Em breve informações sobre o IIº Cine Diamante."
 baseurl: "" # leave empty unless deployed in a subdirectory
-url: "https://yourdomain.com" # set your production URL
+url: "https://cinediamante.com.br" # set your production URL
 theme: minima
 
 plugins:
@@ -13,4 +13,5 @@ plugins:
 markdown: kramdown
 
 
-image_path: /images
+image_path: /assets/images
+assets_path: /assets

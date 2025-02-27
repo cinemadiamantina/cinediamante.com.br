@@ -1,41 +1,47 @@
 ---
+# Front matter can remain minimal or you can set variables like:
+# title: "IIº Cine Diamante"
+# description: "Informações sobre o IIº Cine Diamante"
 ---
 
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <!-- Primary Meta Tags -->
   <title>IIº Cine Diamante</title>
-  <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #000000;
-    }
-    .container {
-      text-align: center;
-    }
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-	p {
-	  font-family: 'Arial', sans-serif;
-	  font-size: 1.5em;
-	  font-weight: bold;
-	  color: #444;
-	  text-align: center;
-	  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-	  margin-top: 20px;
-	}
-  </style>
+  <meta name="description" content="Em breve informações sobre o IIº Cine Diamante">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicons (adjust the paths if needed) -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.assets_path }}/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.assets_path }}/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.assets_path }}/favicon/favicon-16x16.png">
+  <link rel="manifest" href="{{ site.assets_path }}/favicon/site.webmanifest">
+  <link rel="shortcut icon" href="{{ site.assets_path }}/favicon/favicon.ico">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}/">
+  <meta property="og:title" content="IIº Cine Diamante">
+  <meta property="og:description" content="Em breve informações sobre o IIº Cine Diamante">
+  <meta property="og:image" content="{{ site.image_path }}/FCD-logo-B-RGB.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="{{ site.url }}/">
+  <meta name="twitter:title" content="IIº Cine Diamante">
+  <meta name="twitter:description" content="Em breve informações sobre o IIº Cine Diamante">
+  <meta name="twitter:image" content="{{ site.image_path }}/FCD-logo-B-RGB.png">
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+
 </head>
 <body>
   <div class="container">
+    <!-- Adjust your image path below if needed -->
     <img src="{{ site.image_path }}/FCD-logo-B-RGB.png" alt="Imagem do IIº Cine Diamante">
     <p>Em breve informações sobre o IIº Cine Diamante</p>
   </div>
