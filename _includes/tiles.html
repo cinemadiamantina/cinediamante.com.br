@@ -7,7 +7,7 @@
   {% for tile in tiles limit:site.tiles-count %}
   <article>
     <span class="image">
-      <img src="{{ tile.image | absolute_url }}" alt="{{ tile.title }}" />
+      <img src="{{ site.images_path }}{{ tile.image }}" alt="{{ tile.title }}" />
     </span>
     <header class="major">
       <h3><a href="{{ tile.url  | relative_url }}" class="link">{{ tile.title }}</a></h3>
