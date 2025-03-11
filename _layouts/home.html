@@ -1,49 +1,42 @@
----
-# Front matter can remain minimal or you can set variables like:
-# title: "IIº Cine Diamante"
-# description: "Informações sobre o IIº Cine Diamante"
----
-
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <!-- Primary Meta Tags -->
-  <title>IIº Cine Diamante</title>
-  <meta name="description" content="Em breve informações sobre o IIº Cine Diamante">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
-  <!-- Favicons (adjust the paths if needed) -->
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.assets_path }}/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.assets_path }}/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.assets_path }}/favicon/favicon-16x16.png">
-  <link rel="manifest" href="{{ site.assets_path }}/favicon/site.webmanifest">
-  <link rel="shortcut icon" href="{{ site.assets_path }}/favicon/favicon.ico">
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ site.url }}/">
-  <meta property="og:title" content="IIº Cine Diamante">
-  <meta property="og:description" content="Em breve informações sobre o IIº Cine Diamante">
-  <meta property="og:image" content="{{ site.image_path }}/FCD-logo-B-RGB.png">
+{% include head.html %}
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="{{ site.url }}/">
-  <meta name="twitter:title" content="IIº Cine Diamante">
-  <meta name="twitter:description" content="Em breve informações sobre o IIº Cine Diamante">
-  <meta name="twitter:image" content="{{ site.image_path }}/FCD-logo-B-RGB.png">
+<body>
 
+    {% include header.html %}
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">Saiba mais</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-</head>
-<body style="background: green">
-  <div class="container">
-    <!-- Adjust your image path below if needed -->
-    <img src="{{ site.image_path }}/FCD-logo-B-RGB.png" alt="Imagem do IIº Cine Diamante">
-    <p style="color: purple">Em breve informações sobre o IIº Cine Diamante</p>
-  </div>
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        {% include tiles.html %}
+
+    </div>
+
+    {% include footer.html %}
+
 </body>
+
 </html>

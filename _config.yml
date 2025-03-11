@@ -1,4 +1,4 @@
-title: Festival de Cinema de Diamantina
+title: CineDiamante
 description: "Em breve informações sobre o IIº Cine Diamante."
 baseurl: "" # leave empty unless deployed in a subdirectory
 url: "https://cinediamante.com.br" # set your production URL
@@ -12,6 +12,16 @@ plugins:
 # Additional Netlify settings (if needed)
 markdown: kramdown
 
+socials:
+  Instagram: https://www.instagram.com/cinediamante
+  Facebook: https://web.facebook.com/festivaldiamantina
+
+sass:
+  style: compressed
 
 image_path: /assets/images
 assets_path: /assets
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
