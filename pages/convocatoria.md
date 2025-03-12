@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Convocatória IIº FCD
-description: Inscreva-se para o IIº Cine Diamante
+title: Convocatória II FCD
+description: Inscreva-se para o II Festival de Cinema de Diamantina
 image: pic11.jpg
 permalink: /convocatoria
 nav-menu: true
