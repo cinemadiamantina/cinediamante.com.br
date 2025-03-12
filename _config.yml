@@ -19,8 +19,8 @@ socials:
 sass:
   style: compressed
 
-images_path: /assets/images
-assets_path: /assets
+images_path: /assets/images/
+assets_path: /assets/
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"

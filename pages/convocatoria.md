@@ -2,7 +2,7 @@
 layout: post
 title: Convocatória IIº FCD
 description: Inscreva-se para o IIº Cine Diamante
-image: assets/images/pic11.jpg
+image: pic11.jpg
 permalink: /convocatoria
 nav-menu: true
 ---

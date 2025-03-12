@@ -2,7 +2,8 @@
 layout: contato
 title: Contato
 description: Fala com a gente!
-image: assets/images/pic01.jpg
+image: pic01.jpg
 permalink: /contato
 nav-menu: true
+show_tile: false
 ---

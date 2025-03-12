@@ -2,9 +2,10 @@
 layout: post
 title: Elements
 description: Elementos gráficos do site/template
-image: assets/images/pic01.jpg
+image: pic01.jpg
 permalink: /elements
-nav-menu: true
+nav-menu: false
+show_tile: false
 ---
 
 <!-- Main -->
