@@ -19,7 +19,7 @@ socials:
 sass:
   style: compressed
 
-image_path: /assets/images
+images_path: /assets/images
 assets_path: /assets
 
 # homepage tiles
