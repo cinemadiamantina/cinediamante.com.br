@@ -5,12 +5,15 @@ description: Inscreva-se para o II Festival de Cinema de Diamantina
 image: logo_var/logo_var_003.png
 permalink: /convocatoria
 nav-menu: true
-show_tile: true
+show_tile: false
 ---
 
-# Festival de Cinema de Diamantina 
+# II Festival de Cinema de Diamantina 
 
 ### INSCRIÇÃO DE CURTAS-METRAGENS, MÉDIAS E LONGAS-METRAGENS
+
+
+<a href="https://docs.google.com/forms/d/1s-03vr-I16yifNbAVnKogmqStYqcU0rZS-D03UjxeOg/preview" target="_blank" class="button special">Formulário de Inscrição</a>
 
 ## 1. INTRODUÇÃO
 1.1 O Festival de Cinema de Diamantina (FCD) abre sua convocatória para sua segunda edição e convida diretoras e diretores de todo o Brasil a inscreverem suas produções de forma totalmente gratuita.
@@ -61,3 +64,5 @@ prévia, para divulgação no catálogo ou nos demais materiais gráficos da mos
 Belo Horizonte, 17 de março de 2025. 
 
 Festival de Cinema de Diamantina.
+
+<a href="https://docs.google.com/forms/d/1s-03vr-I16yifNbAVnKogmqStYqcU0rZS-D03UjxeOg/preview" target="_blank" class="button special fit">Formulário de Inscrição</a>
