@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: I Festival de Cinema de Diamantina
-description: 'Mostra competitiva de 2023, com mais de 600 filmes inscritos, aconteceu no Teatro Municipal Santa Izabel e foi encerrada com premiação durante show na rua da Quitanda.'
+description: 'Primeira edição do FCD aconteceu no Teatro Santa Izabel e teve mais de 680 filmes inscritos.'
 image: pic07.jpg
 permalink: /i-festival-de-cinema-de-diamantina/
 nav-menu: false

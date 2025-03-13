@@ -2,9 +2,10 @@
 layout: landing
 title: O Festival
 description: 'O que é o Festival de Cinema de Diamantina?'
-image: pic07.jpg
+image: logo_var/logo_var_001.png
 permalink: /o-festival
 nav-menu: true
+show_tile: true
 ---
 
 <!-- Main -->
@@ -24,7 +25,7 @@ nav-menu: true
 <section id="two" class="spotlights">
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{{ site.images_path }}pic10.jpg" alt="" data-position="25% 25%" />
+			<img src="{{ site.images_path }}logo_var/logo_var_001.png" alt="" data-position="25% 25%" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -40,7 +41,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{{ site.images_path }}pic08.jpg" alt="" data-position="center center" />
+			<img src="{{ site.images_path }}logo_var/logo_var_002.png" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
@@ -56,7 +57,7 @@ nav-menu: true
 	</section>
 	<section>
 		<a href="generic.html" class="image">
-			<img src="{{ site.images_path }}pic09.jpg" alt="" data-position="top center" />
+			<img src="{{ site.images_path }}logo_var/logo_var_003.png" alt="" data-position="top center" />
 		</a>
 		<div class="content">
 			<div class="inner">

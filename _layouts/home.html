@@ -13,16 +13,18 @@
     {% include header.html %}
 
     <!-- Banner -->
-    <section id="banner" class="major">
+    <section id="banner" class="major" style="background-image: url({{ site.images_path }}{{ page.image }});">
         <div class="inner">
             <header class="major">
                 <h1>{{ page.landing-title }}</h1>
             </header>
             <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
+                <p>{{ page.description }}</p>
+                <p>
                 <ul class="actions">
                     <li><a href="#one" class="button next scrolly">Saiba mais</a></li>
                 </ul>
+                </p>
             </div>
         </div>
     </section>

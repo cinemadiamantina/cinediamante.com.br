@@ -2,10 +2,10 @@
 layout: landing
 title: II Festival de Cinema de Diamantina
 description: 'A segunda edição do FCD contará com itinerâncias e as parcerias da UFVJM, da Prefeitura de Diamantina e do fHist.'
-image: pic07.jpg
+image: logo_var/logo_var_004.png
 permalink: /ii-festival-de-cinema-de-diamantina/
 nav-menu: false
-show_tile: false
+show_tile: true
 ---
 
 <!-- Main -->
