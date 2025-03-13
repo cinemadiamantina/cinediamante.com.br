@@ -34,7 +34,7 @@ show_tile: true
 				</header>
 				<p>A segunda edição do FCD contará com itinerâncias e as parcerias da UFVJM, da Prefeitura de Diamantina e do fHist.</p>
 				<ul class="actions">
-					<li><a href="{{ '/ii-festival-de-cinema-de-diamantina/' | relative_url }}" class="button special">Saiba mais...</a></li>
+					<li><a href="{{ '/ii-festival-de-cinema-de-diamantina/' | relative_url }}" class="button">Saiba mais...</a></li>
 				</ul>
 			</div>
 		</div>
@@ -50,7 +50,7 @@ show_tile: true
 				</header>
 				<p>Cidade Patrimônio Cultural da Humanidade, no coração do Vale do Jequitinhonha, tem tradição musical e também cinematográfica</p>
 				<ul class="actions">
-					<li><a href="{{ '/diamantina/' | relative_url }}" class="button special">Saiba mais...</a></li>
+					<li><a href="{{ '/diamantina/' | relative_url }}" class="button">Saiba mais...</a></li>
 				</ul>
 			</div>
 		</div>
@@ -66,7 +66,7 @@ show_tile: true
 				</header>
 				<p>Mostra competitiva de 2023, com mais de 600 filmes inscritos, aconteceu no Teatro Municipal Santa Izabel e foi encerrada com premiação durante show na rua da Quitanda.</p>
 				<ul class="actions">
-					<li><a href="{{ '/i-festival-de-cinema-de-diamantina/' | relative_url }}" class="button special">Saiba mais...</a></li>
+					<li><a href="{{ '/i-festival-de-cinema-de-diamantina/' | relative_url }}" class="button">Saiba mais...</a></li>
 				</ul>
 			</div>
 		</div>
