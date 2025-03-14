@@ -20,7 +20,7 @@
 
 // Font.
 	$font: (
-		family:				('Source Sans Pro', Helvetica, sans-serif),
+		family:				('Work Sans', Helvetica, sans-serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				300,
 		weight-bold:		600,
@@ -29,7 +29,28 @@
 	);
 
 // Palette.
-	$palette-backup: (
+
+	$palette: ( // Ana Kossoski
+	  bg:        #000000,
+	  bg-alt:    #212121,
+	  fg:        #ffffff,
+	  fg-bold:   #ffffff,
+	  fg-light:  rgba(255,255,255,0.25),
+	  border:    rgba(255,255,255,0.15),
+	  border-bg: rgba(255,255,255,0.05),
+	  highlight: #ff0000,     // vermelhão
+	  accent1:   #d2c3ea,     // lilazim
+	  accent2:   #ff4600,     // laranja
+	  accent3:   #ff5ec6,     // rosa chiclé
+	  accent4:   #f1decb,     // nude
+	  accent5:   #212121,     // preto quebrado
+	  accent6:   #2037da,     // azul 1
+	  accent7:   #4c67fe,     // azul 2
+	  accent8:   #c8d9eb,     // cinza cianin
+	  accent10:  #d9fe59      // verde cheguei
+	);
+
+	$palette-backup: ( // Original
 		bg:					#242943,
 		bg-alt:				#2a2f4a,
 		fg:					#ffffff,
@@ -46,7 +67,7 @@
 		accent6:			#87c5a4
 	);
 
-	$palette: ( //Sleek & Vibrant
+	$palette-1: ( //Sleek & Vibrant
 	  bg:        #000000,
 	  bg-alt:    #111111,
 	  fg:        #ffffff,
