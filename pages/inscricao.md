@@ -17,6 +17,12 @@ Poderão se inscrever:
 - Em qualquer formato e em qualquer metragem 
 
 
-<a href="{{ '/convocatoria/' | relative_url }}" class="button">Leia a convocatória</a>
+<ul class="actions">
+	<li><a href="https://docs.google.com/forms/d/1s-03vr-I16yifNbAVnKogmqStYqcU0rZS-D03UjxeOg/preview" target="_blank" class="button special">Formulário de Inscrição</a></li>
+	<li><a href="{{ '/convocatoria/' | relative_url }}" class="button">Leia a convocatória</a></li>
+	<li><a href="https://drive.google.com/file/d/18EhuNcTQgkspOJlvvKxHqdEwNcoETO-s/view" target="_blank" class="button">Baixe a Convocatória</a></li>
+</ul>
 
-<a href="https://docs.google.com/forms/d/1s-03vr-I16yifNbAVnKogmqStYqcU0rZS-D03UjxeOg/preview" target="_blank" class="button special">Formulário de Inscrição</a>
+
+
+

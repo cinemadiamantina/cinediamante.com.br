@@ -2,7 +2,7 @@
 layout: landing
 title: I Festival de Cinema de Diamantina
 description: 'Primeira edição do FCD aconteceu no Teatro Santa Izabel e teve mais de 680 filmes inscritos.'
-image: pic07.jpg
+image: I_FCD.jpeg
 permalink: /i-festival-de-cinema-de-diamantina/
 nav-menu: false
 show_tile: false

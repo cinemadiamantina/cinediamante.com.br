@@ -1,8 +1,8 @@
 ---
 layout: landing
 title: II Festival de Cinema de Diamantina
-description: 'A segunda edição do FCD contará com itinerâncias e as parcerias da UFVJM, da Prefeitura de Diamantina e do fHist.'
-image: logo_var/logo_var_004.png
+description: 'Esta edição do FCD contará com itinerâncias e as parcerias da UFVJM, da Prefeitura de Diamantina e do fHist.'
+image: II_FCD.jpeg
 permalink: /ii-festival-de-cinema-de-diamantina/
 nav-menu: false
 show_tile: true
@@ -15,9 +15,9 @@ show_tile: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Cine Diamante</h2>
+			<h2>Sobre a segunda edição</h2>
 		</header>
-		<p>O II Festival de Cinema de Diamantina irá acontecer entre os dias 17 a 20 de setembro de 2025.</p>
+		<p>Esta edição do FCD contará com itinerâncias e as parcerias da UFVJM, da Prefeitura de Diamantina e do fHist</p>
 	</div>
 </section>
 
