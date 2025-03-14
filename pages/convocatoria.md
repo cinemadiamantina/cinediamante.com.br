@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Convocatória II FCD
+title: Convocatória | II FCD
 description: Inscreva-se para o II Festival de Cinema de Diamantina
 image: logo_var/logo_var_003.png
 permalink: /convocatoria
@@ -8,18 +8,21 @@ nav-menu: true
 show_tile: false
 ---
 
+
 # II Festival de Cinema de Diamantina 
 
-### INSCRIÇÃO DE CURTAS-METRAGENS, MÉDIAS E LONGAS-METRAGENS
-
+<a href="https://drive.google.com/file/d/18EhuNcTQgkspOJlvvKxHqdEwNcoETO-s/view" target="_blank" class="button">PDF da Convocatória</a>
 
 <a href="https://docs.google.com/forms/d/1s-03vr-I16yifNbAVnKogmqStYqcU0rZS-D03UjxeOg/preview" target="_blank" class="button special">Formulário de Inscrição</a>
 
-## 1. INTRODUÇÃO
+
+## INSCRIÇÃO DE CURTAS-METRAGENS, MÉDIAS E LONGAS-METRAGENS
+
+### 1. INTRODUÇÃO
 1.1 O Festival de Cinema de Diamantina (FCD) abre sua convocatória para sua segunda edição e convida diretoras e diretores de todo o Brasil a inscreverem suas produções de forma totalmente gratuita.
 
 
-## 2. OBJETO
+### 2. OBJETO
 
 2.1 O objetivo do FCD é divulgar o cinema nacional, valorizar a cultura das regiões do Vale do Jequitinhonha e do Norte de Minas e fomentar a formação de público, em parceria com o Festival de História (fHist) e com a Universidade Federal dos Vales do Jequitinhonha e Mucuri (UFVJM).
 
@@ -31,7 +34,7 @@ show_tile: false
 
 2.5 Ao inscrever a(s) obra(s) no Festival de Cinema de Diamantina o proponente o isenta do pagamento de valores relativos a direitos de exibição da(s) mesma(s).
 
-## 3. INSCRIÇÕES
+### 3. INSCRIÇÕES
 
 3.1 O prazo para a inscrição se inicia em 19 de março e se encerra às 23h59 de 16 de abril de 2025.
 
@@ -40,7 +43,7 @@ show_tile: false
 3.3 O interessado deverá enviar uma cópia do filme via link de hospedagem online através de site de compartilhamento de vídeo (preferencialmente com senha de proteção). 
 
 
-## 4. PROCEDIMENTOS E SELEÇÃO
+### 4. PROCEDIMENTOS E SELEÇÃO
 
 4.1 Aos realizadores selecionados será solicitada uma cópia de exibição, que deve ser disponibilizada nos seguintes formatos de projeção, em alta qualidade: DCP; quicktime; .MOV; H.264. 
 
@@ -55,7 +58,7 @@ prévia, para divulgação no catálogo ou nos demais materiais gráficos da mos
 
 4.8 Os filmes que tenham closed caption, tradução em libras ou outras formas de acessibilidade terão prioridade para a seleção do festival.
 
-## 5. DISPOSIÇÕES FINAIS
+### 5. DISPOSIÇÕES FINAIS
 
 5.1 A inscrição do trabalho implica conhecimento integral e aceitação de todos os termos do presente Edital. 
 
@@ -64,5 +67,7 @@ prévia, para divulgação no catálogo ou nos demais materiais gráficos da mos
 Belo Horizonte, 17 de março de 2025. 
 
 Festival de Cinema de Diamantina.
+
+<a href="https://drive.google.com/file/d/18EhuNcTQgkspOJlvvKxHqdEwNcoETO-s/view" target="_blank" class="button fit">PDF da Convocatória</a>
 
 <a href="https://docs.google.com/forms/d/1s-03vr-I16yifNbAVnKogmqStYqcU0rZS-D03UjxeOg/preview" target="_blank" class="button special fit">Formulário de Inscrição</a>
