@@ -13,14 +13,14 @@ A inscrição é <strong>gratuita</strong> e será feita por meio de preenchimen
 
 Poderão se inscrever:
 
-- Filmes finalizados nos últimos dois anos, a partir de março de 2023
+- Filmes <strong>finalizados</strong> nos últimos dois anos, a partir de Março de 2023
 - Em qualquer formato e em qualquer metragem 
 
 
 <ul class="actions">
-	<li><a href="https://docs.google.com/forms/d/1s-03vr-I16yifNbAVnKogmqStYqcU0rZS-D03UjxeOg/preview" target="_blank" class="button special">Formulário de Inscrição</a></li>
-	<li><a href="{{ '/convocatoria/' | relative_url }}" class="button">Leia a convocatória</a></li>
-	<li><a href="https://drive.google.com/file/d/18EhuNcTQgkspOJlvvKxHqdEwNcoETO-s/view" target="_blank" class="button">Baixe a Convocatória</a></li>
+	<li><a href="https://docs.google.com/forms/d/1s-03vr-I16yifNbAVnKogmqStYqcU0rZS-D03UjxeOg/preview" target="_blank" class="button fit special">Formulário de Inscrição</a></li>
+	<li><a href="{{ '/convocatoria/' | relative_url }}" class="button fit">Leia a convocatória</a></li>
+	<li><a href="https://drive.google.com/file/d/18EhuNcTQgkspOJlvvKxHqdEwNcoETO-s/view" target="_blank" class="button fit">Baixe a Convocatória</a></li>
 </ul>
 
 

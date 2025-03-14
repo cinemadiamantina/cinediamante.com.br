@@ -11,11 +11,6 @@ show_tile: false
 
 # II Festival de Cinema de Diamantina 
 
-<a href="https://drive.google.com/file/d/18EhuNcTQgkspOJlvvKxHqdEwNcoETO-s/view" target="_blank" class="button">PDF da Convocatória</a>
-
-<a href="https://docs.google.com/forms/d/1s-03vr-I16yifNbAVnKogmqStYqcU0rZS-D03UjxeOg/preview" target="_blank" class="button special">Formulário de Inscrição</a>
-
-
 ## INSCRIÇÃO DE CURTAS-METRAGENS, MÉDIAS E LONGAS-METRAGENS
 
 ### 1. INTRODUÇÃO
