@@ -5,7 +5,7 @@ description: 'Cidade Patrimônio Cultural da Humanidade, no coração do Vale do
 image: Diamantina/diamantina.jpg
 permalink: /diamantina/
 nav-menu: false
-show_tile: false
+show_tile: true
 
 ---
 
