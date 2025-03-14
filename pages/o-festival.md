@@ -46,7 +46,7 @@ show_tile: true
 		</div>
 	</section>
 	<section>
-		<a href="generic.html" class="image">
+		<a href="{{ '/i-festival-de-cinema-de-diamantina/' | relative_url }}" class="image">
 			<img src="{{ site.images_path }}I_FCD.jpeg" alt="" data-position="top center" />
 		</a>
 		<div class="content">
