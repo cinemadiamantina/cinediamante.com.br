@@ -2,7 +2,7 @@
 layout: landing
 title: O Festival
 description: 'Um festival de cinema no Vale do Jequitinhonha, na cidade Patrimônio Cultural da Humanidade.'
-image: gradient/FCD25_gradient-background-red-3-1.png
+image: lens_flare/FCD25_lensflare-red_2160x1920_35x150.png
 permalink: /o-festival
 nav-menu: true
 show_tile: true

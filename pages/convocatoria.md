@@ -46,12 +46,17 @@ show_tile: false
 
 4.3 Uma cópia do arquivo digital integrará o acervo do Festival. 
 
-4.4 Caso necessário, a produção do Festival de Cinema de Diamantina poderá extrair frames ou imagens a que tiver acesso, com autorização 
-prévia, para divulgação no catálogo ou nos demais materiais gráficos da mostra. 
+4.4 Caso necessário, a produção do Festival de Cinema de Diamantina poderá extrair frames ou imagens a que tiver acesso, com autorização prévia, para divulgação no catálogo ou nos demais materiais gráficos da mostra. 
 
-4.7 Para os filmes produzidos em língua estrangeira solicitamos o envio da transcrição das narrações e diálogos do filme, em arquivo digital, para a legendagem da cópia. Ou uma cópia que tenha legendas nativas. 
+4.5 Para os filmes produzidos em língua estrangeira solicitamos o envio da transcrição das narrações e diálogos do filme, em arquivo digital, para a legendagem da cópia. Ou uma cópia que tenha legendas nativas. 
 
-4.8 Os filmes que tenham closed caption, tradução em libras ou outras formas de acessibilidade terão prioridade para a seleção do festival.
+4.6 Os filmes que tenham closed caption, tradução em libras ou outras formas de acessibilidade terão prioridade para a seleção do festival.
+
+4.7 Aos filmes selecionados será requisitado um stil com Formato: JPEG ou PNG
+
+- Resolução: 300dpi, com dimensão mínima de 1920x1080px 
+- Proporção: 16:9
+
 
 ### 5. DISPOSIÇÕES FINAIS
 
@@ -59,7 +64,7 @@ prévia, para divulgação no catálogo ou nos demais materiais gráficos da mos
 
 5.2 Os casos omissos serão resolvidos pela comissão julgadora e organizadora da mostra. 
 
-Belo Horizonte, 17 de março de 2025. 
+Belo Horizonte, 19 de março de 2025. 
 
 Festival de Cinema de Diamantina.
 

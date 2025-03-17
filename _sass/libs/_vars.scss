@@ -20,8 +20,9 @@
 
 // Font.
 	$font: (
-		family:				('Work Sans', Helvetica, sans-serif),
-		family-fixed:		('Courier New', monospace),
+		family:				('Work Sans', sans-serif),
+		family-fixed:		('Work Sans', sans-serif),
+		// family-fixed:		('Courier New', monospace),
 		weight:				300,
 		weight-bold:		600,
 		letter-spacing:		0.025em,
@@ -39,13 +40,13 @@
 	  border:    rgba(255,255,255,0.15),
 	  border-bg: rgba(255,255,255,0.05),
 	  highlight: #ff0000,     // vermelhão
-	  accent1:   #d2c3ea,     // lilazim
-	  accent2:   #ff4600,     // laranja
+	  accent1:   #212121,     // preto quebrado
+	  accent2:   #4c67fe,     // azul 2
 	  accent3:   #ff5ec6,     // rosa chiclé
-	  accent4:   #f1decb,     // nude
-	  accent5:   #212121,     // preto quebrado
+	  accent4:   #ff4600,     // laranja
+	  accent5:   #f1decb,     // nude
 	  accent6:   #2037da,     // azul 1
-	  accent7:   #4c67fe,     // azul 2
+	  accent7:   #d2c3ea,     // lilazim
 	  accent8:   #c8d9eb,     // cinza cianin
 	  accent10:  #d9fe59      // verde cheguei
 	);
