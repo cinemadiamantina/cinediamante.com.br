@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Convocatória | II FCD
-description: Inscreva-se para o II Festival de Cinema de Diamantina
+description: Edital de convocação para o II Festival de Cinema de Diamantina
 image: logo_var/logo_var_003.png
 permalink: /convocatoria
 nav-menu: true
