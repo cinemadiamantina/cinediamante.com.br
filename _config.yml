@@ -3,6 +3,7 @@ description: "Em breve informações sobre o IIº Cine Diamante."
 baseurl: "" # leave empty unless deployed in a subdirectory
 url: "https://cinediamante.com.br" # set your production URL
 theme: minima
+email: cinemadiamantina@gmail.com
 
 plugins:
   - jekyll-feed
