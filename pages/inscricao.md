@@ -2,7 +2,7 @@
 layout: post
 title: Inscrições abertas!
 description: Até o dia 16 de abril, o Festival de Cinema de Diamantina está com inscrições abertas para a seleção de curtas, médias e longas metragens.
-image: logo_var/logo_var_003.png
+image: lens_flare/FCD25_lensflare-red_2160x1920_35x150.png
 permalink: /inscricao
 nav-menu: false
 show_tile: false

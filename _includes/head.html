@@ -22,17 +22,17 @@
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="{{ site.url }}/">
-	<meta property="og:title" content="IIº Cine Diamante">
-	<meta property="og:description" content="Em breve informações sobre o IIº Cine Diamante">
-	<meta property="og:image" content="{{ site.images_path }}FCD-logo-B-RGB.png">
+	<meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | CineDiamante">
+	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta property="og:image" content="{{ '' | absolute_url }}{% if page.image %}{{ site.images_path }}{{ page.image }}{% else %}{{ site.images_path }}FCD-logo-B-RGB.png{% endif %}">
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:url" content="{{ site.url }}/">
-	<meta name="twitter:title" content="IIº Cine Diamante">
-	<meta name="twitter:description" content="Em breve informações sobre o IIº Cine Diamante">
-	<meta name="twitter:image" content="{{ site.images_path }}FCD-logo-B-RGB.png">
+	<meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+	<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta name="twitter:image" content="{{ '' | absolute_url }}{% if page.image %}{{ site.images_path }}{{ page.image }}{% else %}{{ site.images_path }}FCD-logo-B-RGB.png{% endif %}">
 
 	<!-- Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
