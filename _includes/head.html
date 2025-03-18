@@ -25,14 +25,14 @@
 	<meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
 	<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} | CineDiamante">
 	<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-	<meta property="og:image" content="{{ '' | absolute_url }}{% if page.image %}{{ site.images_path }}{{ page.image }}{% else %}{{ site.images_path }}FCD-logo-B-RGB.png{% endif %}">
+	<meta property="og:image" content="{{ site.url }}{{ site.images_path }}og-image.jpeg">
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
 	<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 	<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-	<meta name="twitter:image" content="{{ '' | absolute_url }}{% if page.image %}{{ site.images_path }}{{ page.image }}{% else %}{{ site.images_path }}FCD-logo-B-RGB.png{% endif %}">
+	<meta name="twitter:image" content="{{ site.url }}{{ site.images_path }}og-image.jpeg">
 
 	<!-- Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
