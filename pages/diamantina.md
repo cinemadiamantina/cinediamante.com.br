@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Diamantina
-description: 'Cidade Patrimônio Cultural da Humanidade, no coração do Vale do Jequitinhonha, tem tradição musical e também cinematográfica.'
+description: 'Cidade Patrimônio Cultural da Humanidade, no portal do Jequitinhonha, tem tradição musical e também cinematográfica'
 image: Diamantina/diamantina.jpg
 permalink: /diamantina/
 nav-menu: false
@@ -24,7 +24,7 @@ show_tile: true
 		<p><span class="image fit"><img src="{{ site.images_path }}Diamantina/diamantina-02.jpg" alt="" data-position="center center" /></span></p>
 		<p>Maior centro de extração de diamantes do mundo no século XVIII, o povoado começou a se formar por volta de 1704, com habitações ainda rústicas na parte baixa da Serra dos Cristais. De lá, foram subindo a encosta edificações já sólidas, e se formando as ruas – da Quitanda, do Bonfim, do Amparo, das Mercês, da Direita e do Macau, que ainda hoje conservam os mesmos traçados. Só em 1831 o então arraial do Tijuco seria elevado à condição de vila e em 1838 à cidade de Diamantina.</p>
 		<p>São do século XVIII quase todos os seus templos: o mais antigo, a Igreja do Rosário construída pelos escravizados, data de 1731. Encantam ainda as capelas de Nossa Senhora do Amparo, do Senhor do Bonfim e as imponentes igrejas de São Francisco, das Mercês, e da Ordem Terceira do Carmo. O Núcleo histórico preserva casarões dos anos de apogeu do diamante, como as casas do Forro Pintado, do Contrato, da Chica da Silva, do inconfidente Padre Rolim. Além, é claro, do Mercado Velho, para onde convergiam tropeiros de todo o Norte de Minas, hoje, Centro Cultural David Ribeiro.</p>
-		<p>Há belezas já do século XIX, como o Passadiço da Casa da Glória, que liga duas edificações bem mais antigas e é um dos símbolos da cidade. Do século XX, compõem o cenário imponentes obras do mestre Oscar Niemeyer, que edificou o moderno Hotel Tijuco, a Faculdade Federal de Odontologia de Diamantina, a Escola Estadual Professora Júlia Kubistchek, entre outras de suas marcas.</p>
+		<p>Há belezas já do século XIX, como o Passadiço da Casa da Glória, que liga duas edificações bem mais antigas e é um dos símbolos da cidade. Do século XX, compõem o cenário imponentes obras do mestre Oscar Niemeyer, que edificou o moderno Hotel Tijuco, a Faculdade Federal de Odontologia de Diamantina, a Escola Estadual Professora Júlia Kubistchek, entre outras de sua autoria.</p>
 		<h2>Teatro Santa Izabel</h2>
 		<p><span class="image fit"><img src="{{ site.images_path }}Diamantina/Diamantina-TeatroSantaIzabel.jpg" alt="" data-position="center center" /></span>A música e o teatro são vocações genuínas de Diamantina. Na década de 1750, o arraial já tinha casa de ópera e, no século XIX a cidade ganharia o Teatro Santa Izabel, que por um tempo teve outras serventias e em 2010 foi “reconquistado”.</p>
 		<p><strong>Pois é no Teatro Santa izabel que parte do nosso Festival de Cinema acontece.</strong></p>
