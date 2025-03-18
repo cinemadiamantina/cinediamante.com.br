@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+    <script type="text/javascript">document.body.classList.add("is-loading");</script>
+
+    {% include header.html %}
+
+
+    <section id="banner" class="style1">
+        <div class="inner">
+            <span class="image">
+                <img src="{{ site.images_path }}{{ page.image }}" alt="">
+            </span>
+            <header class="major">
+
+                <h1>{{ page.title }}</h1>
+
+            </header>
+            <div class="content">
+
+                {{ page.description }}
+
+            </div>
+        </div>
+    </section>
+
+
+	    
+	<!-- Contact -->
+	<section id="contact">
+		<div class="inner">
+			<section>
+				<form action="https://formspree.io/f/xeoaoryb" method="POST">
+					<div class="field half first">
+						<label for="name">Nome</label>
+						<input type="text" name="name" id="name" placeholder="Nome completo" />
+					</div>
+					<div class="field half">
+						<label for="email">Email</label>
+						<input type="text" name="_replyto" id="email" placeholder="seu@email.com.br" />
+					</div>
+					<div class="field">
+						<label for="message">Mensagem</label>
+						<textarea name="message" id="message" rows="6" placeholder="Manda sua mensagem pra gente!"></textarea>
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Enviar mensagem" class="special fit" /></li>
+						<li><input type="reset" value="Limpar campos" class="fit" /></li>
+					</ul>
+				</form>
+			</section>
+			<section class="split">
+				<section>
+					<div class="contact-method">
+						<a href="mailto:{{ site.email }}">
+							<span class="icon alt fa-envelope"></span>
+							<h3>Email</h3>
+							{{ site.email }}
+						</a>
+					</div>
+				</section>
+				<section>
+					<div class="contact-method">
+						<a href="https://www.instagram.com/cinediamante/">
+							<span class="icon alt fa-instagram"></span>
+							<h3>Instagram</h3>
+							instagram.com/cinediamante
+						</a>
+					</div>
+				</section>
+				<section>
+					<div class="contact-method">
+						<a href="https://www.youtube.com/@cinediamante">
+							<span class="icon alt fa-youtube"></span>
+							<h3>Youtube</h3>
+							youtube.com/@cinediamante
+						</a>
+					</div>
+				</section>
+				
+			</section>
+		</div>
+	</section>
+
+
+    {% include footer.html %}
+
+</body>
+
+</html>

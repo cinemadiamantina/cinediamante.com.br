@@ -1,0 +1,120 @@
+// Misc.
+	$misc: (
+		z-index-base:		10000
+	);
+
+// Duration.
+	$duration: (
+		menu:				0.35s,
+		transition:			0.2s,
+		banner:				2.5s
+	);
+
+// Size.
+	$size: (
+		border-radius:		4px,
+		element-height:		2.75em,
+		element-margin:		2em,
+		inner:				65em
+	);
+
+// Font.
+	$font: (
+		family:				('Work Sans', sans-serif),
+		family-fixed:		('Work Sans', sans-serif),
+		// family-fixed:		('Courier New', monospace),
+		weight:				300,
+		weight-bold:		600,
+		letter-spacing:		0.025em,
+		letter-spacing-alt:	0.25em
+	);
+
+// Palette.
+
+	$palette: ( // Ana Kossoski
+	  bg:        #000000,
+	  bg-alt:    #050505,
+	  fg:        #ffffff,
+	  fg-bold:   #ffffff,
+	  fg-light:  rgba(255,255,255,0.25),
+	  border:    rgba(255,255,255,0.15),
+	  border-bg: rgba(255,255,255,0.05),
+	  highlight: #ff0000,     // vermelhão
+	  accent1:   #212121,     // preto quebrado
+	  accent2:   #2037da,     // azul 2
+	  accent3:   #ff5ec6,     // rosa chiclé
+	  accent4:   #ff4600,     // laranja
+	  accent5:   #f1decb,     // nude
+	  accent6:   #4c67fe,     // azul 1
+	  accent7:   #d2c3ea,     // lilazim
+	  accent8:   #c8d9eb,     // cinza cianin
+	  accent10:  #d9fe59      // verde cheguei
+	);
+
+	$palette-backup: ( // Original
+		bg:					#242943,
+		bg-alt:				#2a2f4a,
+		fg:					#ffffff,
+		fg-bold:			#ffffff,
+		fg-light:			rgba(244,244,255,0.2),
+		border:				rgba(212,212,255,0.1),
+		border-bg:			rgba(212,212,255,0.035),
+		highlight:			#9bf1ff,
+		accent1:			#6fc3df,
+		accent2:			#8d82c4,
+		accent3:			#ec8d81,
+		accent4:			#e7b788,
+		accent5:			#8ea9e8,
+		accent6:			#87c5a4
+	);
+
+	$palette-1: ( //Sleek & Vibrant
+	  bg:        #000000,
+	  bg-alt:    #111111,
+	  fg:        #ffffff,
+	  fg-bold:   #ffffff,
+	  fg-light:  rgba(255,255,255,0.25),
+	  border:    rgba(255,255,255,0.15),
+	  border-bg: rgba(255,255,255,0.05),
+	  highlight: #ffd700,     // golden highlight
+	  accent1:   #ff6f61,     // warm orange-pink
+	  accent2:   #6A98D6,     // aqua mint
+	  accent3:   #ff3b69,     // bright pink-red
+	  accent4:   #f8d881,     // soft gold
+	  accent5:   #8793f7,     // periwinkle
+	  accent6:   #78c5ef      // light sky blue
+	);
+
+	$palette-2: ( // Subtle & Cool
+	  bg:        #000000,
+	  bg-alt:    #111111,
+	  fg:        #ffffff,
+	  fg-bold:   #ffffff,
+	  fg-light:  rgba(255,255,255,0.20),
+	  border:    rgba(255,255,255,0.10),
+	  border-bg: rgba(255,255,255,0.04),
+	  highlight: #88f7ff,     // a bright, cool cyan
+	  accent1:   #71a4ff,     // deeper sky blue
+	  accent2:   #6bd4aa,     // seafoam green
+	  accent3:   #c391e7,     // soft lavender
+	  accent4:   #ff8d88,     // muted coral
+	  accent5:   #ffd575,     // gentle yellow-orange
+	  accent6:   #88e06c      // fresh lime green
+	);
+
+	$palette-3: ( // Moody & Refined
+	  bg:        #000000,
+	  bg-alt:    #161616,
+	  fg:        #ffffff,
+	  fg-bold:   #ffffff,
+	  fg-light:  rgba(255,255,255,0.18),
+	  border:    rgba(255,255,255,0.10),
+	  border-bg: rgba(255,255,255,0.03),
+	  highlight: #ffa6e0,     // pastel pink
+	  accent1:   #98a8ff,     // soft purple-blue
+	  accent2:   #aeffa3,     // pale green
+	  accent3:   #e7b788,     // subdued tan
+	  accent4:   #8d82c4,     // dusty lavender
+	  accent5:   #ff8a80,     // salmon pink
+	  accent6:   #c7ba8d      // antique gold
+	);

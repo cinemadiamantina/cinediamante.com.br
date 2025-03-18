@@ -1,59 +1,91 @@
----
-# Front matter can remain minimal or you can set variables like:
-# title: "IIº Cine Diamante"
-# description: "Informações sobre o IIº Cine Diamante"
----
-
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <!-- Primary Meta Tags -->
-  <title>IIº Cine Diamante</title>
-  <meta name="description" content="Em breve informações sobre o IIº Cine Diamante">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NPHYJ42E1V"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-NPHYJ42E1V');
-  </script>
-
-  <!-- Favicons (adjust the paths if needed) -->
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.assets_path }}/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.assets_path }}/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.assets_path }}/favicon/favicon-16x16.png">
-  <link rel="manifest" href="{{ site.assets_path }}/favicon/site.webmanifest">
-  <link rel="shortcut icon" href="{{ site.assets_path }}/favicon/favicon.ico">
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ site.url }}/">
-  <meta property="og:title" content="IIº Cine Diamante">
-  <meta property="og:description" content="Em breve informações sobre o IIº Cine Diamante">
-  <meta property="og:image" content="{{ site.image_path }}/FCD-logo-B-RGB.png">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="{{ site.url }}/">
-  <meta name="twitter:title" content="IIº Cine Diamante">
-  <meta name="twitter:description" content="Em breve informações sobre o IIº Cine Diamante">
-  <meta name="twitter:image" content="{{ site.image_path }}/FCD-logo-B-RGB.png">
-
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
-
-</head>
 <body>
-  <div class="container">
-    <!-- Adjust your image path below if needed -->
-    <img src="{{ site.image_path }}/FCD-logo-B-RGB.png" alt="Imagem do IIº Cine Diamante">
-    <p>Em breve informações sobre o IIº Cine Diamante</p>
-  </div>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major" style="background-image: url({{ site.images_path }}{{ page.image }});">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <div class="content">
+                <p>{{ page.description }}</p>
+                <p>
+                <ul class="actions">
+                    <li><a href="{{ '/inscricao/' | relative_url }}" class="button next scrolly">Inscreva seu filme!</a></li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        {% include tiles.html %}
+
+
+        <!-- Splitter -->
+        <section class="major" style="background-image: url('{{ site.images_path }}lens_flare/FCD25_lensflare-red_2160x1920_35x150.png'); height: 300px; background-attachment: fixed; 
+    background-position-x: center;">
+        </section>
+
+        <!-- Ficha Técnica -->
+        <div class="inner">
+            <div class="row">
+                <div class="4u 12u$(medium)">
+                    <p>Direção Artística / Coordenação Geral
+                    <br><strong>Felipe Canêdo</strong>
+                    </p>
+                    <p>Coordenação Executiva
+                    <br><strong>Luiz Malta</strong>
+                    </p>
+
+                    <p>Produção Executiva
+                    <br><strong>Tamira Abreu</strong>
+                    </p>
+
+                </div>
+                <div class="4u 12u$(medium)">
+
+                    <p>Curadoria
+                    <br><strong>Ana Julia Silvino</strong>
+                    <br><strong>Gustavo Maan</strong>
+                    <br><strong>Hannah Serrat</strong>
+                    <br><strong>João Paulo Campos</strong>
+                    </p>
+
+                </div>
+                <div class="4u$ 12u$(medium)">
+                    <p>Design
+                    <br><strong>Ana Kossoski</strong>
+                    </p>
+
+                    <p>Redes
+                    <br><strong>Pedro Castro</strong>
+                    </p>
+
+                    <p>Assessoria de Imprensa 
+                    <br><strong>Candida Canêdo</strong>
+                    </p>
+
+                    <p>Site
+                    <br><strong>Sandro Miccoli</strong>
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+        
+    
+
+    {% include footer.html %}
+
 </body>
+
 </html>

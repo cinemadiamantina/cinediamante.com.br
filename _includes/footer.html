@@ -1,0 +1,38 @@
+
+
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+            <div class="row">
+                <div class="4u 12u$(medium)">
+					<ul class="icons">
+						{% for key_value in site.socials %}
+							{% if key_value[1] %}
+								<li>
+									<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
+										<span class="label">{{ key_value[0] }}</span>
+									</a>
+								</li>
+							{% endif %}
+						{% endfor %}
+					</ul>
+					<ul class="copyright">
+						<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
+					</ul>
+				</div>
+		        <div class="8u 12u$(medium)">
+					<span class="image fit" style="position: relative; float: right; margin: -50px 0;"><img src="{{ site.images_path }}FDC25_cartela-logos_site.png" alt="" data-position="center center" /></span>
+				</div>
+		</div>
+	</footer>
+
+</div>
+
+<!-- Scripts -->
+	<script src="{{ site.assets_path }}/js/jquery.min.js"></script>
+	<script src="{{ site.assets_path }}/js/jquery.scrolly.min.js"></script>
+	<script src="{{ site.assets_path }}/js/jquery.scrollex.min.js"></script>
+	<script src="{{ site.assets_path }}/js/skel.min.js"></script>
+	<script src="{{ site.assets_path }}/js/util.js"></script>
+	<!--[if lte IE 8]><script src="{{ site.assets_path }}/js/ie/respond.min.js"></script><![endif]-->
+	<script src="{{ site.assets_path }}/js/main.js"></script>
