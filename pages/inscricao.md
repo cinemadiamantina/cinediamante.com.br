@@ -18,7 +18,7 @@ Poderão se inscrever:
 
 
 <ul class="actions">
-	<li><a href="https://docs.google.com/forms/d/1s-03vr-I16yifNbAVnKogmqStYqcU0rZS-D03UjxeOg/preview" target="_blank" class="button fit special">Formulário de Inscrição</a></li>
+	<li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeJsE1EHlbr5mNsYbv0zYO89tfsotWPC1DFU-8F3flR8HBVaA/viewform" target="_blank" class="button fit special">Formulário de Inscrição</a></li>
 	<li><a href="{{ '/convocatoria/' | relative_url }}" class="button fit">Leia a convocatória</a></li>
 	<li><a href="https://drive.google.com/file/d/18EhuNcTQgkspOJlvvKxHqdEwNcoETO-s/view" target="_blank" class="button fit">Baixe a Convocatória</a></li>
 </ul>
