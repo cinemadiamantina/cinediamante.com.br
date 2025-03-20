@@ -22,7 +22,3 @@ Poderão se inscrever:
 	<li><a href="{{ '/convocatoria/' | relative_url }}" class="button fit">Leia a convocatória</a></li>
 	<li><a href="https://drive.google.com/file/d/18EhuNcTQgkspOJlvvKxHqdEwNcoETO-s/view" target="_blank" class="button fit">Baixe a Convocatória</a></li>
 </ul>
-
-
-
-

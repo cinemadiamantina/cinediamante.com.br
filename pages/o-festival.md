@@ -34,7 +34,7 @@ nav-menu-order: 1
 	</section>
 	<section>
 		<a href="{{ '/diamantina/' | relative_url }}" class="image">
-			<img src="{{ site.images_path }}Diamantina/diamantina.jpg" alt="" data-position="center center" />
+			<img src="{{ site.images_path }}FotosPedroMiranda_fHist/PassadicoDaGloria_0001.jpg" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<a href="{{ '/diamantina/' | relative_url }}">
