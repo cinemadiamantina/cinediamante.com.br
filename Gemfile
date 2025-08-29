@@ -11,3 +11,4 @@ end
 
 gem 'csv'
 gem 'logger'
+gem 'base64'
