@@ -2,10 +2,9 @@
 layout: post
 title: Convocatória
 description: Edital de convocação para o II Festival de Cinema de Diamantina
-image: logo_var/logo_var_003.png
+image: logo_var/logo_var_003.png	
 permalink: /convocatoria
-nav-menu: true
-nav-menu-order: 2
+nav-menu: false
 show_tile: false
 ---
 
