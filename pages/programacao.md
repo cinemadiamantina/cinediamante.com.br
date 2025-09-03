@@ -40,16 +40,65 @@ show_tile: true
 	}
 
 	.session {
-		position: relative; 
-		margin: 20px 0;
-		padding: 10px 20px 10px 20px;
-	  border-top: 1px solid #555;
-	  border-bottom: 1px solid #555;
-	  background: #040404;
+	  margin: 1.5em 0;
+	  padding: 1.2em 1.5em;
+	  background: #000;
+	  border: 1px solid #333;
+/*	  border-radius: 10px;*/
+	  position: relative;
+	  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+/*	  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	}
 
-	.session > blockquote {
-		margin: 0 0 1em 0;
+	/* recorte lateral sutil */
+	.session::before,
+	.session::after {
+	  content: "";
+	  position: absolute;
+	  top: 50%;
+	  width: 20px;
+	  height: 20px;
+	  background: #111;
+	  border: 1px solid #111;
+	  border-radius: 50%;
+	  transform: translateY(-50%);
+	}
+
+
+	.session::before {
+	  left: -11px;
+	}
+
+	.session::after {
+	  right: -11px;
+	}
+
+	/* cabeçalho do ticket */
+	.session > h3 {
+	  margin: 0 0 0.8em 0;
+	  padding-bottom: 0.6em;
+	  border-bottom: 1px dashed #ccc;
+/*	  font-size: 1.05rem;*/
+	  font-weight: 600;
+	  color: #fff;
+
+	}
+
+	/* conteúdo (filmes, detalhes) */
+	.session blockquote {
+	  margin: 0.6em 0;
+	  padding: 0.3em 0 0.3em 0;
+	  border-left: 2px solid #555;
+	  padding-left: 0.8em;
+	  color: #ffff;
+	  background: transparent;
+	}
+
+	/* ênfases (comentários finais) */
+	.session em {
+	  display: block;
+	  margin-top: 0.8em;
+	  color: #ffff;
 	}
 
 	/* opcional: ancoragem suave para #ids sem “sumir” sob os stickies */
@@ -62,6 +111,7 @@ show_tile: true
 <a href="#d17" class="button special fit">17/09 - Quarta</a>
 <a href="#d18" class="button special fit">18/09 - Quinta</a>
 <a href="#d19" class="button special fit">19/09 - Sexta</a>
+<a href="#d20" class="button special fit">20/09 - Sábado</a>
 
 ---
 <section class="day" id="d16">
@@ -489,9 +539,107 @@ show_tile: true
 	    R$ 20 - entrada
 	  </blockquote>
 	</section>
-
 </section>
 
+<section class="day" id="d20">
+  <h1>20/09, sábado</h1>
+  <section class="session" id="d20-s1">
+	  <h3>
+	    <i class="fa-solid fa-ticket"></i> Gravação de Podcast com diretores de curtas<br />
+	    <i class="fa-solid fa-clock"></i> 11h <br />
+	    <i class="fa-solid fa-location-dot"></i> Galeria do Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    20 lugares, sujeita à lotação
+	  </blockquote>
+	</section>
+	<section class="session" id="d20-s2">
+	  <h3>
+	    <i class="fa-solid fa-ticket"></i> Gravação de Podcast com o ator Bruno Kunk<br />
+	    <i class="fa-solid fa-clock"></i> 12h <br />
+	    <i class="fa-solid fa-location-dot"></i> Galeria do Cine Theatro Santa Izabel
+	  </h3>
+	</section>
+	<section class="session" id="d20-s3">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> SESSÃO REGIONAL | 
+	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
+	    <i class="fa-solid fa-clock"></i> 14h <br />
+	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    <strong>Panha de Flor</strong><br>
+	    (Ailton de Jesus dos Santos, Barbara de Paula Rocha, Emiliane Fernanda dos Santos, Flaviane Hermínia dos Santos Fernandes, Hugo Walber Alves, Raiane Daliane de Paula, Ronilda do Nascimento dos Santos, Sivany Aguiar | 2024, RJ/MG, 20’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Lendas do Tijuco</strong><br>
+	    (Dilson Moreira | 2024, MG, 13’)
+	  </blockquote>
+	  <em>Comentada pelos diretores</em>
+	</section>
+	<section class="session" id="d20-s4">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE CURTAS | 
+	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
+	    <i class="fa-solid fa-clock"></i> 15h <br />
+	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    <strong>Cavaram uma cova no meu coração</strong><br>
+	    (Ulisses Arthur | 2024, AL, 23’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Cadeira Vazia</strong><br>
+	    (Ângela Maria, Ephigênia Lopes, Rosângela Lererê, Beth Couto, Maria Sônia, Nathan Souza, Adilson Luiz, Gabriela Coelho, Lucas Rodrigues, Mônica Maria, Nato Matrix | 2025, MG, 15’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Confluências</strong><br>
+	    (Dácia Ibiapina | 2024, PI, 26’)
+	  </blockquote>
+	  <em>Comentada pelos diretores</em>
+	</section>
+	<section class="session" id="d20-s5">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS | 
+	    <span class="ci-box ci-12" role="img" aria-label="Classificação indicativa: não recomendado para menores de 12 anos">12</span><br />
+	    <i class="fa-solid fa-film"></i> Maçãs no escuro <br />
+	    <i class="fa-solid fa-clock"></i> 17h <br />
+	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    <strong>Maçãs no escuro</strong><br>
+	    (Tiago A. Neves | 2024, SP, 108’)
+	  </blockquote>
+	  <em>Conversa com o ator <strong>Edson Aquino</strong></em>
+	</section>
+	<section class="session" id="d20-s6">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> SESSÃO DE ENCERRAMENTO | 
+	    <span class="ci-box ci-12" role="img" aria-label="Classificação indicativa: não recomendado para menores de 12 anos">12</span><br />
+	    <i class="fa-solid fa-clock"></i> 20h <br />
+	    <i class="fa-solid fa-location-dot"></i> Praça do Mercado Velho
+	  </h3>
+	  <blockquote>
+	    <strong>O dia que te conheci</strong><br>
+	    (André Novais | 2023, MG, 71’)
+	  </blockquote>
+	  <em>Comentada pelo ator <strong>Renato Novaes</strong></em>
+	</section>
+	<section class="session" id="d20-s7">
+	  <h3>
+	    <i class="fa-solid fa-award"></i> CERIMÔNIA DE PREMIAÇÃO E ENCERRAMENTO<br />
+	    <i class="fa-solid fa-clock"></i> 22h <br />
+	    <i class="fa-solid fa-location-dot"></i> Praça do Mercado Velho
+	  </h3>
+	</section>
+	<section class="session" id="d20-s8">
+	  <h3>
+	    <i class="fa-solid fa-music"></i> Show de Tatio Abreu<br />
+	    <i class="fa-solid fa-clock"></i> 22h30 <br />
+	    <i class="fa-solid fa-location-dot"></i> Praça do Mercado V
+		</h3>
+	</section>
+</section>
 
 <script>
 function easeInOutCubic(t) {
