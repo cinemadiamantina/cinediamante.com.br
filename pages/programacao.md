@@ -9,17 +9,38 @@ nav-menu-order: 2
 show_tile: true
 ---
 
+<!-- APENAS SÍMBOLO 
+<span class="ci-box ci-l"  role="img" aria-label="Classificação indicativa: Livre">L</span>
+<span class="ci-box ci-10" role="img" aria-label="Classificação indicativa: não recomendado para menores de 10 anos">10</span>
+<span class="ci-box ci-12" role="img" aria-label="Classificação indicativa: não recomendado para menores de 12 anos">12</span>
+<span class="ci-box ci-14" role="img" aria-label="Classificação indicativa: não recomendado para menores de 14 anos">14</span>
+<span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span>
+<span class="ci-box ci-18" role="img" aria-label="Classificação indicativa: não recomendado para menores de 18 anos">18</span>
+-->
 
-# 16/09, terça-feira, às 19h  
+<a href="#d16" class="button special fit">16/09 - Terça</a>
+<a href="#d17" class="button special fit">17/09 - Quarta</a>
+<a href="#d18" class="button special fit">18/09 - Quinta</a>
+<a href="#d19" class="button special fit">19/09 - Sexta</a>
+
+---
+
+<h1 id="d16" style="background: white; color: black">16/09, terça-feira</h1>
+---
+
+# 16/09, terça-feira, às 19h 
 ## Cine Theatro Santa Izabel
-- ### SESSÃO DE ABERTURA | 16 anos**
+- ### SESSÃO DE ABERTURA | <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span>
+
 	> **Cidade; Campo**  
 	  (Juliana Rojas | 2023, SP, 120’)  
 	  Comentada pela atriz **Fernanda Vianna**
 
 ---
+<h1 id="d17" style="background: white; color: black">17/09, quarta-feira</h1>
+---
 
-# 17/09, quarta-feira, às 14h  
+# 17/09, quarta-feira, às 14h   
 ## Galeria do Cine Theatro Santa Izabel
 - ### Gravação de Podcast com Fernanda Vianna
 20 lugares, sujeita à lotação
@@ -28,7 +49,8 @@ show_tile: true
 
 # 17/09, quarta-feira, às 15h  
 ## Cine Theatro Santa Izabel
-### MOSTRA PARALELA DE CURTAS | 14 anos
+### MOSTRA PARALELA DE CURTAS | <span class="ci-box ci-14" role="img" aria-label="Classificação indicativa: não recomendado para menores de 14 anos">14</span>
+
 
 - ### SESSÃO FAÍSCA
 
@@ -53,7 +75,7 @@ show_tile: true
 
 # 17/09, quarta-feira, às 17h  
 ## Cine Theatro Santa Izabel
-### MOSTRA PARALELA DE CURTAS | 14 anos
+### MOSTRA PARALELA DE CURTAS | <span class="ci-box ci-14" role="img" aria-label="Classificação indicativa: não recomendado para menores de 14 anos">14</span>
 
 - ### SESSÃO TRINCA  
 
@@ -73,7 +95,8 @@ show_tile: true
 
 # 17/09, quarta-feira, às 18h30  
 ## Cine Theatro Santa Izabel
-### MOSTRA COMPETITIVA DE LONGAS | Livre
+### MOSTRA COMPETITIVA DE LONGAS | <span class="ci-box ci-l"  role="img" aria-label="Classificação indicativa: Livre">L</span>
+
 
 > **A Câmara**  
 (Tiago Aragão | 2023, DF, 89’)
@@ -85,7 +108,8 @@ show_tile: true
 
 # 17/09, quarta-feira, às 20h30  
 ## Cine Theatro Santa Izabel
-### MOSTRA COMPETITIVA DE LONGAS | 10 anos
+### MOSTRA COMPETITIVA DE LONGAS | <span class="ci-box ci-10" role="img" aria-label="Classificação indicativa: não recomendado para menores de 10 anos">10</span>
+
 
 > **Aquele que Viu o Abismo**  
 (Gregorio Gananian e Negro Leo | 2025, SP, 70’)  
@@ -94,10 +118,12 @@ show_tile: true
 *Comentada pelo diretor **Gregório Gananian** e pela atriz **Clara Choveaux Teles***
 
 ---
-
+<h1 id="d18" style="background: white; color: black">18/09, quinta-feira</h1>
+---
 # 18/09, quinta-feira, às 10h  
 ## Cine Theatro Santa Izabel
-### SESSÃO INFANTIL | Livre
+### SESSÃO INFANTIL | <span class="ci-box ci-l"  role="img" aria-label="Classificação indicativa: Livre">L</span>
+
 
 > **O Sonho de Jequi**  
 (Cecília Morbidoni e alunos da Escola Municipal Zilda Arns | 2024, MG, 2’)
@@ -132,7 +158,8 @@ show_tile: true
 
 # 18/09, quinta-feira, às 14h  
 ## Cine Theatro Santa Izabel
-### MOSTRA PARALELA DE CURTAS | Livre
+### MOSTRA PARALELA DE CURTAS | <span class="ci-box ci-l"  role="img" aria-label="Classificação indicativa: Livre">L</span>
+
 
 - ### SESSÃO INSCRIÇÕES  
 
@@ -155,7 +182,8 @@ show_tile: true
 
 # 18/09, quinta-feira, às 15h30  
 ## Cine Theatro Santa Izabel
-### SESSÃO ESPECIAL | Livre
+### SESSÃO ESPECIAL | <span class="ci-box ci-l"  role="img" aria-label="Classificação indicativa: Livre">L</span>
+
 
 > **Estandartes a caminho**  
 (Marithê Azevedo | 2025, MG, 26’)  
@@ -166,7 +194,8 @@ show_tile: true
 
 # 18/09, quinta-feira, às 16h30  
 ## Cine Theatro Santa Izabel
-### MOSTRA MINEIRA | 16 anos
+### MOSTRA MINEIRA | <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span>
+
 
 > **Tato**  
 (Pedro Carvalho | 2024, MG, 20’)
@@ -189,7 +218,8 @@ show_tile: true
 
 # 18/09, quinta-feira, às 18h30  
 ## Cine Theatro Santa Izabel
-### MOSTRA COMPETITIVA DE LONGAS | Livre
+### MOSTRA COMPETITIVA DE LONGAS | <span class="ci-box ci-l"  role="img" aria-label="Classificação indicativa: Livre">L</span>
+
 
 > **As muitas mortes de Antônio Parreiras**  
 (Lucas Parente | 2025, RJ/CE, 65’)  
@@ -200,7 +230,8 @@ show_tile: true
 
 # 18/09, quinta-feira, às 20h30  
 ## Cine Theatro Santa Izabel
-### MOSTRA COMPETITIVA DE CURTAS | 12 anos
+### MOSTRA COMPETITIVA DE CURTAS | <span class="ci-box ci-12" role="img" aria-label="Classificação indicativa: não recomendado para menores de 12 anos">12</span>
+
 
 > **Ver Céu no Chão**  
 (Isabel Veiga | 2025, CE/RJ, 23’)  
@@ -224,8 +255,10 @@ show_tile: true
 
 *Comentada pelos diretores*
 
----
 
+---
+<h1 id="d19" style="background: white; color: black">19/09, sexta-feira</h1>
+---
 # 19/09, sexta-feira, às 11h  
 ## Galeria do Cine Theatro Santa Izabel
 - ### Gravação de Podcast com diretor Lucas Parente
@@ -235,7 +268,8 @@ show_tile: true
 
 # 19/09, sexta-feira, às 11h  
 ## Cine Theatro Santa Izabel
-### SESSÃO JUVENIL | 10 anos
+### SESSÃO JUVENIL | <span class="ci-box ci-10" role="img" aria-label="Classificação indicativa: não recomendado para menores de 10 anos">10</span>
+
 
 > **Xarpi**  
 (Rafael Lobo | 2024, DF, 25’)
@@ -249,3 +283,41 @@ show_tile: true
 *Comentada por curador*
 
 ---
+
+
+<script>
+function easeInOutCubic(t) {
+  return t < 0.5
+    ? 4 * t * t * t
+    : 1 - Math.pow(-2 * t + 2, 3) / 2;
+}
+
+function easeInOutSine(t) {
+  return -(Math.cos(Math.PI * t) - 1) / 2;
+}
+
+function smoothScrollTo(target, duration = 1000) {
+  const startY = window.scrollY;
+  const targetY = document.querySelector(target).getBoundingClientRect().top + startY;
+  const diff = targetY - startY;
+  let start;
+
+  function step(timestamp) {
+    if (!start) start = timestamp;
+    const time = timestamp - start;
+    const percent = Math.min(time / duration, 1);
+    const eased = easeInOutSine(percent);
+    window.scrollTo(0, startY + diff * eased);
+    if (time < duration) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener("click", function(e) {
+    e.preventDefault();
+    smoothScrollTo(this.getAttribute("href"), 1200); // 1.2s
+  });
+});
+
+</script>
