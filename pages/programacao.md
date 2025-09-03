@@ -101,6 +101,12 @@ show_tile: true
 	  color: #ffff;
 	}
 
+	h3 i {
+	  display: inline-block;
+	  width: 1.5em; /* ajuste conforme necessário */
+	  text-align: center;
+	}
+	
 	/* opcional: ancoragem suave para #ids sem “sumir” sob os stickies */
 	[id] { scroll-margin-top: var(--h1-h); }
 </style>
