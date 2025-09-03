@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Programação Completa
-description: Programação II Festival de Cinema de Diamantina
+description: Programação completa do II Festival de Cinema de Diamantina
 image: logo_var/logo_var_003.png	
 permalink: /programacao
 nav-menu: true

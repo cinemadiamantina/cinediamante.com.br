@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Inscrições encerradas!'
+landing-title: 'Programação no ar!'
 description: O II Festival de Cinema de Diamantina acontece entre 17 a 20 de setembro de 2025
 image: null
 author: null
