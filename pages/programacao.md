@@ -18,28 +18,45 @@ show_tile: true
 <span class="ci-box ci-18" role="img" aria-label="Classificação indicativa: não recomendado para menores de 18 anos">18</span>
 -->
 <style>
-  .icon-local{
-    --s: 1.2em;                 /* tamanho */
-    display:inline-block;
-    width:var(--s); height:var(--s);
-    background: currentColor;   /* cor do ícone */
-    border-radius: 50% 50% 50% 0;
-    transform: rotate(45deg);
-    position: relative;
-  }
-  .icon-local::after{           /* “furo” interno */
-    content:"";
-    position:absolute;
-    width: calc(var(--s)*.38);
-    height: calc(var(--s)*.38);
-    background:#fff;
-    border-radius:50%;
-    top:50%; left:50%;
-    transform: translate(-50%,-60%) rotate(-45deg);
-  }
+	:root {
+	  --h1-h: 1.3em;   /* altura do h1 fixo */
+	}
+
+	.day {
+		position: relative;
+	  border-bottom: 10px solid #000;
+	}
+
+	.day > h1{
+	  position: sticky;
+	  top: var(--h1-h);
+	  z-index: 20;
+	  margin: 0;
+	  padding: 12px 16px;
+	  line-height: 1.2;
+	  background: #fff;
+	  color: #000;
+	  border-bottom: 1px solid #eee;
+	}
+
+	.session {
+		position: relative; 
+		margin: 20px 0;
+		padding: 10px 20px 10px 20px;
+	  border-top: 1px solid #555;
+	  border-bottom: 1px solid #555;
+	  background: #040404;
+	}
+
+	.session > blockquote {
+		margin: 0 0 1em 0;
+	}
+
+	/* opcional: ancoragem suave para #ids sem “sumir” sob os stickies */
+	[id] { scroll-margin-top: var(--h1-h); }
 </style>
 
-<a href="#one" class="button special" style="position: fixed; bottom: 0; left: 0;"><i class="fa-solid fa-arrow-up"></i></a>
+<a href="#one" class="button special" style="position: fixed; bottom: 0; left: 0; z-index: 1;"><i class="fa-solid fa-arrow-up"></i></a>
 
 <a href="#d16" class="button special fit">16/09 - Terça</a>
 <a href="#d17" class="button special fit">17/09 - Quarta</a>
@@ -47,265 +64,433 @@ show_tile: true
 <a href="#d19" class="button special fit">19/09 - Sexta</a>
 
 ---
-
-<h1 id="d16" style="background: white; color: black">16/09, terça-feira</h1>
----
-
-<h1 style="margin: 0;"> 16/09, terça-feira, às 19h </h1>
-## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
-- ### SESSÃO DE ABERTURA | <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span>
-
-	> **Cidade; Campo**  
-	  (Juliana Rojas | 2023, SP, 120’)  
-	  Comentada pela atriz **Fernanda Vianna**
-
----
-<h1 id="d17" style="background: white; color: black">17/09, quarta-feira</h1>
----
-
-<h1 style="margin: 0;"> 17/09, quarta-feira, às 14h </h1>
-## <i class="fa-solid fa-location-pin"></i> Galeria do Cine Theatro Santa Izabel
-- ### Gravação de Podcast com Fernanda Vianna
-20 lugares, sujeita à lotação
-
----
-
-<h1 style="margin: 0;"> 17/09, quarta-feira, às 15h  </h1>
-## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
-### MOSTRA PARALELA DE CURTAS | <span class="ci-box ci-14" role="img" aria-label="Classificação indicativa: não recomendado para menores de 14 anos">14</span>
-
-
-- ### SESSÃO FAÍSCA
-
-	>**Serão**  
-	(Caio Bernardo da Silva | 2024, PB, 15’)
-
-	>**Incêndio**  
-	(Nico da Costa | 2024, CE, 5’)
-
-	>**E Seu Corpo É Belo**  
-	(Yuri Costa | 2024, RJ, 23’)
-
-	>**Inflamável**  
-	(Rafael Ribeiro Gontijo | 2024, DF, 19’)
-
-	>**Babilônia**  
-	(Duda Gambogi | 2024, Cuba/MG, 22’)
-
-	*Comentada por curador*
-
----
-
-<h1 style="margin: 0;"> 17/09, quarta-feira, às 17h  </h1>
-## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
-### MOSTRA PARALELA DE CURTAS | <span class="ci-box ci-14" role="img" aria-label="Classificação indicativa: não recomendado para menores de 14 anos">14</span>
-
-- ### SESSÃO TRINCA  
-
-	> **A invenção do Orum**  
-	(Paulo Sena | 2025, ES, 18’)
-
-	> **Três**  
-	(Lila Foster | 2024, DF, 21’)
-
-	> **Peixe Morto**  
-	(João Fontenele | 2025, CE, 13’)
-
-	> **Marmita**  
-	(Guilherme Peraro | 2025, SP/PR, 21’)
-
----
-
-<h1 style="margin: 0;"> 17/09, quarta-feira, às 18h30  </h1>
-## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
-### MOSTRA COMPETITIVA DE LONGAS | <span class="ci-box ci-l"  role="img" aria-label="Classificação indicativa: Livre">L</span>
-
-
-> **A Câmara**  
-(Tiago Aragão | 2023, DF, 89’)
-><span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\a-camara-tiago-de-aragao\still_a_camara---Tiago-de-Aragão.jpg" alt="" data-position="center center" /></span>
-
-*Comentada pelo diretor **Tiago de Aragão Silva***
-
----
-
-<h1 style="margin: 0;"> 17/09, quarta-feira, às 20h30  </h1>
-## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
-### MOSTRA COMPETITIVA DE LONGAS | <span class="ci-box ci-10" role="img" aria-label="Classificação indicativa: não recomendado para menores de 10 anos">10</span>
-
-
-> **Aquele que Viu o Abismo**  
-(Gregorio Gananian e Negro Leo | 2025, SP, 70’)  
-> <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\aquele-que-viu-o-abismo\still-aquele-que-viu-o-abismo.jpg" alt="" data-position="center center" /></span>
-
-*Comentada pelo diretor **Gregório Gananian** e pela atriz **Clara Choveaux Teles***
-
----
-<h1 id="d18" style="background: white; color: black">18/09, quinta-feira</h1>
----
-<h1 style="margin: 0;"> 18/09, quinta-feira, às 10h  </h1>
-## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
-### SESSÃO INFANTIL | <span class="ci-box ci-l"  role="img" aria-label="Classificação indicativa: Livre">L</span>
-
-
-> **O Sonho de Jequi**  
-(Cecília Morbidoni e alunos da Escola Municipal Zilda Arns | 2024, MG, 2’)
-
-> **Outro Lugar**  
-(Perseu Azul | 2024, MT, 15’)
-
-> **Déia e Dete**  
-(Bruna Schelb Corrêa e Francis Frank | 2025, MG, 8’)
-
-> **O Despertar de Aiyra**  
-(Duda Rodrigues e Juliana Rogge | 2024, SP, 18’)
-
-> **Tsuru**  
-(Pedro Anias | 2024, BA, 6’)
-
----
-
-<h1 style="margin: 0;"> 18/09, quinta-feira, às 11h  </h1>
-## <i class="fa-solid fa-location-pin"></i> Galeria do Cine Theatro Santa Izabel
-- ### Gravação de Podcast com o diretor Tiago de Aragão Silva
-20 lugares, sujeita à lotação
-
----
-
-<h1 style="margin: 0;"> 18/09, quinta-feira, às 12h  </h1>
-## <i class="fa-solid fa-location-pin"></i> Galeria do Cine Theatro Santa Izabel
-- ### Gravação de Podcast com o diretor Gregório Gananian e a atriz Clara Choveaux Teles
-20 lugares, sujeita à lotação
-
----
-
-<h1 style="margin: 0;"> 18/09, quinta-feira, às 14h  </h1>
-## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
-### MOSTRA PARALELA DE CURTAS | <span class="ci-box ci-l"  role="img" aria-label="Classificação indicativa: Livre">L</span>
-
-
-- ### SESSÃO INSCRIÇÕES  
-
-	> **Sertão, América**  
-	(Marcela Ilha Bordin | 2023, ES, 18’)
-
-	> **Intercessões**  
-	(Anne France, Amanda Magaiver, João Pedro de Souza, Maria Eliene, Isis de Manaus, Gabriel Amaro, Miki Takano, Rebeca Lopes, Juliana Tizatto, Wander Braga, Sterfannÿ Oliveira, Raffaella Rosset, Bruma de Sá, Júlia dos Santos, Jade Couto, Bruna Polla, Raquel da Silva, Aline Fidelix, Luis Leite, Shalimar Lima, Hulgo Leite, Larissa Nascimento, Joedson Silva, Rodrigo Aquiles, Lucas Luan, André Pereira, Eliezer Rodrigues Silva, Vittoria San | 2024, AM, 3’)
-
-	> **Javyju - Bom dia**  
-	(Kunha Rete e Carlos Eduardo Magalhães | 2024, SP, 25’)
-
-	> **Canto das Areias**  
-	(Maíra Tristão | 2024, ES, 20’)
-
-	> **Pulmão de Pedra**  
-	(Torquato Joel | 2023, PB, 14’)
-
----
-
-<h1 style="margin: 0;"> 18/09, quinta-feira, às 15h30  </h1>
-## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
-### SESSÃO ESPECIAL | <span class="ci-box ci-l"  role="img" aria-label="Classificação indicativa: Livre">L</span>
-
-
-> **Estandartes a caminho**  
-(Marithê Azevedo | 2025, MG, 26’)  
-
-*Comentada pela diretora **Marithê Azevedo** e pelo artista plástico **Marcelo Brant***
-
----
-
-<h1 style="margin: 0;"> 18/09, quinta-feira, às 16h30  </h1>
-## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
-### MOSTRA MINEIRA | <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span>
-
-
-> **Tato**  
-(Pedro Carvalho | 2024, MG, 20’)
-
-> **Europa - Me Avise Quando Chegar**  
-(Victor Vieira | 2024, MG, 9’)
-
-> **Mãe do Ouro**  
-(Maick Hannder Lima Porto | 2024, MG, 14’)
-
-> **Testemunho**  
-(Leonardo Amaral e Roberto Cotta | 2025, MG, 15’)
-
-> **Ressaca**  
-(Pedro Estrada | 2024, MG, 15’)
-
-*Comentada por curador*
-
----
-
-<h1 style="margin: 0;"> 18/09, quinta-feira, às 18h30  </h1>
-## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
-### MOSTRA COMPETITIVA DE LONGAS | <span class="ci-box ci-l"  role="img" aria-label="Classificação indicativa: Livre">L</span>
-
-
-> **As muitas mortes de Antônio Parreiras**  
-(Lucas Parente | 2025, RJ/CE, 65’)  
-
-*Comentada pelo diretor **Lucas Parente***
-
----
-
-<h1 style="margin: 0;"> 18/09, quinta-feira, às 20h30  </h1>
-## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
-### MOSTRA COMPETITIVA DE CURTAS | <span class="ci-box ci-12" role="img" aria-label="Classificação indicativa: não recomendado para menores de 12 anos">12</span>
-
-
-> **Ver Céu no Chão**  
-(Isabel Veiga | 2025, CE/RJ, 23’)  
-><span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\ver-ceu-no-chao\ver-ceu-no-chao-foto-still_3---Isabel-Veiga.jpg" alt="" data-position="center center" /></span>
-
-
-> **Animais Noturnos**  
-(Indigo Braga e Paulo Abrão | 2024, RJ, 11’)  
-><span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\animais-noturnos\AnimaisNoturnos_Frame-2_LucasMagalhães---Índigo-Braga.jpg" alt="" data-position="center center" /></span>
-
-
-> **Cassino**  
-(Gianluca Cozza | 2024, RS, 20’)  
-><span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\cassino\cassino_still3---Gianluca-Cozza.jpg" alt="" data-position="center center" /></span>
- 
-
-> **Mãe da Manhã**  
-(Clara Trevisan | 2024, RS, 8’)  
-><span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\mae-da-manha\MOTHER-OF-DAWN_STILL-1_Clara-Trevisan---clara-trevisan.jpg" alt="" data-position="center center" /></span>
-
-
-*Comentada pelos diretores*
-
-
----
-<h1 id="d19" style="background: white; color: black">19/09, sexta-feira</h1>
----
-<h1 style="margin: 0;"> 19/09, sexta-feira, às 11h  </h1>
-## <i class="fa-solid fa-location-pin"></i> Galeria do Cine Theatro Santa Izabel
-- ### Gravação de Podcast com diretor Lucas Parente
-20 lugares, sujeita à lotação
-
----
-
-<h1 style="margin: 0;"> 19/09, sexta-feira, às 11h  </h1>
-## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
-### SESSÃO JUVENIL | <span class="ci-box ci-10" role="img" aria-label="Classificação indicativa: não recomendado para menores de 10 anos">10</span>
-
-
-> **Xarpi**  
-(Rafael Lobo | 2024, DF, 25’)
-
-> **Pequeno B**  
-(Lucas Borges | 2025, MG, 14’)
-
-> **Lança-Foguete**  
-(William Oliveira | 2025, PE, 16’)
-
-*Comentada por curador*
-
----
+<section class="day" id="d16">
+  <h1>16/09, terça-feira</h1>
+
+  <section class="session" id="d16-s1">
+    <h3>
+    	<i class="fa-solid fa-ticket"></i> SESSÃO DE ABERTURA | <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span> <br />
+      <i class="fa-solid fa-clock"></i> 19h <br />
+      <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+    </h3>
+    <blockquote>
+      <strong>Cidade; Campo</strong><br>
+      (Juliana Rojas | 2023, SP, 120’)<br>
+      Comentada pela atriz <strong>Fernanda Vianna</strong>
+    </blockquote>
+  </section>
+
+</section>
+
+<section class="day" id="d17">
+  <h1>17/09, quarta-feira</h1>
+
+  <section class="session" id="d16-s1">
+    <h3>
+    	<i class="fa-solid fa-ticket"></i> Gravação de Podcast com Fernanda Vianna<br />
+      <i class="fa-solid fa-clock"></i> 14h <br />
+      <i class="fa-solid fa-location-dot"></i> Galeria do Cine Theatro Santa Izabel
+    </h3>
+    <blockquote>
+      <strong>Gravação de Podcast com Fernanda Vianna</strong><br>
+      20 lugares, sujeita à lotação<br>
+    </blockquote>
+  </section>
+	<section class="session" id="d17-s1">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS | 
+	    <span class="ci-box ci-14" role="img" aria-label="Classificação indicativa: não recomendado para menores de 14 anos">14</span><br />
+	  	<i class="fa-solid fa-ticket"></i> SESSÃO FAÍSCA<br />
+	    <i class="fa-solid fa-clock"></i> 15h <br />
+	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>  
+	    <strong>Serão</strong><br>
+	    (Caio Bernardo da Silva | 2024, PB, 15’)
+	  </blockquote>
+	  <blockquote>  
+	    <strong>Incêndio</strong><br>
+	    (Nico da Costa | 2024, CE, 5’)
+	  </blockquote>
+	  <blockquote>  
+	    <strong>E Seu Corpo É Belo</strong><br>
+	    (Yuri Costa | 2024, RJ, 23’)
+	  </blockquote>
+	  <blockquote>  
+	    <strong>Inflamável</strong><br>
+	    (Rafael Ribeiro Gontijo | 2024, DF, 19’)
+	  </blockquote>
+	  <blockquote>  
+	    <strong>Babilônia</strong><br>
+	    (Duda Gambogi | 2024, Cuba/MG, 22’)
+	  </blockquote>
+	    <em>Comentada por curador</em>
+	</section>
+	<section class="session" id="d17-s2">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS | 
+	    <span class="ci-box ci-14" role="img" aria-label="Classificação indicativa: não recomendado para menores de 14 anos">14</span><br />
+	  	<i class="fa-solid fa-ticket"></i> SESSÃO TRINCA<br />
+	    <i class="fa-solid fa-clock"></i> 17h <br />
+	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    <strong>A invenção do Orum</strong><br>
+	    (Paulo Sena | 2025, ES, 18’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Três</strong><br>
+	    (Lila Foster | 2024, DF, 21’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Peixe Morto</strong><br>
+	    (João Fontenele | 2025, CE, 13’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Marmita</strong><br>
+	    (Guilherme Peraro | 2025, SP/PR, 21’)
+	  </blockquote>
+	</section>
+	<section class="session" id="d17-s3">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS | 
+	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
+	  	<i class="fa-solid fa-film"></i> A Câmara<br />
+	    <i class="fa-solid fa-clock"></i> 18h30 <br />
+	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    <strong>A Câmara</strong><br>
+	    (Cristiane Brum Bernardes e Tiago Aragão | 2023, DF, 89’)<br>
+	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\a-camara-tiago-de-aragao\still_a_camara---Tiago-de-Aragão.jpg" alt="" data-position="center center" /></span><br>
+	    <em>Comentada pelo diretor <strong>Tiago de Aragão Silva</strong></em>
+	  </blockquote>
+	</section>
+	<section class="session" id="d17-s4">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS | 
+	    <span class="ci-box ci-10" role="img" aria-label="Classificação indicativa: não recomendado para menores de 10 anos">10</span><br />
+	  	<i class="fa-solid fa-film"></i> Aquele que Viu o Abismo<br />
+	    <i class="fa-solid fa-clock"></i> 20h30 <br />
+	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    <strong>Aquele que Viu o Abismo</strong><br>
+	    (Gregorio Gananian e Negro Leo | 2025, SP, 70’)<br>
+	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\aquele-que-viu-o-abismo\still-aquele-que-viu-o-abismo.jpg" alt="" data-position="center center" /></span><br>
+	    <em>Comentada pelo diretor <strong>Gregório Gananian</strong> e pela atriz <strong>Clara Choveaux Teles</strong></em>
+	  </blockquote>
+	</section>
+
+</section>
+
+<section class="day" id="d18">
+  <h1>18/09, quinta-feira</h1>
+	<section class="session" id="d18-s1">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> SESSÃO INFANTIL | 
+	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
+	    <i class="fa-solid fa-clock"></i> 10h <br />
+	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    <strong>O Sonho de Jequi</strong><br>
+	    (Cecília Morbidoni e alunos da Escola Municipal Zilda Arns | 2024, MG, 2’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Outro Lugar</strong><br>
+	    (Perseu Azul | 2024, MT, 15’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Déia e Dete</strong><br>
+	    (Bruna Schelb Corrêa e Francis Frank | 2025, MG, 8’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>O Despertar de Aiyra</strong><br>
+	    (Duda Rodrigues e Juliana Rogge | 2024, SP, 18’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Tsuru</strong><br>
+	    (Pedro Anias | 2024, BA, 6’)
+	  </blockquote>
+	</section>
+	<section class="session" id="d18-s2">
+	  <h3>
+	    <i class="fa-solid fa-ticket"></i> Gravação de Podcast com o diretor Tiago de Aragão Silva<br />
+	    <i class="fa-solid fa-clock"></i> 11h <br />
+	    <i class="fa-solid fa-location-dot"></i> Galeria do Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    20 lugares, sujeita à lotação
+	  </blockquote>
+	</section>
+	<section class="session" id="d18-s3">
+	  <h3>
+	    <i class="fa-solid fa-ticket"></i> Gravação de Podcast com o diretor Gregório Gananian e a atriz Clara Choveaux Teles<br />
+	    <i class="fa-solid fa-clock"></i> 12h <br />
+	    <i class="fa-solid fa-location-dot"></i> Galeria do Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    20 lugares, sujeita à lotação
+	  </blockquote>
+	</section>
+	<section class="session" id="d18-s4">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS | 
+	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
+	    <i class="fa-solid fa-ticket"></i> SESSÃO INSCRIÇÕES<br />
+	    <i class="fa-solid fa-clock"></i> 14h <br />
+	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    <strong>Sertão, América</strong><br>
+	    (Marcela Ilha Bordin | 2023, ES, 18’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Intercessões</strong><br>
+	    (Anne France, Amanda Magaiver, João Pedro de Souza, Maria Eliene, Isis de Manaus, Gabriel Amaro, Miki Takano, Rebeca Lopes, Juliana Tizatto, Wander Braga, Sterfannÿ Oliveira, Raffaella Rosset, Bruma de Sá, Júlia dos Santos, Jade Couto, Bruna Polla, Raquel da Silva, Aline Fidelix, Luis Leite, Shalimar Lima, Hulgo Leite, Larissa Nascimento, Joedson Silva, Rodrigo Aquiles, Lucas Luan, André Pereira, Eliezer Rodrigues Silva, Vittoria San | 2024, AM, 3’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Javyju - Bom dia</strong><br>
+	    (Kunha Rete e Carlos Eduardo Magalhães | 2024, SP, 25’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Canto das Areias</strong><br>
+	    (Maíra Tristão | 2024, ES, 20’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Pulmão de Pedra</strong><br>
+	    (Torquato Joel | 2023, PB, 14’)
+	  </blockquote>
+	</section>
+	<section class="session" id="d18-s5">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> SESSÃO ESPECIAL | 
+	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
+	    <i class="fa-solid fa-clock"></i> 15h30 <br />
+	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    <strong>Estandartes a caminho</strong><br>
+	    (Marithê Azevedo | 2025, MG, 26’)
+	  </blockquote>
+	  <em>Comentada pela diretora <strong>Marithê Azevedo</strong> e pelo artista plástico <strong>Marcelo Brant</strong></em>
+	</section>
+	<section class="session" id="d18-s6">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA MINEIRA | 
+	    <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span><br />
+	    <i class="fa-solid fa-clock"></i> 16h30 <br />
+	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    <strong>Tato</strong><br>
+	    (Pedro Carvalho | 2024, MG, 20’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Europa - Me Avise Quando Chegar</strong><br>
+	    (Victor Vieira | 2024, MG, 9’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Mãe do Ouro</strong><br>
+	    (Maick Hannder Lima Porto | 2024, MG, 14’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Testemunho</strong><br>
+	    (Leonardo Amaral e Roberto Cotta | 2025, MG, 15’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Ressaca</strong><br>
+	    (Pedro Estrada | 2024, MG, 15’)
+	  </blockquote>
+	  <em>Comentada por curador</em>
+	</section>
+	<section class="session" id="d18-s7">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS | 
+	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
+		  	<i class="fa-solid fa-film"></i> As muitas mortes de Antônio Parreiras<br />
+	    <i class="fa-solid fa-clock"></i> 18h30 <br />
+	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    <strong>As muitas mortes de Antônio Parreiras</strong><br>
+	    (Lucas Parente | 2025, RJ/CE, 65’)
+	  </blockquote>
+	  <em>Comentada pelo diretor <strong>Lucas Parente</strong></em>
+	</section>
+	<section class="session" id="d18-s8">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE CURTAS | 
+	    <span class="ci-box ci-12" role="img" aria-label="Classificação indicativa: não recomendado para menores de 12 anos">12</span><br />
+	    <i class="fa-solid fa-clock"></i> 20h30 <br />
+	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    <strong>Ver Céu no Chão</strong><br>
+	    (Isabel Veiga | 2025, CE/RJ, 23’)<br>
+	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\ver-ceu-no-chao\ver-ceu-no-chao-foto-still_3---Isabel-Veiga.jpg" alt="" data-position="center center" /></span>
+	  </blockquote>
+	  <blockquote>
+	    <strong>Animais Noturnos</strong><br>
+	    (Indigo Braga e Paulo Abrão | 2024, RJ, 11’)<br>
+	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\animais-noturnos\AnimaisNoturnos_Frame-2_LucasMagalhães---Índigo-Braga.jpg" alt="" data-position="center center" /></span>
+	  </blockquote>
+	  <blockquote>
+	    <strong>Cassino</strong><br>
+	    (Gianluca Cozza | 2024, RS, 20’)<br>
+	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\cassino\cassino_still3---Gianluca-Cozza.jpg" alt="" data-position="center center" /></span>
+	  </blockquote>
+	  <blockquote>
+	    <strong>Mãe da Manhã</strong><br>
+	    (Clara Trevisan | 2024, RS, 8’)<br>
+	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\mae-da-manha\MOTHER-OF-DAWN_STILL-1_Clara-Trevisan---clara-trevisan.jpg" alt="" data-position="center center" /></span>
+	  </blockquote>
+	  <em>Comentada pelos diretores</em>
+	</section>
+</section>
+
+
+<section class="day" id="d19">
+  <h1>19/09, sexta-feira</h1>
+	<section class="session" id="d19-s1">
+	  <h3>
+	    <i class="fa-solid fa-ticket"></i> Gravação de Podcast com o diretor Lucas Parente<br />
+	    <i class="fa-solid fa-clock"></i> 11h <br />
+	    <i class="fa-solid fa-location-dot"></i> Galeria do Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    20 lugares, sujeita à lotação
+	  </blockquote>
+	</section>
+	<section class="session" id="d19-s2">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> SESSÃO JUVENIL | 
+	    <span class="ci-box ci-10" role="img" aria-label="Classificação indicativa: não recomendado para menores de 10 anos">10</span><br />
+	    <i class="fa-solid fa-clock"></i> 11h <br />
+	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    <strong>Xarpi</strong><br>
+	    (Rafael Lobo | 2024, DF, 25’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Pequeno B</strong><br>
+	    (Lucas Borges | 2025, MG, 14’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Lança-Foguete</strong><br>
+	    (William Oliveira | 2025, PE, 16’)
+	  </blockquote>
+	  <em>Comentada por curador</em>
+	</section>
+	<section class="session" id="d19-s3">
+	  <h3>
+	    <i class="fa-solid fa-ticket"></i> Gravação de Podcast com diretores de curtas<br />
+	    <i class="fa-solid fa-clock"></i> 12h <br />
+	    <i class="fa-solid fa-location-dot"></i> Galeria do Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    20 lugares, sujeita à lotação
+	  </blockquote>
+	</section>
+	<section class="session" id="d19-s4">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS | 
+	    <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span><br />
+	    <i class="fa-solid fa-ticket"></i> SESSÃO FIGURAS/ BONEKAS<br />
+	    <i class="fa-solid fa-clock"></i> 14h <br />
+	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    <strong>Vollúpya</strong><br>
+	    (Éri Sarmet e Jocimar Dias Jr. | 2024, RJ, 21’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Mandinga de Gorila</strong><br>
+	    (Luzé Gonçalves e Juliana Gonçalves | 2024, RJ, 20’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Samuel foi trabalhar</strong><br>
+	    (Janderson Felipe e Lucas Litrento | 2024, AL, 17’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>Estrela Brava</strong><br>
+	    (Jorge Polo | 2025, RJ, 24’)
+	  </blockquote>
+	</section>
+	<section class="session" id="d19-s5">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE CURTAS | 
+	    <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span><br />
+	    <i class="fa-solid fa-clock"></i> 16h <br />
+	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    <strong>Princesa Macula e o Canto Triste</strong><br>
+	    (Mayara Mascarenhas | 2024, MG, 27’)<br>
+	    <span class="image fit" style="margin: 1em 0">
+	      <img src="{{ site.images_path }}programacao-2025\princesa-macula-e-o-canto-triste\Still---Fabrício-Silvestre---Mayara-Mascarenhas.jpg" alt="Princesa Macula e o Canto Triste" data-position="center center" />
+	    </span>
+	  </blockquote>
+	  <blockquote>
+	    <strong>A sua imagem na minha caixa de correio</strong><br>
+	    (Silvino Mendonça | 2024, DF, 17’)<br>
+	    <span class="image fit" style="margin: 1em 0">
+	      <img src="{{ site.images_path }}programacao-2025\a-sua-imagem-na-minha-caixa-de-correio\A-sua-imagem-1---Silvino-Mendonça---Silvino-Mendonça.jpg" alt="A sua imagem na minha caixa de correio" data-position="center center" />
+	    </span>
+	  </blockquote>
+	  <blockquote>
+	    <strong>Benedita</strong><br>
+	    (Lane Lopes e Cadu Azevedo | 2024, RJ, 19’)<br>
+	    <span class="image fit" style="margin: 1em 0">
+	      <img src="{{ site.images_path }}programacao-2025\benedita\5---still-por-Marcus-Vinicius---Lane-Lopes.jpg" alt="Benedita" data-position="center center" />
+	    </span>
+	  </blockquote>
+	  <em>Comentada pelos diretores</em>
+	</section>
+	<section class="session" id="d19-s6">
+	  <h3>
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS | 
+	    <span class="ci-box ci-10" role="img" aria-label="Classificação indicativa: não recomendado para menores de 10 anos">10</span><br />
+	  	<i class="fa-solid fa-film"></i> Centro Ilusão<br />
+	    <i class="fa-solid fa-clock"></i> 18h <br />
+	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
+	  </h3>
+	  <blockquote>
+	    <strong>Centro Ilusão</strong><br>
+	    (Pedro Diogenes | 2024, CE, 85’)
+	  </blockquote>
+	  <em>Comentada pelo ator <strong>Bruno Kunk</strong></em>
+	</section>
+	<section class="session" id="d19-s7">
+	  <h3>
+	    <i class="fa-solid fa-ticket"></i> CINE SACADA<br />
+	    <i class="fa-solid fa-ticket-simple"></i> Cinerata com trilha original executada ao vivo<br />
+	    <i class="fa-solid fa-clock"></i> 20h <br />
+	    <i class="fa-solid fa-location-dot"></i> Largo da Quitanda
+	  </h3>
+	  <blockquote>
+	    <strong>One week</strong><br>
+	    (Buster Keaton | 1920, EUA, 24’)
+	  </blockquote>
+	  <blockquote>
+	    <strong>The Railrodder</strong><br>
+	    (Gerald Potterton | 1965, EUA, 24’)
+	  </blockquote>
+	</section>
+	<section class="session" id="d19-s8">
+	  <h3>
+	    <i class="fa-solid fa-music"></i> Show da banda Pulse Fiction<br />
+	    <i class="fa-solid fa-clock"></i> 22h <br />
+	    <i class="fa-solid fa-location-dot"></i> Casa do Elefante
+	  </h3>
+	  <blockquote>
+	    R$ 20 - entrada
+	  </blockquote>
+	</section>
+
+</section>
 
 
 <script>
