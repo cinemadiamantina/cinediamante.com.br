@@ -9,7 +9,7 @@ nav-menu-order: 2
 show_tile: true
 ---
 
-<!-- APENAS SÍMBOLO 
+<!-- CLASSIFICACAO APENAS SÍMBOLO 
 <span class="ci-box ci-l"  role="img" aria-label="Classificação indicativa: Livre">L</span>
 <span class="ci-box ci-10" role="img" aria-label="Classificação indicativa: não recomendado para menores de 10 anos">10</span>
 <span class="ci-box ci-12" role="img" aria-label="Classificação indicativa: não recomendado para menores de 12 anos">12</span>
@@ -17,6 +17,29 @@ show_tile: true
 <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span>
 <span class="ci-box ci-18" role="img" aria-label="Classificação indicativa: não recomendado para menores de 18 anos">18</span>
 -->
+<style>
+  .icon-local{
+    --s: 1.2em;                 /* tamanho */
+    display:inline-block;
+    width:var(--s); height:var(--s);
+    background: currentColor;   /* cor do ícone */
+    border-radius: 50% 50% 50% 0;
+    transform: rotate(45deg);
+    position: relative;
+  }
+  .icon-local::after{           /* “furo” interno */
+    content:"";
+    position:absolute;
+    width: calc(var(--s)*.38);
+    height: calc(var(--s)*.38);
+    background:#fff;
+    border-radius:50%;
+    top:50%; left:50%;
+    transform: translate(-50%,-60%) rotate(-45deg);
+  }
+</style>
+
+<a href="#one" class="button special" style="position: fixed; bottom: 0; left: 0;"><i class="fa-solid fa-arrow-up"></i></a>
 
 <a href="#d16" class="button special fit">16/09 - Terça</a>
 <a href="#d17" class="button special fit">17/09 - Quarta</a>
@@ -28,8 +51,8 @@ show_tile: true
 <h1 id="d16" style="background: white; color: black">16/09, terça-feira</h1>
 ---
 
-# 16/09, terça-feira, às 19h 
-## Cine Theatro Santa Izabel
+<h1 style="margin: 0;"> 16/09, terça-feira, às 19h </h1>
+## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
 - ### SESSÃO DE ABERTURA | <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span>
 
 	> **Cidade; Campo**  
@@ -40,15 +63,15 @@ show_tile: true
 <h1 id="d17" style="background: white; color: black">17/09, quarta-feira</h1>
 ---
 
-# 17/09, quarta-feira, às 14h   
-## Galeria do Cine Theatro Santa Izabel
+<h1 style="margin: 0;"> 17/09, quarta-feira, às 14h </h1>
+## <i class="fa-solid fa-location-pin"></i> Galeria do Cine Theatro Santa Izabel
 - ### Gravação de Podcast com Fernanda Vianna
 20 lugares, sujeita à lotação
 
 ---
 
-# 17/09, quarta-feira, às 15h  
-## Cine Theatro Santa Izabel
+<h1 style="margin: 0;"> 17/09, quarta-feira, às 15h  </h1>
+## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
 ### MOSTRA PARALELA DE CURTAS | <span class="ci-box ci-14" role="img" aria-label="Classificação indicativa: não recomendado para menores de 14 anos">14</span>
 
 
@@ -73,8 +96,8 @@ show_tile: true
 
 ---
 
-# 17/09, quarta-feira, às 17h  
-## Cine Theatro Santa Izabel
+<h1 style="margin: 0;"> 17/09, quarta-feira, às 17h  </h1>
+## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
 ### MOSTRA PARALELA DE CURTAS | <span class="ci-box ci-14" role="img" aria-label="Classificação indicativa: não recomendado para menores de 14 anos">14</span>
 
 - ### SESSÃO TRINCA  
@@ -93,8 +116,8 @@ show_tile: true
 
 ---
 
-# 17/09, quarta-feira, às 18h30  
-## Cine Theatro Santa Izabel
+<h1 style="margin: 0;"> 17/09, quarta-feira, às 18h30  </h1>
+## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
 ### MOSTRA COMPETITIVA DE LONGAS | <span class="ci-box ci-l"  role="img" aria-label="Classificação indicativa: Livre">L</span>
 
 
@@ -106,8 +129,8 @@ show_tile: true
 
 ---
 
-# 17/09, quarta-feira, às 20h30  
-## Cine Theatro Santa Izabel
+<h1 style="margin: 0;"> 17/09, quarta-feira, às 20h30  </h1>
+## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
 ### MOSTRA COMPETITIVA DE LONGAS | <span class="ci-box ci-10" role="img" aria-label="Classificação indicativa: não recomendado para menores de 10 anos">10</span>
 
 
@@ -120,8 +143,8 @@ show_tile: true
 ---
 <h1 id="d18" style="background: white; color: black">18/09, quinta-feira</h1>
 ---
-# 18/09, quinta-feira, às 10h  
-## Cine Theatro Santa Izabel
+<h1 style="margin: 0;"> 18/09, quinta-feira, às 10h  </h1>
+## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
 ### SESSÃO INFANTIL | <span class="ci-box ci-l"  role="img" aria-label="Classificação indicativa: Livre">L</span>
 
 
@@ -142,22 +165,22 @@ show_tile: true
 
 ---
 
-# 18/09, quinta-feira, às 11h  
-## Galeria do Cine Theatro Santa Izabel
+<h1 style="margin: 0;"> 18/09, quinta-feira, às 11h  </h1>
+## <i class="fa-solid fa-location-pin"></i> Galeria do Cine Theatro Santa Izabel
 - ### Gravação de Podcast com o diretor Tiago de Aragão Silva
 20 lugares, sujeita à lotação
 
 ---
 
-# 18/09, quinta-feira, às 12h  
-## Galeria do Cine Theatro Santa Izabel
+<h1 style="margin: 0;"> 18/09, quinta-feira, às 12h  </h1>
+## <i class="fa-solid fa-location-pin"></i> Galeria do Cine Theatro Santa Izabel
 - ### Gravação de Podcast com o diretor Gregório Gananian e a atriz Clara Choveaux Teles
 20 lugares, sujeita à lotação
 
 ---
 
-# 18/09, quinta-feira, às 14h  
-## Cine Theatro Santa Izabel
+<h1 style="margin: 0;"> 18/09, quinta-feira, às 14h  </h1>
+## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
 ### MOSTRA PARALELA DE CURTAS | <span class="ci-box ci-l"  role="img" aria-label="Classificação indicativa: Livre">L</span>
 
 
@@ -180,8 +203,8 @@ show_tile: true
 
 ---
 
-# 18/09, quinta-feira, às 15h30  
-## Cine Theatro Santa Izabel
+<h1 style="margin: 0;"> 18/09, quinta-feira, às 15h30  </h1>
+## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
 ### SESSÃO ESPECIAL | <span class="ci-box ci-l"  role="img" aria-label="Classificação indicativa: Livre">L</span>
 
 
@@ -192,8 +215,8 @@ show_tile: true
 
 ---
 
-# 18/09, quinta-feira, às 16h30  
-## Cine Theatro Santa Izabel
+<h1 style="margin: 0;"> 18/09, quinta-feira, às 16h30  </h1>
+## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
 ### MOSTRA MINEIRA | <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span>
 
 
@@ -216,8 +239,8 @@ show_tile: true
 
 ---
 
-# 18/09, quinta-feira, às 18h30  
-## Cine Theatro Santa Izabel
+<h1 style="margin: 0;"> 18/09, quinta-feira, às 18h30  </h1>
+## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
 ### MOSTRA COMPETITIVA DE LONGAS | <span class="ci-box ci-l"  role="img" aria-label="Classificação indicativa: Livre">L</span>
 
 
@@ -228,8 +251,8 @@ show_tile: true
 
 ---
 
-# 18/09, quinta-feira, às 20h30  
-## Cine Theatro Santa Izabel
+<h1 style="margin: 0;"> 18/09, quinta-feira, às 20h30  </h1>
+## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
 ### MOSTRA COMPETITIVA DE CURTAS | <span class="ci-box ci-12" role="img" aria-label="Classificação indicativa: não recomendado para menores de 12 anos">12</span>
 
 
@@ -259,15 +282,15 @@ show_tile: true
 ---
 <h1 id="d19" style="background: white; color: black">19/09, sexta-feira</h1>
 ---
-# 19/09, sexta-feira, às 11h  
-## Galeria do Cine Theatro Santa Izabel
+<h1 style="margin: 0;"> 19/09, sexta-feira, às 11h  </h1>
+## <i class="fa-solid fa-location-pin"></i> Galeria do Cine Theatro Santa Izabel
 - ### Gravação de Podcast com diretor Lucas Parente
 20 lugares, sujeita à lotação
 
 ---
 
-# 19/09, sexta-feira, às 11h  
-## Cine Theatro Santa Izabel
+<h1 style="margin: 0;"> 19/09, sexta-feira, às 11h  </h1>
+## <i class="fa-solid fa-location-pin"></i> Cine Theatro Santa Izabel
 ### SESSÃO JUVENIL | <span class="ci-box ci-10" role="img" aria-label="Classificação indicativa: não recomendado para menores de 10 anos">10</span>
 
 
