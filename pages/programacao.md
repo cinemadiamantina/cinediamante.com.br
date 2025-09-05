@@ -183,7 +183,7 @@ show_tile: true
 
   <section class="session" id="d16-s1">
     <h3>
-    	<i class="fa-solid fa-ticket"></i> Gravação de Podcast com Fernanda Vianna<br />
+    	<i class="fa-solid fa-podcast"></i> Gravação de Podcast com Fernanda Vianna<br />
       <i class="fa-solid fa-clock"></i> 14h <br />
       <i class="fa-solid fa-location-dot"></i> Galeria do Cine Theatro Santa Izabel
     </h3>
@@ -200,27 +200,27 @@ show_tile: true
 	    <i class="fa-solid fa-clock"></i> 15h <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
 	  </h3>
-	  <blockquote>  
-	    <strong>Serão</strong><br>
-	    (Caio Bernardo da Silva | 2024, PB, 15’)
-	  </blockquote>
-	  <blockquote>  
-	    <strong>Incêndio</strong><br>
-	    (Nico da Costa | 2024, CE, 5’)
-	  </blockquote>
-	  <blockquote>  
-	    <strong>E Seu Corpo É Belo</strong><br>
-	    (Yuri Costa | 2024, RJ, 23’)
-	  </blockquote>
-	  <blockquote>  
-	    <strong>Inflamável</strong><br>
-	    (Rafael Ribeiro Gontijo | 2024, DF, 19’)
-	  </blockquote>
-	  <blockquote>  
-	    <strong>Babilônia</strong><br>
-	    (Duda Gambogi | 2024, Cuba/MG, 22’)
-	  </blockquote>
-	    <em>Comentada por curador</em>
+		<blockquote>  
+		  <strong><a href="/filme/serao/">Serão</a></strong><br>
+		  (Caio Bernardo da Silva | 2024, PB, 15’)
+		</blockquote>
+		<blockquote>  
+		  <strong><a href="/filme/incendio/">Incêndio</a></strong><br>
+		  (Nico da Costa | 2024, CE, 5’)
+		</blockquote>
+		<blockquote>  
+		  <strong><a href="/filme/e-seu-corpo-e-belo/">E Seu Corpo É Belo</a></strong><br>
+		  (Yuri Costa | 2024, RJ, 23’)
+		</blockquote>
+		<blockquote>  
+		  <strong><a href="/filme/inflamavel/">Inflamável</a></strong><br>
+		  (Rafael Ribeiro Gontijo | 2024, DF, 19’)
+		</blockquote>
+		<blockquote>  
+		  <strong><a href="/filme/babilonia/">Babilônia</a></strong><br>
+		  (Duda Gambogi | 2024, Cuba/MG, 22’)
+		</blockquote>
+		<em>Comentada por curador</em>
 	</section>
 	<section class="session" id="d17-s2">
 	  <h3>
@@ -230,22 +230,22 @@ show_tile: true
 	    <i class="fa-solid fa-clock"></i> 17h <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
 	  </h3>
-	  <blockquote>
-	    <strong>A invenção do Orum</strong><br>
-	    (Paulo Sena | 2025, ES, 18’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Três</strong><br>
-	    (Lila Foster | 2024, DF, 21’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Peixe Morto</strong><br>
-	    (João Fontenele | 2025, CE, 13’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Marmita</strong><br>
-	    (Guilherme Peraro | 2025, SP/PR, 21’)
-	  </blockquote>
+		<blockquote>
+		  <strong><a href="/filme/a-invencao-do-orum/">A invenção do Orum</a></strong><br>
+		  (Paulo Sena | 2025, ES, 18’)
+		</blockquote>
+		<blockquote>
+		  <strong><a href="/filme/tres/">Três</a></strong><br>
+		  (Lila Foster | 2024, DF, 21’)
+		</blockquote>
+		<blockquote>
+		  <strong><a href="/filme/peixe-morto/">Peixe Morto</a></strong><br>
+		  (João Fontenele | 2025, CE, 13’)
+		</blockquote>
+		<blockquote>
+		  <strong><a href="/filme/marmita/">Marmita</a></strong><br>
+		  (Guilherme Peraro | 2025, SP/PR, 21’)
+		</blockquote>
 	</section>
 	<section class="session" id="d17-s3">
 	  <h3>
@@ -256,7 +256,7 @@ show_tile: true
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
 	  </h3>
 	  <blockquote>
-	    <strong>A Câmara</strong><br>
+	    <strong><a href="/filme/a-camara/">A Câmara</a></strong><br>
 	    (Cristiane Brum Bernardes e Tiago Aragão | 2023, DF, 89’)<br>
 	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\a-camara-tiago-de-aragao\still_a_camara---Tiago-de-Aragão.jpg" alt="" data-position="center center" /></span><br>
 	    <em>Comentada pelo diretor <strong>Tiago de Aragão Silva</strong></em>
@@ -271,7 +271,7 @@ show_tile: true
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
 	  </h3>
 	  <blockquote>
-	    <strong>Aquele que Viu o Abismo</strong><br>
+			<strong><a href="/filme/aquele-que-viu-o-abismo/">Aquele que Viu o Abismo</a></strong><br>
 	    (Gregorio Gananian e Negro Leo | 2025, SP, 70’)<br>
 	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\aquele-que-viu-o-abismo\still-aquele-que-viu-o-abismo.jpg" alt="" data-position="center center" /></span><br>
 	    <em>Comentada pelo diretor <strong>Gregório Gananian</strong> e pela atriz <strong>Clara Choveaux Teles</strong></em>
@@ -289,30 +289,30 @@ show_tile: true
 	    <i class="fa-solid fa-clock"></i> 10h <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
 	  </h3>
-	  <blockquote>
-	    <strong>O Sonho de Jequi</strong><br>
-	    (Cecília Morbidoni e alunos da Escola Municipal Zilda Arns | 2024, MG, 2’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Outro Lugar</strong><br>
-	    (Perseu Azul | 2024, MT, 15’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Déia e Dete</strong><br>
-	    (Bruna Schelb Corrêa e Francis Frank | 2025, MG, 8’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>O Despertar de Aiyra</strong><br>
-	    (Duda Rodrigues e Juliana Rogge | 2024, SP, 18’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Tsuru</strong><br>
-	    (Pedro Anias | 2024, BA, 6’)
-	  </blockquote>
+		<blockquote>
+		  <strong><a href="/filme/o-sonho-de-jequi/">O Sonho de Jequi</a></strong><br>
+		  (Cecília Morbidoni e alunos da Escola Municipal Zilda Arns | 2024, MG, 2’)
+		</blockquote>
+		<blockquote>
+		  <strong><a href="/filme/outro-lugar/">Outro Lugar</a></strong><br>
+		  (Perseu Azul | 2024, MT, 15’)
+		</blockquote>
+		<blockquote>
+		  <strong><a href="/filme/deia-e-dete/">Déia e Dete</a></strong><br>
+		  (Bruna Schelb Corrêa e Francis Frank | 2025, MG, 8’)
+		</blockquote>
+		<blockquote>
+		  <strong><a href="/filme/o-despertar-de-aiyra/">O Despertar de Aiyra</a></strong><br>
+		  (Duda Rodrigues e Juliana Rogge | 2024, SP, 18’)
+		</blockquote>
+		<blockquote>
+		  <strong><a href="/filme/tsuru/">Tsuru</a></strong><br>
+		  (Pedro Anias | 2024, BA, 6’)
+		</blockquote>
 	</section>
 	<section class="session" id="d18-s2">
 	  <h3>
-	    <i class="fa-solid fa-ticket"></i> Gravação de Podcast com o diretor Tiago de Aragão Silva<br />
+	    <i class="fa-solid fa-podcast"></i> Gravação de Podcast com o diretor Tiago de Aragão Silva<br />
 	    <i class="fa-solid fa-clock"></i> 11h <br />
 	    <i class="fa-solid fa-location-dot"></i> Galeria do Cine Theatro Santa Izabel
 	  </h3>
@@ -322,7 +322,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d18-s3">
 	  <h3>
-	    <i class="fa-solid fa-ticket"></i> Gravação de Podcast com o diretor Gregório Gananian e a atriz Clara Choveaux Teles<br />
+	    <i class="fa-solid fa-podcast"></i> Gravação de Podcast com o diretor Gregório Gananian e a atriz Clara Choveaux Teles<br />
 	    <i class="fa-solid fa-clock"></i> 12h <br />
 	    <i class="fa-solid fa-location-dot"></i> Galeria do Cine Theatro Santa Izabel
 	  </h3>
@@ -338,26 +338,26 @@ show_tile: true
 	    <i class="fa-solid fa-clock"></i> 14h <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
 	  </h3>
-	  <blockquote>
-	    <strong>Sertão, América</strong><br>
-	    (Marcela Ilha Bordin | 2023, ES, 18’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Intercessões</strong><br>
-	    (Anne France, Amanda Magaiver, João Pedro de Souza, Maria Eliene, Isis de Manaus, Gabriel Amaro, Miki Takano, Rebeca Lopes, Juliana Tizatto, Wander Braga, Sterfannÿ Oliveira, Raffaella Rosset, Bruma de Sá, Júlia dos Santos, Jade Couto, Bruna Polla, Raquel da Silva, Aline Fidelix, Luis Leite, Shalimar Lima, Hulgo Leite, Larissa Nascimento, Joedson Silva, Rodrigo Aquiles, Lucas Luan, André Pereira, Eliezer Rodrigues Silva, Vittoria San | 2024, AM, 3’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Javyju - Bom dia</strong><br>
-	    (Kunha Rete e Carlos Eduardo Magalhães | 2024, SP, 25’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Canto das Areias</strong><br>
-	    (Maíra Tristão | 2024, ES, 20’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Pulmão de Pedra</strong><br>
-	    (Torquato Joel | 2023, PB, 14’)
-	  </blockquote>
+	<blockquote>
+	  <strong><a href="/filme/sertao-america/">Sertão, América</a></strong><br>
+	  (Marcela Ilha Bordin | 2023, ES, 18’)
+	</blockquote>
+	<blockquote>
+	  <strong><a href="/filme/intercessoes/">Intercessões</a></strong><br>
+	  (Anne France, Amanda Magaiver, João Pedro de Souza, Maria Eliene, Isis de Manaus, Gabriel Amaro, Miki Takano, Rebeca Lopes, Juliana Tizatto, Wander Braga, Sterfannÿ Oliveira, Raffaella Rosset, Bruma de Sá, Júlia dos Santos, Jade Couto, Bruna Polla, Raquel da Silva, Aline Fidelix, Luis Leite, Shalimar Lima, Hulgo Leite, Larissa Nascimento, Joedson Silva, Rodrigo Aquiles, Lucas Luan, André Pereira, Eliezer Rodrigues Silva, Vittoria San | 2024, AM, 3’)
+	</blockquote>
+	<blockquote>
+	  <strong><a href="/filme/javyju-bom-dia/">Javyju - Bom dia</a></strong><br>
+	  (Kunha Rete e Carlos Eduardo Magalhães | 2024, SP, 25’)
+	</blockquote>
+	<blockquote>
+	  <strong><a href="/filme/canto-das-areias/">Canto das Areias</a></strong><br>
+	  (Maíra Tristão | 2024, ES, 20’)
+	</blockquote>
+	<blockquote>
+	  <strong><a href="/filme/pulmao-de-pedra/">Pulmão de Pedra</a></strong><br>
+	  (Torquato Joel | 2023, PB, 14’)
+	</blockquote>
 	</section>
 	<section class="session" id="d18-s5">
 	  <h3>
@@ -379,26 +379,26 @@ show_tile: true
 	    <i class="fa-solid fa-clock"></i> 16h30 <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
 	  </h3>
-	  <blockquote>
-	    <strong>Tato</strong><br>
-	    (Pedro Carvalho | 2024, MG, 20’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Europa - Me Avise Quando Chegar</strong><br>
-	    (Victor Vieira | 2024, MG, 9’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Mãe do Ouro</strong><br>
-	    (Maick Hannder Lima Porto | 2024, MG, 14’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Testemunho</strong><br>
-	    (Leonardo Amaral e Roberto Cotta | 2025, MG, 15’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Ressaca</strong><br>
-	    (Pedro Estrada | 2024, MG, 15’)
-	  </blockquote>
+		<blockquote>
+		  <strong><a href="/filme/tato/">Tato</a></strong><br>
+		  (Pedro Carvalho | 2024, MG, 20’)
+		</blockquote>
+		<blockquote>
+		  <strong><a href="/filme/europa-me-avise-quando-chegar/">Europa - Me Avise Quando Chegar</a></strong><br>
+		  (Victor Vieira | 2024, MG, 9’)
+		</blockquote>
+		<blockquote>
+		  <strong><a href="/filme/mae-do-ouro/">Mãe do Ouro</a></strong><br>
+		  (Maick Hannder Lima Porto | 2024, MG, 14’)
+		</blockquote>
+		<blockquote>
+		  <strong><a href="/filme/testemunho/">Testemunho</a></strong><br>
+		  (Leonardo Amaral e Roberto Cotta | 2025, MG, 15’)
+		</blockquote>
+		<blockquote>
+		  <strong><a href="/filme/ressaca/">Ressaca</a></strong><br>
+		  (Pedro Estrada | 2024, MG, 15’)
+		</blockquote>
 	  <em>Comentada por curador</em>
 	</section>
 	<section class="session" id="d18-s7">
@@ -409,10 +409,10 @@ show_tile: true
 	    <i class="fa-solid fa-clock"></i> 18h30 <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
 	  </h3>
-	  <blockquote>
-	    <strong>As muitas mortes de Antônio Parreiras</strong><br>
-	    (Lucas Parente | 2025, RJ/CE, 65’)
-	  </blockquote>
+		<blockquote>
+		  <strong><a href="/filme/as-muitas-mortes-de-antonio-parreiras/">As muitas mortes de Antônio Parreiras</a></strong><br>
+		  (Lucas Parente | 2025, RJ/CE, 65’)
+		</blockquote>
 	  <em>Comentada pelo diretor <strong>Lucas Parente</strong></em>
 	</section>
 	<section class="session" id="d18-s8">
@@ -423,22 +423,22 @@ show_tile: true
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
 	  </h3>
 	  <blockquote>
-	    <strong>Ver Céu no Chão</strong><br>
+	    <strong><a href="/filme/ver-ceu-no-chao/">Ver Céu no Chão</a></strong><br>
 	    (Isabel Veiga | 2025, CE/RJ, 23’)<br>
 	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\ver-ceu-no-chao\ver-ceu-no-chao-foto-still_3---Isabel-Veiga.jpg" alt="" data-position="center center" /></span>
 	  </blockquote>
 	  <blockquote>
-	    <strong>Animais Noturnos</strong><br>
+	    <strong><a href="/filme/animais-noturnos/">Animais Noturnos</a></strong><br>
 	    (Indigo Braga e Paulo Abrão | 2024, RJ, 11’)<br>
 	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\animais-noturnos\AnimaisNoturnos_Frame-2_LucasMagalhães---Índigo-Braga.jpg" alt="" data-position="center center" /></span>
 	  </blockquote>
 	  <blockquote>
-	    <strong>Cassino</strong><br>
+	    <strong><a href="/filme/cassino/">Cassino</a></strong><br>
 	    (Gianluca Cozza | 2024, RS, 20’)<br>
 	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\cassino\cassino_still3---Gianluca-Cozza.jpg" alt="" data-position="center center" /></span>
 	  </blockquote>
 	  <blockquote>
-	    <strong>Mãe da Manhã</strong><br>
+	    <strong><a href="/filme/mae-da-manha/">Mãe da Manhã</a></strong><br>
 	    (Clara Trevisan | 2024, RS, 8’)<br>
 	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\mae-da-manha\MOTHER-OF-DAWN_STILL-1_Clara-Trevisan---clara-trevisan.jpg" alt="" data-position="center center" /></span>
 	  </blockquote>
@@ -451,7 +451,7 @@ show_tile: true
   <h1>19/09, sexta-feira</h1>
 	<section class="session" id="d19-s1">
 	  <h3>
-	    <i class="fa-solid fa-ticket"></i> Gravação de Podcast com o diretor Lucas Parente<br />
+	    <i class="fa-solid fa-podcast"></i> Gravação de Podcast com o diretor Lucas Parente<br />
 	    <i class="fa-solid fa-clock"></i> 11h <br />
 	    <i class="fa-solid fa-location-dot"></i> Galeria do Cine Theatro Santa Izabel
 	  </h3>
@@ -466,23 +466,23 @@ show_tile: true
 	    <i class="fa-solid fa-clock"></i> 11h <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
 	  </h3>
-	  <blockquote>
-	    <strong>Xarpi</strong><br>
-	    (Rafael Lobo | 2024, DF, 25’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Pequeno B</strong><br>
-	    (Lucas Borges | 2025, MG, 14’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Lança-Foguete</strong><br>
-	    (William Oliveira | 2025, PE, 16’)
-	  </blockquote>
+		<blockquote>
+		  <strong><a href="/filme/xarpi/">Xarpi</a></strong><br>
+		  (Rafael Lobo | 2024, DF, 25’)
+		</blockquote>
+		<blockquote>
+		  <strong><a href="/filme/pequeno-b/">Pequeno B</a></strong><br>
+		  (Lucas Borges | 2025, MG, 14’)
+		</blockquote>
+		<blockquote>
+		  <strong><a href="/filme/lanca-foguete/">Lança-Foguete</a></strong><br>
+		  (William Oliveira | 2025, PE, 16’)
+		</blockquote>
 	  <em>Comentada por curador</em>
 	</section>
 	<section class="session" id="d19-s3">
 	  <h3>
-	    <i class="fa-solid fa-ticket"></i> Gravação de Podcast com diretores de curtas<br />
+	    <i class="fa-solid fa-podcast"></i> Gravação de Podcast com diretores de curtas<br />
 	    <i class="fa-solid fa-clock"></i> 12h <br />
 	    <i class="fa-solid fa-location-dot"></i> Galeria do Cine Theatro Santa Izabel
 	  </h3>
@@ -498,22 +498,22 @@ show_tile: true
 	    <i class="fa-solid fa-clock"></i> 14h <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
 	  </h3>
-	  <blockquote>
-	    <strong>Vollúpya</strong><br>
-	    (Éri Sarmet e Jocimar Dias Jr. | 2024, RJ, 21’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Mandinga de Gorila</strong><br>
-	    (Luzé Gonçalves e Juliana Gonçalves | 2024, RJ, 20’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Samuel foi trabalhar</strong><br>
-	    (Janderson Felipe e Lucas Litrento | 2024, AL, 17’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Estrela Brava</strong><br>
-	    (Jorge Polo | 2025, RJ, 24’)
-	  </blockquote>
+	<blockquote>
+	  <strong><a href="/filme/vollupya/">Vollúpya</a></strong><br>
+	  (Éri Sarmet e Jocimar Dias Jr. | 2024, RJ, 21’)
+	</blockquote>
+	<blockquote>
+	  <strong><a href="/filme/mandinga-de-gorila/">Mandinga de Gorila</a></strong><br>
+	  (Luzé Gonçalves e Juliana Gonçalves | 2024, RJ, 20’)
+	</blockquote>
+	<blockquote>
+	  <strong><a href="/filme/samuel-foi-trabalhar/">Samuel foi trabalhar</a></strong><br>
+	  (Janderson Felipe e Lucas Litrento | 2024, AL, 17’)
+	</blockquote>
+	<blockquote>
+	  <strong><a href="/filme/estrela-brava/">Estrela Brava</a></strong><br>
+	  (Jorge Polo | 2025, RJ, 24’)
+	</blockquote>
 	</section>
 	<section class="session" id="d19-s5">
 	  <h3>
@@ -523,21 +523,21 @@ show_tile: true
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
 	  </h3>
 	  <blockquote>
-	    <strong>Princesa Macula e o Canto Triste</strong><br>
+	    <strong><a href="/filme/princesa-macula-e-o-canto-triste/">Princesa Macula e o Canto Triste</a></strong><br>
 	    (Mayara Mascarenhas | 2024, MG, 27’)<br>
 	    <span class="image fit" style="margin: 1em 0">
 	      <img src="{{ site.images_path }}programacao-2025\princesa-macula-e-o-canto-triste\Still---Fabrício-Silvestre---Mayara-Mascarenhas.jpg" alt="Princesa Macula e o Canto Triste" data-position="center center" />
 	    </span>
 	  </blockquote>
 	  <blockquote>
-	    <strong>A sua imagem na minha caixa de correio</strong><br>
+	    <strong><a href="/filme/a-sua-imagem-na-minha-caixa-de-correio/">A sua imagem na minha caixa de correio</a></strong><br>
 	    (Silvino Mendonça | 2024, DF, 17’)<br>
 	    <span class="image fit" style="margin: 1em 0">
 	      <img src="{{ site.images_path }}programacao-2025\a-sua-imagem-na-minha-caixa-de-correio\A-sua-imagem-1---Silvino-Mendonça---Silvino-Mendonça.jpg" alt="A sua imagem na minha caixa de correio" data-position="center center" />
 	    </span>
 	  </blockquote>
 	  <blockquote>
-	    <strong>Benedita</strong><br>
+	    <strong><a href="/filme/benedita/">Benedita</a></strong><br>
 	    (Lane Lopes e Cadu Azevedo | 2024, RJ, 19’)<br>
 	    <span class="image fit" style="margin: 1em 0">
 	      <img src="{{ site.images_path }}programacao-2025\benedita\5---still-por-Marcus-Vinicius---Lane-Lopes.jpg" alt="Benedita" data-position="center center" />
@@ -554,7 +554,7 @@ show_tile: true
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
 	  </h3>
 	  <blockquote>
-	    <strong>Centro Ilusão</strong><br>
+	    <strong><a href="/filme/centro-ilusao/">Centro Ilusão</a></strong><br>
 	    (Pedro Diogenes | 2024, CE, 85’)
 	  </blockquote>
 	  <em>Comentada pelo ator <strong>Bruno Kunk</strong></em>
@@ -591,7 +591,7 @@ show_tile: true
   <h1>20/09, sábado</h1>
   <section class="session" id="d20-s1">
 	  <h3>
-	    <i class="fa-solid fa-ticket"></i> Gravação de Podcast com diretores de curtas<br />
+	    <i class="fa-solid fa-podcast"></i> Gravação de Podcast com diretores de curtas<br />
 	    <i class="fa-solid fa-clock"></i> 11h <br />
 	    <i class="fa-solid fa-location-dot"></i> Galeria do Cine Theatro Santa Izabel
 	  </h3>
@@ -601,7 +601,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d20-s2">
 	  <h3>
-	    <i class="fa-solid fa-ticket"></i> Gravação de Podcast com o ator Bruno Kunk<br />
+	    <i class="fa-solid fa-podcast"></i> Gravação de Podcast com o ator Bruno Kunk<br />
 	    <i class="fa-solid fa-clock"></i> 12h <br />
 	    <i class="fa-solid fa-location-dot"></i> Galeria do Cine Theatro Santa Izabel
 	  </h3>
@@ -613,14 +613,14 @@ show_tile: true
 	    <i class="fa-solid fa-clock"></i> 14h <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
 	  </h3>
-	  <blockquote>
-	    <strong>Panha de Flor</strong><br>
-	    (Ailton de Jesus dos Santos, Barbara de Paula Rocha, Emiliane Fernanda dos Santos, Flaviane Hermínia dos Santos Fernandes, Hugo Walber Alves, Raiane Daliane de Paula, Ronilda do Nascimento dos Santos, Sivany Aguiar | 2024, RJ/MG, 20’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Lendas do Tijuco</strong><br>
-	    (Dilson Moreira | 2024, MG, 13’)
-	  </blockquote>
+		<blockquote>
+		  <strong><a href="/filme/panha-de-flor/">Panha de Flor</a></strong><br>
+		  (Ailton de Jesus dos Santos, Barbara de Paula Rocha, Emiliane Fernanda dos Santos, Flaviane Hermínia dos Santos Fernandes, Hugo Walber Alves, Raiane Daliane de Paula, Ronilda do Nascimento dos Santos, Sivany Aguiar | 2024, RJ/MG, 20’)
+		</blockquote>
+		<blockquote>
+		  <strong><a href="/filme/lendas-do-tijuco/">Lendas do Tijuco</a></strong><br>
+		  (Dilson Moreira | 2024, MG, 13’)
+		</blockquote>
 	  <em>Comentada pelos diretores</em>
 	</section>
 	<section class="session" id="d20-s4">
@@ -630,18 +630,18 @@ show_tile: true
 	    <i class="fa-solid fa-clock"></i> 15h <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
 	  </h3>
-	  <blockquote>
-	    <strong>Cavaram uma cova no meu coração</strong><br>
-	    (Ulisses Arthur | 2024, AL, 23’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Cadeira Vazia</strong><br>
-	    (Ângela Maria, Ephigênia Lopes, Rosângela Lererê, Beth Couto, Maria Sônia, Nathan Souza, Adilson Luiz, Gabriela Coelho, Lucas Rodrigues, Mônica Maria, Nato Matrix | 2025, MG, 15’)
-	  </blockquote>
-	  <blockquote>
-	    <strong>Confluências</strong><br>
-	    (Dácia Ibiapina | 2024, PI, 26’)
-	  </blockquote>
+		<blockquote>
+		  <strong><a href="/filme/cavaram-uma-cova-no-meu-coracao/">Cavaram uma cova no meu coração</a></strong><br>
+		  (Ulisses Arthur | 2024, AL, 23’)
+		</blockquote>
+		<blockquote>
+		  <strong><a href="/filme/cadeira-vazia/">Cadeira Vazia</a></strong><br>
+		  (Ângela Maria, Ephigênia Lopes, Rosângela Lererê, Beth Couto, Maria Sônia, Nathan Souza, Adilson Luiz, Gabriela Coelho, Lucas Rodrigues, Mônica Maria, Nato Matrix | 2025, MG, 15’)
+		</blockquote>
+		<blockquote>
+		  <strong><a href="/filme/confluencias/">Confluências</a></strong><br>
+		  (Dácia Ibiapina | 2024, PI, 26’)
+		</blockquote>
 	  <em>Comentada pelos diretores</em>
 	</section>
 	<section class="session" id="d20-s5">
@@ -653,7 +653,7 @@ show_tile: true
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
 	  </h3>
 	  <blockquote>
-	    <strong>Maçãs no escuro</strong><br>
+	    <strong><a href="/filme/macas-no-escuro/">Maçãs no escuro</a></strong><br>
 	    (Tiago A. Neves | 2024, SP, 108’)
 	  </blockquote>
 	  <em>Conversa com o ator <strong>Edson Aquino</strong></em>

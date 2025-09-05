@@ -94,7 +94,7 @@
 }
 
 .filme-nav .button {
-  flex: 1;
+  flex: auto;
   text-align: center;
   min-width: 180px;
 }
