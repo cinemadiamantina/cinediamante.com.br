@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Mostras
-description: 'Com duas mostras competitivas, de longas e curtas-metragens, o II Festival de Cinema de Diamantina '
+description: 'Com duas mostras competitivas, de longas e curtas-metragens, e uma paralela de curtas, o II FCD é uma grande festa do cinema brasileiro'
 image: lens_flare/FCD25_lensflare-red_2160x1920_35x150.png
 permalink: /mostras
 nav-menu: true
