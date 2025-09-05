@@ -18,7 +18,7 @@ cast: Carlos Alberto Lima, Zeza do Coco, Dimas Bezerra, Amanda Thaisa, Andreia A
 distributor: 
 music_rights_ok: true
 screening_link: "https://vimeo.com/918547604?share=copy"
-press_photo: 
+press_photo: /assets/press/cavaram-uma-cova-no-meu-coracao.jpg
 ethnicity_director: Preta
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.

@@ -552,7 +552,7 @@ show_tile: false
 	</section>
 	<section class="session" id="d19-s7">
 	  <h3>
-	    <i class="fa-solid fa-ticket"></i> CINE SACADA<br />
+	    <i class="fa-solid fa-ticket"></i> CINERATA<br />
 	    <i class="fa-solid fa-ticket-simple"></i> Cinerata com trilha original executada ao vivo<br />
 	    <i class="fa-solid fa-clock"></i> 20h <br />
 	    <i class="fa-solid fa-location-dot"></i> Largo da Quitanda

@@ -18,7 +18,7 @@ cast: José Belmiro da Silva, Marliete Maria de Alcântara Silva, Roziane Maria 
 distributor: Narrativa Filmes Ltda.
 music_rights_ok: true
 screening_link: "https://vimeo.com/1045821281/8d6fdd02e7?share=copy"
-press_photo: 
+press_photo: /assets/press/serao.jpg
 ethnicity_director: Parda
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
