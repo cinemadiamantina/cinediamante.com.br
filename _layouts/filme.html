@@ -52,7 +52,7 @@
           {% endif %}
         </aside>
 
-        <!-- Coluna: Ficha técnica + Sinopse -->
+        <!-- Sinopse -->
         <div class="filme-info">
           <div class="filme-bloco">
             <h2 class="filme-h2">Sinopse</h2>
@@ -67,8 +67,11 @@
             {% endif %}
           </div>
 
-          <div class="filme-bloco">
-            <h2 class="filme-h2">Ficha técnica</h2>
+          <hr>
+
+        <!-- Ficha Técnica -->
+          <div class="filme-bloco" style="margin: 10% 0;">
+            <h2 class="filme-h2" style="text-align: center;">Ficha técnica</h2>
             <dl class="film-details">
               {% if page.directors %}<dt>Diretoras / Diretores</dt><dd>{{ page.directors }}</dd>{% endif %}
               {% if page.producers %}<dt>Produtoras / Produtores</dt><dd>{{ page.producers }}</dd>{% endif %}
@@ -80,6 +83,7 @@
         </div>
       </div>
 
+          <hr>
      <!--  {% if page.screening_link %}
         <p class="screening-link">
           <a href="{{ page.screening_link }}" class="button primary" target="_blank" rel="noopener">Assistir / Ver trailer</a>

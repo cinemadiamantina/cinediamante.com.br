@@ -74,7 +74,7 @@
 
 .film-details {
   display: grid;
-  grid-template-columns: 35% 1fr;
+  grid-template-columns: 50% 1fr;
   gap: .5rem 1.25rem;
   margin: 0;
 }
@@ -82,6 +82,7 @@
 .film-details dt {
   font-weight: 600;
   color: #ddd;
+  text-align: right;
 }
 
 .film-details dd {
@@ -98,9 +99,18 @@
 
 .filme-nav {
   margin-top: 2.5rem;
-  display: flex;
+  display: grid;
+  grid-template-columns: 50% 1fr;
   gap: 1rem;
   flex-wrap: wrap;
+}
+
+/* Mobile adjustment */
+@media (max-width: 768px) {
+  .filme-nav {
+    display: flex;
+  }
+
 }
 
 .filme-nav .button {
