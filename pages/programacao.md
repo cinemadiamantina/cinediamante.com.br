@@ -171,7 +171,7 @@ show_tile: false
       <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
     </h3>
     <blockquote>
-      <strong>Cidade; Campo</strong><br>
+      <strong><a href="/filme/cidade-campo/">Cidade; Campo</a></strong><br>
       (Juliana Rojas | 2024, SP, 120’)<br>
       Comentada pela atriz <strong>Fernanda Vianna</strong>
     </blockquote>
@@ -659,7 +659,7 @@ show_tile: false
 	    <i class="fa-solid fa-location-dot"></i> Praça do Mercado Velho
 	  </h3>
 	  <blockquote>
-	    <strong>O dia que te conheci</strong><br>
+	    <strong><a href="/filme/o-dia-que-te-conheci/">O dia que te conheci</a></strong><br>
 	    (André Novais | 2023, MG, 71’)
 	  </blockquote>
 	  <em>Comentada pelo ator <strong>Renato Novaes</strong></em>

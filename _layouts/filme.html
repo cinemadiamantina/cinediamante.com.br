@@ -74,8 +74,17 @@
             <h2 class="filme-h2" style="text-align: center;">Ficha técnica</h2>
             <dl class="film-details">
               {% if page.directors %}<dt>Diretoras / Diretores</dt><dd>{{ page.directors }}</dd>{% endif %}
-              {% if page.producers %}<dt>Produtoras / Produtores</dt><dd>{{ page.producers }}</dd>{% endif %}
               {% if page.writers %}<dt>Roteiristas</dt><dd>{{ page.writers }}</dd>{% endif %}
+              {% if page.producers %}<dt>Produtoras / Produtores</dt><dd>{{ page.producers }}</dd>{% endif %}
+              {% if page.cinematography %}<dt>Direção de fotografia</dt><dd>{{ page.cinematography }}</dd>{% endif %}
+              {% if page.editing %}<dt>Montagem</dt><dd>{{ page.editing }}</dd>{% endif %}
+              {% if page.music %}<dt>Música Original</dt><dd>{{ page.music }}</dd>{% endif %}
+              {% if page.sound %}<dt>Som</dt><dd>{{ page.sound }}</dd>{% endif %}
+              {% if page.sound_design %}<dt>Desenho de Produção</dt><dd>{{ page.sound_design }}</dd>{% endif %}
+              {% if page.production_design %}<dt>Desenho de Som</dt><dd>{{ page.production_design }}</dd>{% endif %}
+              {% if page.art_direction %}<dt>Direção de Arte</dt><dd>{{ page.art_direction }}</dd>{% endif %}
+              {% if page.production_company %}<dt>Produtora</dt><dd>{{ page.production_company }}</dd>{% endif %}
+              {% if page.co_producers %}<dt>Co-produtoras</dt><dd>{{ page.co_producers }}</dd>{% endif %}
               {% if page.cast %}<dt>Elenco</dt><dd>{{ page.cast }}</dd>{% endif %}
               {% if page.distributor %}<dt>Distribuidor</dt><dd>{{ page.distributor }}</dd>{% endif %}
             </dl>
