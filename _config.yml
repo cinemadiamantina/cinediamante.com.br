@@ -26,3 +26,8 @@ assets_path: /assets/
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
+
+collections:
+  filmes:
+    output: true
+    permalink: /filmes/:slug/
