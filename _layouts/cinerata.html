@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--
+  Página individual de Filme (estilo post.html, em duas colunas)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+{% include header.html %}
+
+<!-- Main -->
+<div id="main" class="alt">
+
+  <!-- One -->
+  <section id="one">
+    <div class="inner filme-wrap">
+      <header class="major">
+        <h1 class="filme-title">
+          {{ page.title }}
+        </h1>
+        <p class="filme-sub">
+          {{ page.description }}
+        </p>
+      </header>
+
+      <div class="filme-grid">
+
+          <!-- Data e Local -->
+          <div class="filme-bloco">
+            <h2 class="filme-h2">
+              19/09, sexta-feira, às 20h
+            </h2>
+            <h3>Rua da Quitanda</h3>
+            <p style="font-style:italic;">Aberto ao público</p>
+          </div>
+
+        <!-- Sinopse -->
+        <div class="filme-info">
+          <div class="filme-bloco">
+            {% if content and content != "" %}
+              <div class="filme-sinopse">
+                {{ content }}
+              </div>
+            {% elsif page.sinopse %}
+              <p class="filme-sinopse">{{ page.sinopse }}</p>
+            {% else %}
+              <p class="filme-sinopse">Sem sinopse disponível.</p>
+            {% endif %}
+          </div>
+
+          <!-- Filmes -->
+          <aside class="filme-media">
+            <h2 class="filme-h2">FILMES</h2>
+
+          <figure class="filme-programacao">
+            <img src="/assets/press/one-week.jpg" alt="One Week">
+            <figcaption>
+              <strong>One Week</strong>
+              (Buster Keaton | 1920, EUA, 24’)
+            </figcaption>
+          </figure>
+
+          <figure class="filme-programacao">
+            <img src="/assets/press/the-railrodder.jpg" alt="The Railrodder">
+            <figcaption>
+              <strong>The Railrodder</strong>
+              (Gerald Potterton | 1965, EUA, 24’)
+            </figcaption>
+          </figure>
+          </aside>
+
+          <!-- Ficha Técnica -->
+          <div class="filme-bloco" style="margin: 10% 0;">
+            <h2 class="filme-h2" style="text-align: center;">Ficha técnica</h2>
+            <dl class="film-details">
+              <dt>Produção Artística</dt><dd>Jéssica Bento</dd>
+              <dt>Produção Musical</dt><dd>Gustavo Brito, Kades e Reginaldo Cruz</dd>
+              <dt>Banda</dt>
+              <dd>
+                Akixi – DJ<br>
+                Cassilda Ribeiro – piano<br>
+                Davi Braga – cello<br>
+                Evandro Arcanjo – flauta e clarinete<br>
+                Johnny Herno – berimlata<br>
+                Mike Alves – violão e flauta<br>
+                Nil Vinicius – bateria
+              </dd>
+            </dl>
+          </div>
+
+
+          <hr>
+     <!--  {% if page.screening_link %}
+        <p class="screening-link">
+          <a href="{{ page.screening_link }}" class="button primary" target="_blank" rel="noopener">Assistir / Ver trailer</a>
+        </p>
+      {% endif %} -->
+       <div class="filme-nav">
+        <a href="/mostras" class="button">← Ver as mostras</a>
+        <a href="/programacao" class="button primary">Programação do festival →</a>
+      </div>
+
+    </div>
+  </section>
+
+</div>
+
+{% include footer.html %}
+
+</body>
+</html>

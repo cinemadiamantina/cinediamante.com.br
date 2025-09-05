@@ -118,3 +118,47 @@
   text-align: center;
   min-width: 180px;
 }
+
+/* Layout para sessão de programação (imagem + texto lado a lado) */
+.filme-programacao {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+}
+
+.filme-programacao img {
+/*  max-width: 280px;*/
+  border-radius: 8px;
+  display: block;
+}
+
+.filme-programacao figcaption {
+  flex: 1;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.filme-programacao figcaption strong {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Mobile: stacka imagem e texto */
+@media (max-width: 768px) {
+  .filme-programacao {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .filme-programacao img {
+    max-width: 100%;
+  }
+
+  .filme-programacao figcaption {
+    margin-top: 0.75rem;
+  }
+}

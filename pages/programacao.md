@@ -172,7 +172,7 @@ show_tile: false
     </h3>
     <blockquote>
       <strong>Cidade; Campo</strong><br>
-      (Juliana Rojas | 2023, SP, 120’)<br>
+      (Juliana Rojas | 2024, SP, 120’)<br>
       Comentada pela atriz <strong>Fernanda Vianna</strong>
     </blockquote>
   </section>
