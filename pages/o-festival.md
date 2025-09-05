@@ -5,7 +5,7 @@ description: 'Um festival de cinema no Vale do Jequitinhonha, na cidade Patrimô
 image: lens_flare/FCD25_lensflare-red_2160x1920_35x150.png
 permalink: /o-festival
 nav-menu: true
-show_tile: true
+show_tile: false
 nav-menu-order: 1
 ---
 

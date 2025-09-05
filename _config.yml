@@ -26,3 +26,15 @@ assets_path: /assets/
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
+
+collections:
+  filmes:
+    output: true
+    permalink: /filme/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: filmes
+    values:
+      layout: filme   # esse é o layout que te passei (_layouts/filme.html)

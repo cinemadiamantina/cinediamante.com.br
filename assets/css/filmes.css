@@ -1,0 +1,164 @@
+.films-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+}
+
+.film-card {
+  background: #000;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border: 1px solid #fff3;
+}
+
+.film-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+}
+
+.film-card .thumb {
+  aspect-ratio: 16 / 9;   /* força 16:9 em qualquer tela */
+  background: #000;       /* barras laterais/topo se sobrar espaço */
+  overflow: hidden;
+  display: flex;          /* garante que o img ocupe */
+  align-items: center;
+  justify-content: center;
+}
+
+.film-card .thumb img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    /* mostra tudo, inclusive verticais, com letterbox */
+  object-position: top;
+  display: block;
+}
+
+.film-card:hover .thumb img{ filter:brightness(1.05); }
+
+.film-card:hover .thumb {
+  filter: brightness(1.05);
+}
+
+.film-card h3 {
+  margin: 1rem 1rem 0.25rem;
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.3;
+}
+
+.film-card .meta {
+  margin: 0 1rem 1rem;
+  font-size: 1.5rem;
+  color: #666;
+  letter-spacing: 0.3px;
+}
+
+.film-card .meta span {
+  margin-right: 0.5rem;
+}
+
+.film-card .meta .year {
+  font-weight: 500;
+  color: #444;
+}
+
+
+.film-meta {
+  margin-top: .5rem;
+  color: #ccc;
+  letter-spacing: .2px;
+}
+
+.film-details {
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  gap: .5rem 1.25rem;
+  margin: 0;
+}
+
+.film-details dt {
+  font-weight: 600;
+  color: #ddd;
+  text-align: right;
+}
+
+.film-details dd {
+  margin: 0 0 .25rem 0;
+  color: #bbb;
+}
+
+.filme-media {
+  margin: 50px 0;
+}
+
+.screening-link { margin-top: 1.25rem; }
+
+
+.filme-nav {
+  margin-top: 2.5rem;
+  display: grid;
+  grid-template-columns: 50% 1fr;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Mobile adjustment */
+@media (max-width: 768px) {
+  .filme-nav {
+    display: flex;
+  }
+
+}
+
+.filme-nav .button {
+  flex: auto;
+  text-align: center;
+  min-width: 180px;
+}
+
+/* Layout para sessão de programação (imagem + texto lado a lado) */
+.filme-programacao {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+}
+
+.filme-programacao img {
+/*  max-width: 280px;*/
+  border-radius: 8px;
+  display: block;
+}
+
+.filme-programacao figcaption {
+  flex: 1;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.filme-programacao figcaption strong {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Mobile: stacka imagem e texto */
+@media (max-width: 768px) {
+  .filme-programacao {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .filme-programacao img {
+    max-width: 100%;
+  }
+
+  .filme-programacao figcaption {
+    margin-top: 0.75rem;
+  }
+}

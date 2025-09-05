@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+<style type="text/css">
+/*p5js	*/
+	#hero{
+	  position: relative;         /* cria contexto pro canvas */
+	  min-height: 60vh;           /* ou o tamanho que quiser */
+	  overflow: hidden;
+	  margin: 50px 0;
+	}
+	#hero canvas{
+	  position: absolute;
+	  inset: 0;                   /* top/right/bottom/left:0 */
+	  width: 100%;                /* escala visual */
+	  height: 100%;
+	  z-index: 0;
+	  pointer-events: none;       /* evita bloquear cliques do conteúdo */
+	}
+	#hero .content{ position: relative; z-index: 1; }
+</style>
+<body>
+
+{% include header.html %} 
+
+
+<script src="https://cdn.jsdelivr.net/npm/p5@1.9.3/lib/p5.min.js"></script>
+<script>
+		// p5.js – fan minimalista: poucos triângulos a partir de um pivô comum
+		// cola o canvas dentro de <section id="hero">
+
+		const TARGET_ID = 'hero';
+
+		const COLORS = {
+		  azul1:  '#2037da',
+		  azul2:  '#4c67fe',
+		  vermelho: '#f21313',
+		  amarelo1: '#dafa51',
+		  pretoAzul: '#150f40',
+		  azul3: '#4ce1ff',
+		  azul4: '#03a5ca',
+		  vermelhao: '#ff0000',
+		  preto: '#000000'
+		};
+		// composições curadas (harmonias, contrastes e neutros de apoio)
+		const COMPOSICOES = [
+		  { name:'Azuis+Amarelo', bg: COLORS.azul2, palette: [COLORS.azul1, COLORS.azul2, COLORS.azul3, COLORS.amarelo1, COLORS.pretoAzul] },
+		  { name:'Ciano Solar',   bg: COLORS.azul3, palette: [COLORS.azul3, COLORS.azul4, COLORS.azul4, COLORS.pretoAzul, COLORS.pretoAzul] },
+		  { name:'Noite Neon',    bg: COLORS.pretoAzul, palette: [COLORS.azul1, COLORS.azul2, COLORS.amarelo1, COLORS.preto, COLORS.creme] },
+		  { name:'Vermelhao',    bg: COLORS.preto, palette: [COLORS.vermelhao, COLORS.preto, COLORS.preto, COLORS.preto, COLORS.vermelhao] },
+
+		];
+
+		// composição ativa
+		let ACTIVE = null;
+
+		let cnv, sec, P;  // pivô
+		
+		let goal = null, nX, nY, speed = 0.06;
+
+		let triColors = [], prevColors = [], targetColors = [];
+		let tProg = 1, tDur = 1200;           // ms de transição
+		let lastChange = 0;
+
+		function setup(){
+		  sec = document.getElementById(TARGET_ID);
+		  cnv = createCanvas(sec.clientWidth, sec.clientHeight);
+		  cnv.parent(sec);
+		  noStroke();
+
+		  // pivô inicial (mova onde quiser)
+		  P = createVector(width*0.38, height*0.32);
+
+		  // cores
+		  ACTIVE = criarComposicao('auto');
+			background(ACTIVE.bg);
+			triColors = []; prevColors = []; targetColors = [];
+			for (let i = 0; i < 5; i++) triColors[i] = color(random(ACTIVE.palette));
+			lastChange = millis();
+
+			strokeWeight(1);
+		}
+
+		function windowResized(){
+		  resizeCanvas(sec.clientWidth, sec.clientHeight);
+		}
+
+		function draw(){
+			background(ACTIVE.bg);
+			const wander = createVector(
+			  map(noise(nX), 0, 1, width*0.15, width*0.85),
+			  map(noise(nY), 0, 1, height*0.15, height*0.85)
+			);
+			nX += 0.002;
+			nY += 0.0023;
+
+			const target = goal || wander;
+			P.lerp(target, speed);
+			// if (goal && p5.Vector.dist(P, goal) < 1.5) goal = null;
+
+			// transicao cores
+			if (tProg < 1){
+			  const u = min(1, tProg);
+			  const e = u*u*(3 - 2*u); // ease in-out
+			  for (let i = 0; i < 5; i++){
+			    triColors[i] = lerpColor(prevColors[i], targetColors[i], e);
+			  }
+			  tProg += deltaTime / tDur;
+			} else if (millis() - lastChange > 30000){
+			  startTransition();
+			}
+
+		  // cantos em ordem horária
+		  const TL = createVector(0,0);
+		  const TR = createVector(width,0);
+		  const BR = createVector(width,height);
+		  const BL = createVector(0,height);
+
+		  // ponto extra simples na borda direita (controla a “quebra”)
+		  const R1 = createVector(
+			  width*0.86 + sin(frameCount*0.01)*width*0.06,
+			  height*0.25 + noise(frameCount*0.01)*height*0.15
+			);
+
+		  // 4 triângulos principais
+		  stroke(triColors[0]);
+		  fill(triColors[0]); triangle(P.x,P.y, TL.x,TL.y, TR.x,TR.y);
+		  stroke(triColors[1]);
+		  fill(triColors[1]);    triangle(P.x,P.y, TR.x,TR.y, BR.x,BR.y);
+		  stroke(triColors[2]);
+		  fill(triColors[2]);    triangle(P.x,P.y, BR.x,BR.y, BL.x,BL.y);
+		  stroke(triColors[3]);
+		  fill(triColors[3]);    triangle(P.x,P.y, BL.x,BL.y, TL.x,TL.y);
+
+		  // acento pequeno (opcional), lembra a referência
+		  stroke(triColors[4]);
+		  fill(triColors[4]); triangle(P.x,P.y, TR.x,TR.y, R1.x,R1.y);
+		}
+
+		// clique move o pivô diretamente (sem easing no MVP)
+		function mousePressed(){
+		  goal = createVector(mouseX, mouseY);
+		  startTransition();
+		}
+
+		function startTransition(){
+		  // chance de trocar a composição inteira
+		  if (random() < 0.35) ACTIVE = criarComposicao('auto');
+
+		  prevColors = triColors.map(c => color(c));
+		  targetColors = triColors.map(() => color(random(ACTIVE.palette)));
+		  tProg = 0;
+		  lastChange = millis();
+		}
+
+		// cores
+		// pequena fábrica para variar composições (pode crescer depois)
+		function criarComposicao(mode = 'auto'){
+		  if (mode === 'auto') return random(COMPOSICOES);
+
+		  // exemplos de regras simples
+		  if (mode === 'frias-com-acento') {
+		    const base = [COLORS.azul1, COLORS.azul2, COLORS.azul3, COLORS.azul4, COLORS.cinzaCianin, COLORS.lilazim];
+		    const acentos = [COLORS.amarelo1, COLORS.amarelo2, COLORS.vermelhao, COLORS.rosaChicle, COLORS.verdeCheguei];
+		    return random;
+		  }
+
+		  // fallback
+		  return random(COMPOSICOES);
+		}
+
+</script>    
+    
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>{{ page.title }}</h1>
+		</header>
+
+		<section id="hero">
+		  <div class="content">
+
+		  </div>
+		</section>
+
+		{{ content }}
+	</div>
+</section>
+
+</div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
