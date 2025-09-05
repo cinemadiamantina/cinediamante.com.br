@@ -259,7 +259,6 @@ show_tile: false
 	  <blockquote>
 	    <strong><a href="/filme/a-camara/">A Câmara</a></strong><br>
 	    (Cristiane Brum Bernardes e Tiago Aragão | 2023, DF, 89’)<br>
-	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\a-camara-tiago-de-aragao\still_a_camara---Tiago-de-Aragão.jpg" alt="" data-position="center center" /></span><br>
 	    <em>Comentada pelo diretor <strong>Tiago de Aragão Silva</strong></em>
 	  </blockquote>
 	</section>
@@ -274,7 +273,6 @@ show_tile: false
 	  <blockquote>
 			<strong><a href="/filme/aquele-que-viu-o-abismo/">Aquele que Viu o Abismo</a></strong><br>
 	    (Gregorio Gananian e Negro Leo | 2025, SP, 70’)<br>
-	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\aquele-que-viu-o-abismo\still-aquele-que-viu-o-abismo.jpg" alt="" data-position="center center" /></span><br>
 	    <em>Comentada pelo diretor <strong>Gregório Gananian</strong> e pela atriz <strong>Clara Choveaux Teles</strong></em>
 	  </blockquote>
 	</section>
@@ -426,22 +424,18 @@ show_tile: false
 	  <blockquote>
 	    <strong><a href="/filme/ver-ceu-no-chao/">Ver Céu no Chão</a></strong><br>
 	    (Isabel Veiga | 2025, CE/RJ, 23’)<br>
-	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\ver-ceu-no-chao\ver-ceu-no-chao-foto-still_3---Isabel-Veiga.jpg" alt="" data-position="center center" /></span>
 	  </blockquote>
 	  <blockquote>
 	    <strong><a href="/filme/animais-noturnos/">Animais Noturnos</a></strong><br>
 	    (Indigo Braga e Paulo Abrão | 2024, RJ, 11’)<br>
-	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\animais-noturnos\AnimaisNoturnos_Frame-2_LucasMagalhães---Índigo-Braga.jpg" alt="" data-position="center center" /></span>
 	  </blockquote>
 	  <blockquote>
 	    <strong><a href="/filme/cassino/">Cassino</a></strong><br>
 	    (Gianluca Cozza | 2024, RS, 20’)<br>
-	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\cassino\cassino_still3---Gianluca-Cozza.jpg" alt="" data-position="center center" /></span>
 	  </blockquote>
 	  <blockquote>
 	    <strong><a href="/filme/mae-da-manha/">Mãe da Manhã</a></strong><br>
 	    (Clara Trevisan | 2024, RS, 8’)<br>
-	    <span class="image fit" style="margin: 1em 0"><img src="{{ site.images_path }}programacao-2025\mae-da-manha\MOTHER-OF-DAWN_STILL-1_Clara-Trevisan---clara-trevisan.jpg" alt="" data-position="center center" /></span>
 	  </blockquote>
 	  <em>Comentada pelos diretores</em>
 	</section>
@@ -526,23 +520,14 @@ show_tile: false
 	  <blockquote>
 	    <strong><a href="/filme/princesa-macula-e-o-canto-triste/">Princesa Macula e o Canto Triste</a></strong><br>
 	    (Mayara Mascarenhas | 2024, MG, 27’)<br>
-	    <span class="image fit" style="margin: 1em 0">
-	      <img src="{{ site.images_path }}programacao-2025\princesa-macula-e-o-canto-triste\Still---Fabrício-Silvestre---Mayara-Mascarenhas.jpg" alt="Princesa Macula e o Canto Triste" data-position="center center" />
-	    </span>
 	  </blockquote>
 	  <blockquote>
 	    <strong><a href="/filme/a-sua-imagem-na-minha-caixa-de-correio/">A sua imagem na minha caixa de correio</a></strong><br>
 	    (Silvino Mendonça | 2024, DF, 17’)<br>
-	    <span class="image fit" style="margin: 1em 0">
-	      <img src="{{ site.images_path }}programacao-2025\a-sua-imagem-na-minha-caixa-de-correio\A-sua-imagem-1---Silvino-Mendonça---Silvino-Mendonça.jpg" alt="A sua imagem na minha caixa de correio" data-position="center center" />
-	    </span>
 	  </blockquote>
 	  <blockquote>
 	    <strong><a href="/filme/benedita/">Benedita</a></strong><br>
 	    (Lane Lopes e Cadu Azevedo | 2024, RJ, 19’)<br>
-	    <span class="image fit" style="margin: 1em 0">
-	      <img src="{{ site.images_path }}programacao-2025\benedita\5---still-por-Marcus-Vinicius---Lane-Lopes.jpg" alt="Benedita" data-position="center center" />
-	    </span>
 	  </blockquote>
 	  <em>Comentada pelos diretores</em>
 	</section>
