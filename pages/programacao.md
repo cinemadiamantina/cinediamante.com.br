@@ -176,8 +176,10 @@ show_tile: false
       Comentada pela atriz <strong>Fernanda Vianna</strong>
     </blockquote>
   </section>
-
+	<section class="session" style="background-image: url('{{ site.images_path }}FotosPedroMiranda_fHist/IgrejaDoBonfim_0002.JPG'); height: 500px; background-attachment: fixed;  background-size: cover; background-position-x: center;">
+	</section>
 </section>
+
 
 <section class="day" id="d17">
   <h1>17/09, quarta-feira</h1>
@@ -276,7 +278,8 @@ show_tile: false
 	    <em>Comentada pelo diretor <strong>Gregório Gananian</strong> e pela atriz <strong>Clara Choveaux Teles</strong></em>
 	  </blockquote>
 	</section>
-
+	<section class="session" style="background-image: url('{{ site.images_path }}FotosPedroMiranda_fHist/PassadicoDaGloria_0003.jpg'); height: 500px; background-attachment: fixed;  background-size: cover; background-position-x: center;">
+	</section>
 </section>
 
 <section class="day" id="d18">
@@ -439,6 +442,8 @@ show_tile: false
 	  </blockquote>
 	  <em>Comentada pelos diretores</em>
 	</section>
+	<section class="session" style="background-image: url('{{ site.images_path }}FotosPedroMiranda_fHist/PassadicoDaGloria_0001.jpg'); height: 500px; background-attachment: fixed;  background-size: cover; background-position-x: center;">
+	</section>
 </section>
 
 
@@ -571,6 +576,8 @@ show_tile: false
 	    R$ 20 - entrada
 	  </blockquote>
 	</section>
+	<section class="session" style="background-image: url('{{ site.images_path }}FotosPedroMiranda_fHist/MercadoDiamantina_0009.jpg'); height: 500px; background-attachment: fixed;  background-size: cover; background-position-x: center;">
+	</section>
 </section>
 
 <section class="day" id="d20">
@@ -670,6 +677,8 @@ show_tile: false
 	    <i class="fa-solid fa-clock"></i> 22h30 <br />
 	    <i class="fa-solid fa-location-dot"></i> Praça do Mercado V
 		</h3>
+	</section>
+	<section class="session" style="background-image: url('{{ site.images_path }}FotosPedroMiranda_fHist/capistranas.jpg'); height: 500px; background-attachment: fixed;  background-size: cover; background-position-x: center;">
 	</section>
 </section>
 
