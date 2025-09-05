@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-11-06
+mostra:
+  - paralela-curtas
 ---
 
 Carlos é incapaz de compreender seus desejos. Depois de uma suspensão por envolvimento nos atentados golpistas de 8 de janeiro, Carlos retorna aos trabalhos no corpo de bombeiros e precisa lidar mais uma vez com situações que evocam seu lado mais sombrio.

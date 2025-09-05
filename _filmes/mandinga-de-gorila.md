@@ -23,6 +23,8 @@ ethnicity_director: Parda
 gender_director: "Juliana: Mulher Cis | Luzé: Travesti não-binária"
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-06-01
+mostra:
+  - paralela-curtas
 ---
 
 Na Vila Vintém (RJ) existe uma entidade, não comentada, ainda muito presente na história dos antigos moradores. As tiras de saco plástico que constroem o seu corpo são as mesmas que nos conduzem ao encontro dessas memórias escondidas. O filme evoca a potência manifesta do Gorila de Saco nas travessas e becos onde ele ficou marcado pela violência, através do encantamento mandingueiro da nova entidade: o Gorila de Malha.

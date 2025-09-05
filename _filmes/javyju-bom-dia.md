@@ -23,6 +23,8 @@ ethnicity_director:
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-08-25
+mostra:
+  - paralela-curtas
 ---
 
 Em um futuro próximo, a terra foi devastada. Os povos indígenas sobreviveram em seus territórios graças à proteção dos encantados. Na antiga São Paulo, a aldeia Guarani do Jaraguá é uma das sobreviventes e recebe uma mensagem de esperança por um sonho. O Pajé da aldeia convoca três jovens para uma viagem à cidade vazia atrás de respostas.

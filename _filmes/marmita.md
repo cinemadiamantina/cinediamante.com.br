@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2025-01-29
+mostra:
+  - paralela-curtas
 ---
 
 Dois operários da construção civil, Lourenço e Cícero, se veem em dificuldades com Manchinha, uma criança que trabalha para o tráfico de drogas local, que rouba suas marmitas para comer.

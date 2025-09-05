@@ -50,6 +50,24 @@ nav-menu-order: 3
 			</a>
 		</div>
 	</section>
+	<section>
+		<a href="{{ '/mostra/paralela/curtas/' | relative_url }}" class="image">
+			<img src="/assets/press/macas-no-escuro.jpg" alt="" data-position="center center" />
+		</a>
+		<div class="content">
+			<a href="{{ '/mostra/paralela/curtas/' | relative_url }}">
+				<div class="inner">
+					<header class="major">
+						<h3>Mostra Paralela de Curtas</h3>
+					</header>
+					<p>Uma curta mostra paralela de curtas</p>
+					<ul class="actions">
+						<li><a href="{{ '/mostra/paralela/curtas/' | relative_url }}" class="button">Saiba mais...</a></li>
+					</ul>
+				</div>
+			</a>
+		</div>
+	</section>
 
 </section>
 

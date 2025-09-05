@@ -23,6 +23,8 @@ ethnicity_director: Grupo multi-étnico
 gender_director: Grupo com várias identidades
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-12-01
+mostra:
+  - paralela-curtas
 ---
 
 Em 2024, no Festival Olhar do Norte, a cineasta Raffaella Rosset conduziu uma oficina de cinema experimental em 16mm. Os participantes criaram um filme coletivo, explorando intervenções na película. A obra celebra o Rio Negro e a magia do cinema, conectando-se ao significado de Manaus: "Mãe dos deuses".

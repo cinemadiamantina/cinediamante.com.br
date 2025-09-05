@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2025-03-30
+mostra:
+  - paralela-curtas
 ---
 
 Em uma estrada de terra, dois amigos caminhoneiros enfrentam um problema mecânico e são surpreendidos pela ajuda de uma mulher que mora ali por perto. Ela indica uma oficina, leva os dois para sua casa e a convivência vai se desenrolado de forma misteriosa.

@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2025-01-15
+mostra:
+  - paralela-curtas
 ---
 
 Uma estrela cai na Praia Brava. Em um dia ensolarado de inverno, um rapaz aguarda o namorado na praia enquanto um extraterrestre assassina banhistas pela boca.

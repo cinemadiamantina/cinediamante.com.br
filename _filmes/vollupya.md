@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Transgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-06-30
+mostra:
+  - paralela-curtas
 ---
 
 Num futuro pós-apocalíptico, um explorador intergaláctico aterrissa em um museu abandonado em busca de vestígios de seus antepassados e acaba sendo teletransportado para a pista de dança de uma boate “GLS” nos anos 1990.

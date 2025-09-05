@@ -6,7 +6,7 @@ image: logo_var/logo_var_003.png
 permalink: /programacao
 nav-menu: true
 nav-menu-order: 2
-show_tile: true
+show_tile: false
 ---
 
 <!-- CLASSIFICACAO APENAS SÍMBOLO 

@@ -23,6 +23,8 @@ ethnicity_director: Preta
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-01-20
+mostra:
+  - paralela-curtas
 ---
 
 Na véspera de deixar a informalidade e ser contratado, Samuel é assombrado pelo seu instrumento de trabalho: a fantasia de engenheiro.

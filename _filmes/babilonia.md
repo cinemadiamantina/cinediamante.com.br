@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-05-04
+mostra:
+  - paralela-curtas
 ---
 
 Em sua sonhada noite de estreia nos palcos do maior show drag de toda a província de Artemisa, a jovem Elizabeth de Victória descobrirá que brilhar não é tão fácil como imaginava.

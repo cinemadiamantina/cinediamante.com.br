@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2023-10-21
+mostra:
+  - paralela-curtas
 ---
 
 Um registro do processo de fabricação do Parque Nacional da Serra da Capivara, unidade de conservação no sertão do Piauí, onde desenhos rupestres desafiam a teoria corrente de como o homem entrou na América.

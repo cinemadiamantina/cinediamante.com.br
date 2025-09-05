@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Transgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-06-26
+mostra:
+  - paralela-curtas
 ---
 
 Tudo que o fogo toca transmuta a matéria.
