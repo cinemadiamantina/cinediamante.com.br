@@ -195,7 +195,7 @@ show_tile: false
   </section>
 	<section class="session" id="d17-s1">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS 
+	    <a href="/mostra/paralela/curtas/" style="border-bottom: dotted 1px;"><i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS</a>
 	    <span class="ci-box ci-14" role="img" aria-label="Classificação indicativa: não recomendado para menores de 14 anos">14</span><br />
 	  	<i class="fa-solid fa-ticket"></i> SESSÃO FAÍSCA<br />
 	    <i class="fa-solid fa-clock"></i> 15h <br />
@@ -225,7 +225,7 @@ show_tile: false
 	</section>
 	<section class="session" id="d17-s2">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS 
+	    <a href="/mostra/paralela/curtas/" style="border-bottom: dotted 1px;"><i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS </a>
 	    <span class="ci-box ci-14" role="img" aria-label="Classificação indicativa: não recomendado para menores de 14 anos">14</span><br />
 	  	<i class="fa-solid fa-ticket"></i> SESSÃO TRINCA<br />
 	    <i class="fa-solid fa-clock"></i> 17h <br />
@@ -333,7 +333,7 @@ show_tile: false
 	</section>
 	<section class="session" id="d18-s4">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS 
+	    <a href="/mostra/paralela/curtas/" style="border-bottom: dotted 1px;"><i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS </a>
 	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
 	    <i class="fa-solid fa-ticket"></i> SESSÃO INSCRIÇÕES<br />
 	    <i class="fa-solid fa-clock"></i> 14h <br />
@@ -375,7 +375,7 @@ show_tile: false
 	</section>
 	<section class="session" id="d18-s6">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA MINEIRA 
+	    <a href="/mostra/mineira" style="border-bottom: dotted 1px;"><i class="fa-solid fa-ticket-simple"></i> MOSTRA MINEIRA </a>
 	    <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span><br />
 	    <i class="fa-solid fa-clock"></i> 16h30 <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
@@ -493,7 +493,7 @@ show_tile: false
 	</section>
 	<section class="session" id="d19-s4">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS 
+	    <a href="/mostra/paralela/curtas/" style="border-bottom: dotted 1px;"><i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS </a>
 	    <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span><br />
 	    <i class="fa-solid fa-ticket"></i> SESSÃO FIGURAS/ BONEKAS<br />
 	    <i class="fa-solid fa-clock"></i> 14h <br />
