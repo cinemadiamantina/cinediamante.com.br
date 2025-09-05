@@ -250,7 +250,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d17-s3">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS 
+	    <a href="/mostra/competitiva/longas/" style="border-bottom: dotted 1px;"><i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS</a>
 	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
 	  	<i class="fa-solid fa-film"></i> A Câmara<br />
 	    <i class="fa-solid fa-clock"></i> 18h30 <br />
@@ -265,7 +265,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d17-s4">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS 
+	    <a href="/mostra/competitiva/longas/" style="border-bottom: dotted 1px;"><i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS</a>
 	    <span class="ci-box ci-10" role="img" aria-label="Classificação indicativa: não recomendado para menores de 10 anos">10</span><br />
 	  	<i class="fa-solid fa-film"></i> Aquele que Viu o Abismo<br />
 	    <i class="fa-solid fa-clock"></i> 20h30 <br />
@@ -404,7 +404,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d18-s7">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS 
+	    <a href="/mostra/competitiva/longas/" style="border-bottom: dotted 1px;"><i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS</a> 
 	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
 		  	<i class="fa-solid fa-film"></i> As muitas mortes de Antônio Parreiras<br />
 	    <i class="fa-solid fa-clock"></i> 18h30 <br />
@@ -418,7 +418,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d18-s8">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE CURTAS 
+	    <a href="/mostra/competitiva/curtas/" style="border-bottom: dotted 1px;"><i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE CURTAS </a>
 	    <span class="ci-box ci-12" role="img" aria-label="Classificação indicativa: não recomendado para menores de 12 anos">12</span><br />
 	    <i class="fa-solid fa-clock"></i> 20h30 <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
@@ -518,7 +518,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d19-s5">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE CURTAS 
+	    <a href="/mostra/competitiva/curtas/" style="border-bottom: dotted 1px;"><i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE CURTAS </a>
 	    <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span><br />
 	    <i class="fa-solid fa-clock"></i> 16h <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
@@ -548,7 +548,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d19-s6">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS 
+	    <a href="/mostra/competitiva/longas/" style="border-bottom: dotted 1px;"><i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS</a> 
 	    <span class="ci-box ci-10" role="img" aria-label="Classificação indicativa: não recomendado para menores de 10 anos">10</span><br />
 	  	<i class="fa-solid fa-film"></i> Centro Ilusão<br />
 	    <i class="fa-solid fa-clock"></i> 18h <br />
@@ -626,7 +626,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d20-s4">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE CURTAS 
+	    <a href="/mostra/competitiva/curtas/" style="border-bottom: dotted 1px;"><i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE CURTAS </a>
 	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
 	    <i class="fa-solid fa-clock"></i> 15h <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
@@ -647,7 +647,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d20-s5">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS 
+	    <a href="/mostra/competitiva/longas/" style="border-bottom: dotted 1px;"><i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS</a> 
 	    <span class="ci-box ci-12" role="img" aria-label="Classificação indicativa: não recomendado para menores de 12 anos">12</span><br />
 	    <i class="fa-solid fa-film"></i> Maçãs no escuro <br />
 	    <i class="fa-solid fa-clock"></i> 17h <br />
