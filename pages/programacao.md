@@ -164,7 +164,8 @@ show_tile: true
 
   <section class="session" id="d16-s1">
     <h3>
-    	<i class="fa-solid fa-ticket"></i> SESSÃO DE ABERTURA | <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span> <br />
+    	<span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span>
+    	<i class="fa-solid fa-ticket"></i> SESSÃO DE ABERTURA<br />
       <i class="fa-solid fa-clock"></i> 19h <br />
       <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
     </h3>
@@ -193,7 +194,7 @@ show_tile: true
   </section>
 	<section class="session" id="d17-s1">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS | 
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS 
 	    <span class="ci-box ci-14" role="img" aria-label="Classificação indicativa: não recomendado para menores de 14 anos">14</span><br />
 	  	<i class="fa-solid fa-ticket"></i> SESSÃO FAÍSCA<br />
 	    <i class="fa-solid fa-clock"></i> 15h <br />
@@ -223,7 +224,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d17-s2">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS | 
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS 
 	    <span class="ci-box ci-14" role="img" aria-label="Classificação indicativa: não recomendado para menores de 14 anos">14</span><br />
 	  	<i class="fa-solid fa-ticket"></i> SESSÃO TRINCA<br />
 	    <i class="fa-solid fa-clock"></i> 17h <br />
@@ -248,7 +249,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d17-s3">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS | 
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS 
 	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
 	  	<i class="fa-solid fa-film"></i> A Câmara<br />
 	    <i class="fa-solid fa-clock"></i> 18h30 <br />
@@ -263,7 +264,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d17-s4">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS | 
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS 
 	    <span class="ci-box ci-10" role="img" aria-label="Classificação indicativa: não recomendado para menores de 10 anos">10</span><br />
 	  	<i class="fa-solid fa-film"></i> Aquele que Viu o Abismo<br />
 	    <i class="fa-solid fa-clock"></i> 20h30 <br />
@@ -283,7 +284,7 @@ show_tile: true
   <h1>18/09, quinta-feira</h1>
 	<section class="session" id="d18-s1">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> SESSÃO INFANTIL | 
+	    <i class="fa-solid fa-ticket-simple"></i> SESSÃO INFANTIL 
 	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
 	    <i class="fa-solid fa-clock"></i> 10h <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
@@ -331,7 +332,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d18-s4">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS | 
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS 
 	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
 	    <i class="fa-solid fa-ticket"></i> SESSÃO INSCRIÇÕES<br />
 	    <i class="fa-solid fa-clock"></i> 14h <br />
@@ -360,7 +361,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d18-s5">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> SESSÃO ESPECIAL | 
+	    <i class="fa-solid fa-ticket-simple"></i> SESSÃO ESPECIAL 
 	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
 	    <i class="fa-solid fa-clock"></i> 15h30 <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
@@ -373,7 +374,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d18-s6">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA MINEIRA | 
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA MINEIRA 
 	    <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span><br />
 	    <i class="fa-solid fa-clock"></i> 16h30 <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
@@ -402,7 +403,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d18-s7">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS | 
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS 
 	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
 		  	<i class="fa-solid fa-film"></i> As muitas mortes de Antônio Parreiras<br />
 	    <i class="fa-solid fa-clock"></i> 18h30 <br />
@@ -416,7 +417,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d18-s8">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE CURTAS | 
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE CURTAS 
 	    <span class="ci-box ci-12" role="img" aria-label="Classificação indicativa: não recomendado para menores de 12 anos">12</span><br />
 	    <i class="fa-solid fa-clock"></i> 20h30 <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
@@ -460,7 +461,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d19-s2">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> SESSÃO JUVENIL | 
+	    <i class="fa-solid fa-ticket-simple"></i> SESSÃO JUVENIL 
 	    <span class="ci-box ci-10" role="img" aria-label="Classificação indicativa: não recomendado para menores de 10 anos">10</span><br />
 	    <i class="fa-solid fa-clock"></i> 11h <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
@@ -491,7 +492,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d19-s4">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS | 
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA PARALELA DE CURTAS 
 	    <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span><br />
 	    <i class="fa-solid fa-ticket"></i> SESSÃO FIGURAS/ BONEKAS<br />
 	    <i class="fa-solid fa-clock"></i> 14h <br />
@@ -516,7 +517,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d19-s5">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE CURTAS | 
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE CURTAS 
 	    <span class="ci-box ci-16" role="img" aria-label="Classificação indicativa: não recomendado para menores de 16 anos">16</span><br />
 	    <i class="fa-solid fa-clock"></i> 16h <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
@@ -546,7 +547,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d19-s6">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS | 
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS 
 	    <span class="ci-box ci-10" role="img" aria-label="Classificação indicativa: não recomendado para menores de 10 anos">10</span><br />
 	  	<i class="fa-solid fa-film"></i> Centro Ilusão<br />
 	    <i class="fa-solid fa-clock"></i> 18h <br />
@@ -607,7 +608,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d20-s3">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> SESSÃO REGIONAL | 
+	    <i class="fa-solid fa-ticket-simple"></i> SESSÃO REGIONAL 
 	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
 	    <i class="fa-solid fa-clock"></i> 14h <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
@@ -624,7 +625,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d20-s4">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE CURTAS | 
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE CURTAS 
 	    <span class="ci-box ci-l" role="img" aria-label="Classificação indicativa: Livre">L</span><br />
 	    <i class="fa-solid fa-clock"></i> 15h <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
@@ -645,7 +646,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d20-s5">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS | 
+	    <i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS 
 	    <span class="ci-box ci-12" role="img" aria-label="Classificação indicativa: não recomendado para menores de 12 anos">12</span><br />
 	    <i class="fa-solid fa-film"></i> Maçãs no escuro <br />
 	    <i class="fa-solid fa-clock"></i> 17h <br />
@@ -659,7 +660,7 @@ show_tile: true
 	</section>
 	<section class="session" id="d20-s6">
 	  <h3>
-	    <i class="fa-solid fa-ticket-simple"></i> SESSÃO DE ENCERRAMENTO | 
+	    <i class="fa-solid fa-ticket-simple"></i> SESSÃO DE ENCERRAMENTO 
 	    <span class="ci-box ci-12" role="img" aria-label="Classificação indicativa: não recomendado para menores de 12 anos">12</span><br />
 	    <i class="fa-solid fa-clock"></i> 20h <br />
 	    <i class="fa-solid fa-location-dot"></i> Praça do Mercado Velho
