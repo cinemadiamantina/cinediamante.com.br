@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-08-09
+mostra:
+  - mineira
 ---
 
 Teatro e vida se confundem em uma toalete matinal, quando uma atriz que interpreta Teuda Bara tenta decorar o seu texto.

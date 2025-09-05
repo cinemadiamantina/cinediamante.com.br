@@ -13,6 +13,8 @@
         <h1>{{ page.title }}</h1>
       </header>
 
+      {{ content }}
+
       {% assign filmes = site.filmes | where_exp:"filme", "filme.mostra contains 'paralela-curtas'" | sort: "title" %}
       <div class="films-grid">
         {% for filme in filmes %}
@@ -33,6 +35,10 @@
             </p>
           </article>
         {% endfor %}
+      </div>
+      <div class="filme-nav">
+        <a href="/mostras" class="button">← Todos as mostras</a>
+        <a href="/programacao" class="button primary">Programação do festival →</a>
       </div>
     </div>
   </section>

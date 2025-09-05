@@ -15,7 +15,7 @@
 
       {{ content }}
 
-      {% assign filmes = site.filmes | where_exp:"filme", "filme.mostra contains 'competitiva-longas'" | sort: "title" %}
+      {% assign filmes = site.filmes | where_exp:"filme", "filme.mostra contains 'mineira'" | sort: "title" %}
       <div class="films-grid">
         {% for filme in filmes %}
           <article class="film-card">

@@ -23,6 +23,8 @@ ethnicity_director: Preta
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-11-10
+mostra:
+  - mineira
 ---
 
 Em uma noite sem lua, Tiana se encontra em um beco sem saída enquanto luta para entender a morte de sua irmã.

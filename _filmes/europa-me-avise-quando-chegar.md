@@ -23,6 +23,8 @@ ethnicity_director: Parda
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-05-31
+mostra:
+  - mineira
 ---
 
 Victor apresenta o lugar onde vive: dentro da cabeça de um rinoceronte.

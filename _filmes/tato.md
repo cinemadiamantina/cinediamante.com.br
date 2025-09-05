@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-01-23
+mostra:
+  - mineira
 ---
 
 Wellington quer deixar para trás seu passado e viver do ofício de tatuador. Mas diante seus desejos se impõe a necessidade de sobrevivência. Entre sessões de tatuagem e o trabalho de pedreiro, ele se esforça para viver em um mundo onde não há horizonte futuro.

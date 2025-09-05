@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2025-04-05
+mostra:
+  - mineira
 ---
 
 Murilo é uma testemunha. Por onde passa, coisas estranhas acontecem. Suas experiências de vida estremecem os mistérios entre o céu e a terra. Afinal, o cinema tudo permite.
