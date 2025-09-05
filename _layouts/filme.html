@@ -32,10 +32,7 @@
             {% endif %}
             {% assign meta_parts = meta_parts | push: _d %}
           {% endif %}
-          {% comment %}
-            Se quiser exibir o estado/UF aqui, descomente:
             {% if page.state %}{% assign meta_parts = meta_parts | push: page.state %}{% endif %}
-          {% endcomment %}
           {{ meta_parts | join: " • " }}
         </p>
       </header>
@@ -75,7 +72,7 @@
             <dl class="film-details">
               {% if page.directors %}<dt>Diretoras / Diretores</dt><dd>{{ page.directors }}</dd>{% endif %}
               {% if page.producers %}<dt>Produtoras / Produtores</dt><dd>{{ page.producers }}</dd>{% endif %}
-              {% if page.writers %}<dt>Escritoras / Escritores</dt><dd>{{ page.writers }}</dd>{% endif %}
+              {% if page.writers %}<dt>Roteiristas</dt><dd>{{ page.writers }}</dd>{% endif %}
               {% if page.cast %}<dt>Elenco</dt><dd>{{ page.cast }}</dd>{% endif %}
               {% if page.distributor %}<dt>Distribuidor</dt><dd>{{ page.distributor }}</dd>{% endif %}
             </dl>
