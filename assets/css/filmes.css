@@ -1,6 +1,6 @@
 .films-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2.5rem;
 }
 
@@ -19,13 +19,23 @@
 }
 
 .film-card .thumb {
-  width: 100%;
-  padding-bottom: 56%; /* 16:9 - formato horizontal */
-  background-size: cover;
-  background-position: center;
-  filter: brightness(0.95);
-  transition: filter 0.3s ease;
+  aspect-ratio: 16 / 9;   /* força 16:9 em qualquer tela */
+  background: #000;       /* barras laterais/topo se sobrar espaço */
+  overflow: hidden;
+  display: flex;          /* garante que o img ocupe */
+  align-items: center;
+  justify-content: center;
 }
+
+.film-card .thumb img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    /* mostra tudo, inclusive verticais, com letterbox */
+  object-position: top;
+  display: block;
+}
+
+.film-card:hover .thumb img{ filter:brightness(1.05); }
 
 .film-card:hover .thumb {
   filter: brightness(1.05);
@@ -64,7 +74,7 @@
 
 .film-details {
   display: grid;
-  grid-template-columns: 180px 1fr;
+  grid-template-columns: 35% 1fr;
   gap: .5rem 1.25rem;
   margin: 0;
 }

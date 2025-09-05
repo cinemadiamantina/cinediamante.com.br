@@ -77,6 +77,7 @@ show_tile: true
 	.session > h3 {
 	  margin: 0 0 0.8em 0;
 	  padding-bottom: 0.6em;
+	  padding-right: 1.7em;
 	  border-bottom: 1px dashed #ccc;
 /*	  font-size: 1.05rem;*/
 	  font-weight: 600;

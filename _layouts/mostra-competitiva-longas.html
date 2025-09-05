@@ -19,7 +19,9 @@
           <article class="film-card">
             <a href="{{ filme.url | relative_url }}">
               {% if filme.press_photo %}
-                <div class="thumb" style="background-image:url('{{ filme.press_photo | relative_url }}')"></div>
+              <div class="thumb">
+                <img src="{{ filme.press_photo | relative_url }}" alt="{{ filme.title | escape }}">
+              </div>
               {% else %}
                 <div class="thumb placeholder"></div>
               {% endif %}
