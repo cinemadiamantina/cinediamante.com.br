@@ -23,6 +23,8 @@ ethnicity_director: "Parda & Branca"
 gender_director: "Transfeminina & Cisgênero"
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-06-01
+mostra:
+  - competitiva-curtas
 ---
 
 Sobre o Rio de Janeiro paira a monstruosa sombra de Mutante, uma gigante gostosa, que com seus mais de 100 metros vive provocando o mundo abaixo. Em suas bisbilhotadas de janela conhece Mulher, uma artesã que transformará o seu mundo.

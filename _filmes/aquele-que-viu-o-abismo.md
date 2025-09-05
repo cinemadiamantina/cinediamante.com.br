@@ -23,6 +23,8 @@ ethnicity_director: dois diretores,  branco e preto
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-01-27
+mostra:
+  - competitiva-longas
 ---
 
 Do outro lado do enorme pavilhão, que serve de abrigo temporário à pantagruélica massa de recém chegados de toda escassez da civilização ingênua, X observa o recrutamento da Prolife.

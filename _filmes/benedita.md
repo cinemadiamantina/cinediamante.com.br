@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2025-01-10
+mostra:
+  - competitiva-curtas
 ---
 
 Submetida a um trabalho de alta periculosidade na Siderúrgica onde trabalha, em Volta Redonda, Benedita começa a sentir estranhas ondas de calor que não cessam quando ela deixa seu posto. Sobrecarregada pela rotina como operária e mãe solo, Benedita começa a derreter.

@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-04-01
+mostra:
+  - competitiva-curtas
 ---
 
 Na virada do milênio, leitores de uma revista brasileira de cinema trocam cartas entre si. Nelas, compartilham notícias sobre filmes aguardados, além de desabafos e confissões. Em comum, cultivam o hábito de colecionar fotografias impressas de seus astros favoritos. Aos poucos, os desejos despertados pelas imagens cinematográficas se revelam nas entrelinhas.

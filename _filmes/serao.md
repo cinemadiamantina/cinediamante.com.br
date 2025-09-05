@@ -23,6 +23,9 @@ ethnicity_director: Parda
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-06-01
+
+mostra:
+  - paralela-curtas
 ---
 
 Entre a árdua prática secular de extração manual de cal e a nova promessa do suposto empreendedorismo via costura oferecida pela indústria têxtil, uma família, no Cariri paraibano, continua refém de uma jornada de trabalho interminável.

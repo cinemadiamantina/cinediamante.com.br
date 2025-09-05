@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2025-01-25
+mostra:
+  - competitiva-longas
 ---
 
 O cérebro é a papinha da paisagem. O homem é a papinha da montanha. Livremente inspirado na vida e na obra do pintor Antônio Parreiras (1860-1937).

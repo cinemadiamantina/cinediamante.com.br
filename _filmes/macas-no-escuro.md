@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-01-30
+mostra:
+  - competitiva-longas
 ---
 
 Um mergulho na vida do dramaturgo Edson Aquino, cuja trajetória é registrada por uma equipe de documentaristas estrangeiros. Enquanto comemora seus 35 anos de carreira perante as câmeras, sua aparente fachada de sucesso é abalada, fazendo-o questionar sobre a ilusão da fama e colocando em xeque sua busca pela autenticidade.

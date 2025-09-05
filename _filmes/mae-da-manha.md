@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Não-binário
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-10-15
+mostra:
+  - competitiva-curtas
 ---
 
 No breu da noite, uma criatura faminta busca alimento e perpetua um ciclo contínuo.

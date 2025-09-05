@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2023-08-01
+mostra:
+  - competitiva-longas
 ---
 
 Das entranhas do parlamento brasileiro, acompanhamos deputadas fazendo política. Temas como direitos reprodutivos, educação, estado laico, racismo e polarização política vem à tona, enquanto acompanhamos essas mulheres de perto em seus embates e performances políticas.

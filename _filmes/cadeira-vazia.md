@@ -23,6 +23,8 @@ ethnicity_director: São varias pessoas, Pretas, pardas, brancas.
 gender_director: Varios diretores
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2025-07-09
+mostra:
+  - competitiva-curtas
 ---
 
 Quatro senhoras amigas decidem se encontrar, entre goles, conversas e muita música, um moreno charmoso chama a atenção de uma delas.

@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2025-01-20
+mostra:
+  - competitiva-curtas
 ---
 
 A virada do ano se aproxima para as amigas Day, Samantha, Luzia e Jurema. Junto acontece o Ciclo de Reis, período festivo-religioso que confronta suas vidas. (João Cabral, Juazeiro do Norte-CE).

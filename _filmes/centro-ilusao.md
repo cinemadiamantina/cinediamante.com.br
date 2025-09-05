@@ -23,6 +23,8 @@ ethnicity_director: Branca
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-10-07
+mostra:
+  - competitiva-longas
 ---
 
 Dois músicos, de gerações diferentes, se conhecem em uma audição para um concorrido laboratório de música da cidade de Fortaleza. Tuca tem 50 anos e se sente frustrado com sua carreira. Kaio, 18 anos, é aspirante a artista que sonha em fazer sucesso com suas próprias composições. Os dois estão tentando vaga nesse importante laboratório de música e jogam suas esperanças e sonhos na possibilidade de serem aprovados.

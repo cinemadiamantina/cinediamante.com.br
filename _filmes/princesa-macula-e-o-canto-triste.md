@@ -23,6 +23,8 @@ ethnicity_director: Preta
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
 finalized_at: 2024-10-12
+mostra:
+  - competitiva-curtas
 ---
 
 A festa dos Reis e Rainhas Congas está chegando! É tempo de Macula ser coroada Princesa Conga de São Benedito, o santo preto. Sua avó fez uma promessa e lhe entregou o legado. Mas é Macula quem precisa desvendar o verdadeiro significado de carregar a coroa e o canto de seus ancestrais. Nesse rito de passagem da realeza negra congadeira, a princesa adentra o mistério de ser uma guardiã dessa tradição afromineira.
