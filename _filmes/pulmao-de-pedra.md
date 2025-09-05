@@ -18,7 +18,7 @@ cast: Joãozinho
 distributor: Narrativa Filmes Ltda.
 music_rights_ok: true
 screening_link: "https://drive.google.com/file/d/1s4tBMx5ELeUyiNU66P2HOQnhd5tim6sR/view"
-press_photo: 
+press_photo: /assets/press/pulmao-de-pedra.jpg
 ethnicity_director: Parda
 gender_director: Cisgênero
 confirmation: Li o Regulamento e confirmo a autenticidade dos dados fornecido nesta ficha de inscrição.
