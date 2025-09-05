@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+  Página individual de Filme (estilo post.html, em duas colunas)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+{% include header.html %}
+
+<!-- Main -->
+<div id="main" class="alt">
+
+  <!-- One -->
+  <section id="one">
+    <div class="inner filme-wrap">
+      <header class="major">
+        <h1 class="filme-title">
+          {{ page.title }}
+        </h1>
+        <p class="filme-sub">
+          {% assign meta_parts = "" | split: "|" %}
+          {% if page.year %}{% assign meta_parts = meta_parts | push: page.year %}{% endif %}
+          {% if page.runtime_str %}
+            {% assign meta_parts = meta_parts | push: page.runtime_str %}
+          {% elsif page.length_min %}
+            {% assign _d = page.length_min | append: " min" %}
+            {% if page.length_sec and page.length_sec > 0 %}
+              {% assign _d = _d | append: " " | append: page.length_sec | append: "s" %}
+            {% endif %}
+            {% assign meta_parts = meta_parts | push: _d %}
+          {% endif %}
+          {% comment %}
+            Se quiser exibir o estado/UF aqui, descomente:
+            {% if page.state %}{% assign meta_parts = meta_parts | push: page.state %}{% endif %}
+          {% endcomment %}
+          {{ meta_parts | join: " • " }}
+        </p>
+      </header>
+
+      <div class="filme-grid">
+
+        <!-- Coluna: Imagem de destaque -->
+        <aside class="filme-media">
+          {% if page.press_photo %}
+            <figure class="filme-figure">
+              <img src="{{ page.press_photo | relative_url }}" alt="{{ page.title | escape }}">
+            </figure>
+          {% else %}
+            <div class="filme-figure placeholder">
+              <span>Sem imagem de divulgação</span>
+            </div>
+          {% endif %}
+        </aside>
+
+        <!-- Coluna: Ficha técnica + Sinopse -->
+        <div class="filme-info">
+          <div class="filme-bloco">
+            <h2 class="filme-h2">Sinopse</h2>
+            {% if content and content != "" %}
+              <div class="filme-sinopse">
+                {{ content }}
+              </div>
+            {% elsif page.sinopse %}
+              <p class="filme-sinopse">{{ page.sinopse }}</p>
+            {% else %}
+              <p class="filme-sinopse">Sem sinopse disponível.</p>
+            {% endif %}
+          </div>
+
+          <div class="filme-bloco">
+            <h2 class="filme-h2">Ficha técnica</h2>
+            <dl class="film-details">
+              {% if page.directors %}<dt>Diretoras / Diretores</dt><dd>{{ page.directors }}</dd>{% endif %}
+              {% if page.producers %}<dt>Produtoras / Produtores</dt><dd>{{ page.producers }}</dd>{% endif %}
+              {% if page.writers %}<dt>Escritoras / Escritores</dt><dd>{{ page.writers }}</dd>{% endif %}
+              {% if page.cast %}<dt>Elenco</dt><dd>{{ page.cast }}</dd>{% endif %}
+              {% if page.distributor %}<dt>Distribuidor</dt><dd>{{ page.distributor }}</dd>{% endif %}
+            </dl>
+          </div>
+        </div>
+      </div>
+
+     <!--  {% if page.screening_link %}
+        <p class="screening-link">
+          <a href="{{ page.screening_link }}" class="button primary" target="_blank" rel="noopener">Assistir / Ver trailer</a>
+        </p>
+      {% endif %} -->
+       <div class="filme-nav">
+        <a href="/filmes" class="button">← Todos os filmes</a>
+        <a href="/programacao" class="button primary">Programação do festival →</a>
+      </div>
+
+    </div>
+  </section>
+
+</div>
+
+{% include footer.html %}
+
+</body>
+</html>

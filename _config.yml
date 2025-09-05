@@ -30,4 +30,11 @@ tiles-count: 6
 collections:
   filmes:
     output: true
-    permalink: /filmes/:slug/
+    permalink: /filme/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: filmes
+    values:
+      layout: filme   # esse é o layout que te passei (_layouts/filme.html)

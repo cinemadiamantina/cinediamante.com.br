@@ -54,3 +54,47 @@
   font-weight: 500;
   color: #444;
 }
+
+
+.film-meta {
+  margin-top: .5rem;
+  color: #ccc;
+  letter-spacing: .2px;
+}
+
+.film-details {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: .5rem 1.25rem;
+  margin: 0;
+}
+
+.film-details dt {
+  font-weight: 600;
+  color: #ddd;
+}
+
+.film-details dd {
+  margin: 0 0 .25rem 0;
+  color: #bbb;
+}
+
+.filme-media {
+  margin: 50px 0;
+}
+
+.screening-link { margin-top: 1.25rem; }
+
+
+.filme-nav {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.filme-nav .button {
+  flex: 1;
+  text-align: center;
+  min-width: 180px;
+}

@@ -3,9 +3,9 @@ title: Déia e Dete
 title_intl: Déia and Dete
 slug: deia-e-dete
 year: 2025
-length_min: 
+length_min: 8
 length_sec: 
-runtime_str: 
+runtime_str: 8 min
 format: Curta
 state: Minas Gerais
 has_dialogue: true
