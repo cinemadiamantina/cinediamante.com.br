@@ -109,9 +109,48 @@ show_tile: true
 	
 	/* opcional: ancoragem suave para #ids sem “sumir” sob os stickies */
 	[id] { scroll-margin-top: var(--h1-h); }
+
+	.scroll-top {
+	  position: fixed;
+	  bottom: 0;
+	  right: 0;
+	  width: 96px;
+	  height: 64px;
+	  min-width: 40px;
+	  min-height: 40px;
+	  background: #fff;
+	  color: #000;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  border: none;
+	  border-radius: 2px;
+	  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+	  cursor: pointer;
+	  z-index: 1000;
+	  transition: background 0.2s ease, transform 0.2s ease;
+	}
+
+	.scroll-top:hover {
+	  background: #f5f5f5;
+/*	  transform: translateY(-2px);*/
+	}
+
+	.scroll-top i {
+	  font-size: 2em;
+	}
+
+	/* Mobile adjustment */
+	@media (max-width: 768px) {
+	  .scroll-top {
+	    right: 50%;
+	    transform: translateX(50%);
+	  }
+	}
+
 </style>
 
-<a href="#one" class="button special" style="position: fixed; bottom: 0; left: 0; z-index: 1;"><i class="fa-solid fa-arrow-up"></i></a>
+<a href="#one" class="button special scroll-top"><i class="fa-solid fa-arrow-up"></i></a>
 
 <a href="#d16" class="button special fit">16/09 - Terça</a>
 <a href="#d17" class="button special fit">17/09 - Quarta</a>
