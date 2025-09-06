@@ -1,0 +1,35 @@
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 per row */
+  gap: 5rem 1rem; /* spacing between them */
+  justify-items: center; /* center horizontally */
+  align-items: center;   /* center vertically */
+  max-width: 85%;
+}
+
+.image-grid .image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* "wide" image: takes two cells */
+.image-grid .image.wide {
+  grid-column: span 2;
+}
+
+/* the “pop out” one spans all columns */
+.image-grid .image.full {
+  grid-column: 1 / -1;
+}
+
+
+@media (max-width: 768px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+  .image-grid .image.wide,
+  .image-grid .image.full {
+    grid-column: 1; /* reset so they don’t break mobile layout */
+  }
+}
