@@ -5,8 +5,9 @@ description: 'Com duas mostras competitivas, de longas e curtas-metragens, e uma
 image: lens_flare/FCD25_lensflare-red_2160x1920_35x150.png
 permalink: /mostras
 nav-menu: true
-show_tile: true
 nav-menu-order: 3
+show_tile: true
+tile-order: 1
 ---
 
 <!-- Main -->

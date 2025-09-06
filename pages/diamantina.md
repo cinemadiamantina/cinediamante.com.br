@@ -6,6 +6,7 @@ image: FotosPedroMiranda_fHist/PassadicoDaGloria_0003.jpg
 permalink: /diamantina/
 nav-menu: false
 show_tile: true
+tile-order: 3
 
 ---
 

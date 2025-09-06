@@ -6,6 +6,7 @@ image: FotosPedroMiranda_fHist/MercadoDiamantina_0009.jpg
 permalink: /ii-festival-de-cinema-de-diamantina/
 nav-menu: false
 show_tile: true
+tile-order: 2
 ---
 
 <!-- Main -->
