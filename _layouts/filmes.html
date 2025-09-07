@@ -1,6 +1,84 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
+<style>
+  .film-search {
+    display: flex; gap: .75rem; align-items: center; margin: 1rem 0 1.25rem;
+  }
+  .film-search input[type="search"]{
+    flex: 1; padding: .75rem 1rem; border: 1px solid #fff3; border-radius: .5rem;
+    background: #0b0b0b; color: #fff; font-size: 1rem;
+    outline: none;
+  }
+  .film-search input[type="search"]::placeholder{ color:#fff8; }
+  .film-search #filmCount{ font-size:.95rem; color:#fff9; white-space:nowrap; }
+  .sr-only{ position:absolute !important; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0; }
+  .no-results {
+    display:none; margin: 1rem 0; color:#fff9; font-style: italic;
+  }
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const input = document.getElementById('filmSearch');
+  if (!input) { console.warn('[filmes] Campo #filmSearch não encontrado.'); return; }
+
+  // Procura a grade a partir do bloco onde está o input (mais seguro que global)
+  let grid = input.closest('.inner')?.querySelector('.films-grid') 
+          || document.querySelector('.films-grid');
+
+  if (!grid) { console.warn('[filmes] .films-grid não encontrada.'); return; }
+
+  const cards = Array.from(grid.getElementsByClassName('film-card'));
+  const count = document.getElementById('filmCount');
+
+  // Garante a existência da mensagem "sem resultados"
+  let noRes = document.getElementById('noResults');
+  if (!noRes) {
+    noRes = document.createElement('p');
+    noRes.id = 'noResults';
+    noRes.className = 'no-results';
+    noRes.textContent = 'Nenhum filme encontrado.';
+    grid.insertAdjacentElement('afterend', noRes);
+  }
+
+  const norm = s => (s || '')
+    .toString()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .trim();
+
+  let t;
+  input.addEventListener('input', () => {
+    clearTimeout(t);
+    t = setTimeout(applyFilter, 80);
+  });
+
+  function applyFilter(){
+    const q = norm(input.value);
+    const tokens = q ? q.split(/\s+/) : [];
+    let visible = 0;
+
+    cards.forEach(card => {
+      const title = norm(card.querySelector('h3')?.textContent);
+      const meta  = norm(card.querySelector('.meta')?.textContent); // inclui ano
+      const matches = tokens.length === 0 || tokens.every(tok =>
+        title.includes(tok) || meta.includes(tok)
+      );
+      card.style.display = matches ? '' : 'none';
+      if (matches) visible++;
+    });
+
+    if (count) count.textContent = `${visible} ${visible === 1 ? 'filme' : 'filmes'}`;
+    noRes.style.display = visible ? 'none' : 'block';
+  }
+
+  // roda uma vez ao carregar (útil se houver hash/query pré-preenchida)
+  applyFilter();
+});
+</script>
+
+
 <body>
 
 {% include header.html %}
@@ -12,6 +90,15 @@
       <header class="major">
         <h1>{{ page.title }}</h1>
       </header>
+
+      <!-- Barra de busca -->
+      <div class="film-search">
+        <label for="filmSearch" class="sr-only">Pesquisar filmes</label>
+        <input id="filmSearch" type="search"
+               placeholder="Pesquisar por título ou ano (ex.: 'Cidade' ou '2024')"
+               autocomplete="off" />
+        <span id="filmCount">{{ filmes | size }} filmes</span>
+      </div>
 
       {% assign filmes = site.filmes | sort: "title" %}
       <div class="films-grid">
@@ -35,6 +122,8 @@
           </article>
         {% endfor %}
       </div>
+      <p class="no-results" id="noResults">Nenhum filme encontrado.</p>
+
     </div>
   </section>
 </div>
