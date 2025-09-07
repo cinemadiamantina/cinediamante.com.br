@@ -1,7 +1,5 @@
 .image-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 per row */
-  gap: 5rem 1rem; /* spacing between them */
   justify-items: center; /* center horizontally */
   align-items: center;   /* center vertically */
   max-width: 85%;
