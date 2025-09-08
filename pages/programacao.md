@@ -673,9 +673,9 @@ show_tile: false
 	</section>
 	<section class="session" id="d20-s8">
 	  <h3>
-	    <i class="fa-solid fa-music"></i> Show de Tatio Abreu<br />
+	    <i class="fa-solid fa-music"></i> Show de <a href="https://www.instagram.com/tatio.abreu/" target="_blank" style="border-bottom: 1px dotted white;">Tatio Abreu</a><br />
 	    <i class="fa-solid fa-clock"></i> 22h30 <br />
-	    <i class="fa-solid fa-location-dot"></i> Praça do Mercado V
+	    <i class="fa-solid fa-location-dot"></i> Praça do Mercado Velho
 		</h3>
 	</section>
 	<section class="session" style="background-image: url('{{ site.images_path }}FotosPedroMiranda_fHist/capistranas.jpg'); height: 500px; background-attachment: fixed;  background-size: cover; background-position-x: center;">
