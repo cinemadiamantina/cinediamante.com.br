@@ -369,7 +369,7 @@ show_tile: false
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
 	  </h3>
 	  <blockquote>
-	    <strong>Estandartes a caminho</strong><br>
+	    <strong><a href="/filme/estandartes-a-caminho/">Estandartes a caminho</a></strong><br>
 	    (Marithê Azevedo | 2025, MG, 26’)
 	  </blockquote>
 	  <em>Comentada pela diretora <strong>Marithê Azevedo</strong> e pelo artista plástico <strong>Marcelo Brant</strong></em>
