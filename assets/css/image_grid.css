@@ -1,33 +1,24 @@
-.image-grid {
-  display: grid;
-  justify-items: center; /* center horizontally */
-  align-items: center;   /* center vertically */
-  max-width: 85%;
+/* Centered, intrinsic size on desktop; shrinks on small screens */
+.img-fixed-center{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
 }
 
-.image-grid .image img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+/* Desktop/default: show at natural (intrinsic) size, no upscaling */
+.img-fixed-center > img{
+  display:block;
+  width:auto;
+  height:auto;
+  max-width:none;     /* prevent theme rules from forcing 100% */
+  max-height:none;
 }
 
-/* "wide" image: takes two cells */
-.image-grid .image.wide {
-  grid-column: span 2;
-}
-
-/* the “pop out” one spans all columns */
-.image-grid .image.full {
-  grid-column: 1 / -1;
-}
-
-
-@media (max-width: 768px) {
-  .image-grid {
-    grid-template-columns: 1fr;
-  }
-  .image-grid .image.wide,
-  .image-grid .image.full {
-    grid-column: 1; /* reset so they don’t break mobile layout */
+/* Small/mobile: allow it to shrink with the viewport */
+@media (max-width: 640px){
+  .img-fixed-center > img{
+    max-width: 92vw;  /* shrink to fit */
+    height:auto;
   }
 }
