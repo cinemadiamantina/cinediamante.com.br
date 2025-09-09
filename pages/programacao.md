@@ -267,7 +267,7 @@ show_tile: false
 	<section class="session" id="d17-s4">
 	  <h3>
 	    <a href="/mostra/competitiva/longas/" style="border-bottom: dotted 1px;"><i class="fa-solid fa-ticket-simple"></i> MOSTRA COMPETITIVA DE LONGAS</a>
-	    <span class="ci-box ci-10" role="img" aria-label="Classificação indicativa: não recomendado para menores de 10 anos">10</span><br />
+	    <span class="ci-box ci-18" role="img" aria-label="Classificação indicativa: não recomendado para menores de 18 anos">18</span><br />
 	  	<i class="fa-solid fa-film"></i> Aquele que Viu o Abismo<br />
 	    <i class="fa-solid fa-clock"></i> 20h30 <br />
 	    <i class="fa-solid fa-location-dot"></i> Cine Theatro Santa Izabel
